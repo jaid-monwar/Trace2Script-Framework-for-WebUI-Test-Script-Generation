@@ -1,0 +1,33 @@
+[
+    {
+        "action": "open_tab",
+        "url": "https://www.gutenberg.org/"
+    },
+    {
+        "action": "input_text",
+        "selector": "role=textbox[name=\"Search books\"]",
+        "strategy_name": "role",
+        "text": "Moby Dick"
+    },
+    {
+        "action": "click_element_by_index",
+        "selector": "text=\"Go!\"",
+        "strategy_name": "text_content"
+    },
+    {
+        "action": "scroll_down"
+    },
+    {
+        "action": "click_element_by_index",
+        "selector": "a[href=\"/ebooks/2701\"]",
+        "strategy_name": "attributes_fallback"
+    },
+    {
+        "action": "click_element_by_index",
+        "selector": "role=link[name=\"Read now!\"]",
+        "strategy_name": "role"
+    },
+    {
+        "action": "go_back"
+    }
+]
