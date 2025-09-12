@@ -1,0 +1,367 @@
+{
+  "testcases": [
+    {
+      "prompt": {
+        "name": "Search for a Specific Course",
+        "category": "Search & Filter",
+        "instruction": "go to https://ocw.mit.edu/ and perform the following test case",
+        "description": "User searches for a specific course and verifies the result.",
+        "input": {
+          "search_input": "A Vision of Linear Algebra",
+          "action": "'Click on the search bar in the main page', 'Type `A Vision of Linear Algebra` into the search bar', 'Click on the `Search` button', 'Verify that the course `A Vision of Linear Algebra` is displayed in the search results'"
+        },
+        "expected": {
+          "outcome": "The search results page is displayed with the course 'A Vision of Linear Algebra' listed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to the 'About OCW' Page",
+        "category": "Navigation",
+        "instruction": "go to https://ocw.mit.edu/ and perform the following test case",
+        "description": "User navigates to the 'About OCW' page and verifies the page title.",
+        "input": {
+          "action": "'Click on the `ABOUT OCW` link in the header', 'Review the contents of the page'"
+        },
+        "expected": {
+          "outcome": "The 'About MIT OpenCourseWare' page is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to the 'Help & Faqs' Page",
+        "category": "Navigation",
+        "instruction": "go to https://ocw.mit.edu/ and perform the following test case",
+        "description": "User navigates to the 'Help & Faqs' page and verifies the page title.",
+        "input": {
+          "action": "'Click on the `HELP & FAQS` link in the header', 'Verify the presence of the `Frequently Asked Questions` button in the page'"
+        },
+        "expected": {
+          "outcome": "The 'Help & FAQs' page is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to the 'Contact Us' Page",
+        "category": "Navigation",
+        "instruction": "go to https://ocw.mit.edu/ and perform the following test case",
+        "description": "User navigates to the 'Contact Us' page and verifies the page title.",
+        "input": {
+          "action": "'Click on the `CONTACT US` link in the header', 'Verify that the title of the page is `Contact Us`'"
+        },
+        "expected": {
+          "outcome": "The 'Contact Us' page is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to the 'Give Now' Page",
+        "category": "Navigation",
+        "instruction": "go to https://ocw.mit.edu/ and perform the following test case",
+        "description": "User navigates to the 'Give Now' page and verifies the page title.",
+        "input": {
+          "action": "'Click on the `GIVE NOW` button in the header', 'Verify that the page contains the `Donation Amount` section'"
+        },
+        "expected": {
+          "outcome": "The donation page for MIT OpenCourseWare is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Explore Courses by Department",
+        "category": "Search & Filter",
+        "instruction": "go to https://ocw.mit.edu/ and perform the following test case",
+        "description": "User explores courses by selecting a topic.",
+        "input": {
+          "action": "'Click on the `Explore` button', 'Click on `Mathematics` under the `Departments` menu in the left sidebar', 'Verify that the page lists courses under the `Mathematics` department'"
+        },
+        "expected": {
+          "outcome": "A list of courses from the Mathematics department is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "View a Featured Course",
+        "category": "Navigation",
+        "instruction": "go to https://ocw.mit.edu/ and perform the following test case",
+        "description": "User clicks on a featured course and verifies the course page opens.",
+        "input": {
+          "action": "'Scroll down to the `Features Courses` section', 'Click on the title of the first course in the `Featured Courses` section', 'Verify that the course page is displayed'"
+        },
+        "expected": {
+          "outcome": "The page for the selected featured course is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "View a New Course",
+        "category": "Navigation",
+        "instruction": "go to https://ocw.mit.edu/ and perform the following test case",
+        "description": "User clicks on a new course and verifies the course page opens.",
+        "input": {
+          "action": "'Scroll down to the `New Courses` section', 'Click on the title of the first course in the `New Courses` section', 'Verify that the course page is displayed'"
+        },
+        "expected": {
+          "outcome": "The page for the selected new course is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Explore a Course Collection",
+        "category": "Navigation",
+        "instruction": "go to https://ocw.mit.edu/ and perform the following test case",
+        "description": "User explores a course collection and verifies the collection page opens.",
+        "input": {
+          "action": "'Scroll down to the `Discover Collections` section', 'Click on the `Entrepreneurship` button in the `Discover Collections` section', 'Verify that the title of the page is `ENTREPRENEURSHIP`'"
+        },
+        "expected": {
+          "outcome": "The Entrepreneurship collection page is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to Open Matters Blog",
+        "category": "Navigation",
+        "instruction": "go to https://ocw.mit.edu/ and perform the following test case",
+        "description": "User navigates to the Open Matters Blog.",
+        "input": {
+          "action": "'Scroll down to the `OCW News` section', 'Click on `View All News Stories` link in the `OCW News` section', 'Click on the `About` link in the header', 'Verify that the page contains the text `Open Matters is the official blog of MIT OpenCourseWare`'"
+        },
+        "expected": {
+          "outcome": "The Open Matters Blog is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Read an OCW Story",
+        "category": "Navigation",
+        "instruction": "go to https://ocw.mit.edu/ and perform the following test case",
+        "description": "User clicks to read an OCW story.",
+        "input": {
+          "action": "'Scroll down to the `OpenCourseWare Stories` section', 'Click on the first story under the `OpenCourseWare Stories` section', 'Verify that the story page is displayed'"
+        },
+        "expected": {
+          "outcome": "The full version of the selected OCW Story is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Find the Creative Commons License Information",
+        "category": "Policy & External Links",
+        "instruction": "go to https://ocw.mit.edu/ and perform the following test case",
+        "description": "User finds and navigates to the Creative Commons License page.",
+        "input": {
+          "action": "'Scroll to the bottom of the page', 'Click on the `Creative Commons License` link in the footer', 'Verify the page title is `Attribution-NonCommercial-ShareAlike 4.0 International`'"
+        },
+        "expected": {
+          "outcome": "The Creative Commons License page is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Find the Terms and Conditions",
+        "category": "Policy & External Links",
+        "instruction": "go to https://ocw.mit.edu/ and perform the following test case",
+        "description": "User finds and navigates to the Terms and Conditions page.",
+        "input": {
+          "action": "'Scroll to the bottom of the page', 'Click on the `Terms and Conditions` link in the footer', 'Verify the page title is `Privacy and Terms of Use`'"
+        },
+        "expected": {
+          "outcome": "The Terms and Conditions page is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to the MIT Open Learning Library page",
+        "category": "Navigation",
+        "instruction": "go to https://ocw.mit.edu/ and perform the following test case",
+        "description": "User navigates to the MIT Open Learning Library page.",
+        "input": {
+          "action": "'Scroll down to the `Discover Collections` section', 'Click on the `MIT Open Learning Library` button in the `Discover Collections` section', 'Verify that title of the page is `MIT OPEN LEARNING LIBRARY`'"
+        },
+        "expected": {
+          "outcome": "The MIT Open Learning Library page is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Subscribe to Newsletter",
+        "category": "Form Interaction",
+        "instruction": "go to https://ocw.mit.edu/ and perform the following test case",
+        "description": "User attempts to subscribe to the newsletter.",
+        "input": {
+          "action": "'Scroll down to the `SUBSCRIBE TO THE OCW NEWSLETTER` section', 'Click on the `SIGN ME UP` button', 'Verify that the title of the page is `Subscribe to our newsletter`'"
+        },
+        "expected": {
+          "outcome": "A page for newsletter subscription is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Find and Explore a Course with Video Lectures",
+        "category": "Media & Playback",
+        "instruction": "go to https://ocw.mit.edu/ and perform the following test case",
+        "description": "User searches for a course, filters for video lectures, navigates to the course, and checks the video content.",
+        "input": {
+          "search_input": "Quantum Physics",
+          "action": "'Click on the search bar in the main page', 'Type `Quantum Physics` into the search bar', 'Click on the `Search` button', 'On the search results page, scroll down to the `Features` section in the left sidebar', 'Click on `Features` in the left sidebar to open a dropdown menu', 'Click on `Lecture Videos` from the `Features` dropdown menu in the left sidebar', 'Scroll up to the top of the page', 'Click on the `Quantum Physics I` link', 'Click on the `Video Lectures` link', 'Click on the `Part 1: Basic Concepts` link', 'Click on the `Quantum mechanics as a framework. Defining linearity` link', 'Wait for the page to load', 'Click on the play button on the video player', 'Verify that the video plays', 'Go back to the course page by clicking on `Quantum Physics I` in the header', 'Click on the `Assignments` link', 'Verify that the title of the page is `Assignments`'"
+        },
+        "expected": {
+          "outcome": "User successfully finds a quantum physics course with video lectures, plays a video, and verifies assignment content.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Find a Course by Department and Verify Lecture Notes can be downloaded",
+        "category": "Search & Filter",
+        "instruction": "go to https://ocw.mit.edu/ and perform the following test case",
+        "description": "User finds a course by browsing departments, navigates to the course materials, and checks if lecture notes can be downloaded.",
+        "input": {
+          "action": "'Click on the `Explore` button', 'Click on `Electrical Engineering and Computer Science` from the `Deparments` menu in the left sidebar', 'Scroll down to the `Features` section in the left sidebar', 'Click on `Features` in the left sidebar to open a dropdown menu', 'Click on `Lecture Notes` from the `Features` dropdown menu in the left sidebar', 'Scroll up to the top of the page', 'Click on the title of the first course in the list', 'Click on the `Lecture Notes` link in the left sidebar', 'Click on one of the `PDF` links', 'Verify that the `Download File` button exists on this page', 'Click on the `Syllabus` link in the left sidebar',  'Verify the contents of the page'"
+        },
+        "expected": {
+          "outcome": "User successfully navigates to a course through department browsing, verifies that lecture notes can be downloaded, and views the syllabus.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Find an OCW Scholar Course and Explore its feature",
+        "category": "Navigation",
+        "instruction": "go to https://ocw.mit.edu/ and perform the following test case",
+        "description": "User finds the OCW Scholar collection, selects a course, and explores its unique structure.",
+        "input": {
+          "action": "'Scroll down to the `Discover Collections` section', 'Click on the `OCW Scholar` button under the `Discover Collections` section', 'Click on the `Single Variable Calculus` course', 'Verify the presence of `Course Description` section', 'Click on the `1. Differentiation` link from the left sidebar', 'Click on the `Session 1: Introduction to Derivatives` link', 'Verify the presence of the `Lecture Videos and Notes` section', 'Verify the presence of the `Recitation Video` section', 'Click on `Final Exam` in the left sidebar', 'Verify the presence of the `Exam Materials` section'"
+        },
+        "expected": {
+          "outcome": "User successfully finds an OCW Scholar course and verifies the presence of its specific components like recitation videos and exam materials.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Explore Courses by Multiple Filters",
+        "category": "Search & Filter",
+        "instruction": "go to https://ocw.mit.edu/ and perform the following test case",
+        "description": "User applies multiple filters to narrow down course search results.",
+        "input": {
+          "action": "'Click on the `Explore` button', 'Scroll down to the `Topics` section in the left sidebar', 'Click on `Topics` in the left sidebar to open a dropdown menu', 'Click on the `Search Topics` search bar in the left sidebar and type in `Engineering`', 'Click on `Aerospace Engineering` from the `Topics` dropdown menu on the left sidebar', 'Scroll to the `Level` section in the left sidebar', 'Click on `Level` in the left sidebar to open a dropdown menu', 'Click on `Undergraduate` from the `Level` dropdown menu in the left sidebar', 'Scroll to the `Features` section in the left sidebar', 'Click on `Features` in the left sidebar to open a dropdown menu', 'Click on `Exams`from the `Features` dropdown menu in the left sidebar', 'Scroll up to the top of the page', 'Select a course from the filtered results', 'Verify the presence of the text `Undergraduate` in the page', 'Verify the presence of the text `Aerospace Engineering` in the page', 'Verify the presence of the text `Exams` in the page'"
+        },
+        "expected": {
+          "outcome": "The user successfully filters courses by multiple criteria and verifies the results match the applied filters.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Find a Course and its Translated Version",
+        "category": "Accessibility & Language",
+        "instruction": "go to https://ocw.mit.edu/ and perform the following test case",
+        "description": "User finds a course and checks for availability of its materials in other languages.",
+        "input": {
+          "action": "'Click on the search bar in the main page', 'Type `Introduction to Computer Science and Programming in Python` into the search bar', 'Click on the `Search` button', 'Click on the `Introduction to Computer Science and Programming in Python` link from the search results', 'Click on `Lecture Videos` in the left sidebar', 'Click on the first lecture video on the `Lecture Videos` page', 'Click on the play icon to start the video', 'Click on the settings gear icon in the video player controls to open the video settings menu', 'Click on the `Subtitles/CC` option in the video settings menu', 'Click on the `Ukrainian - CC (Ukranian)` option to load Ukranian subtitles', 'Verify that Ukrainian subtitles are playing in the video'"
+        },
+        "expected": {
+          "outcome": "User finds a course and verifies its materials support another language.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Find a Course with a Specific Instructor",
+        "category": "Search & Filter",
+        "instruction": "go to https://ocw.mit.edu/ and perform the following test case",
+        "description": "User searches for a course taught by a specific instructor.",
+        "input": {
+          "search_input": "Gilbert Strang",
+          "action": "'Search for `Gilbert Strang`', 'From the results, scroll down and select the course `Linear Algebra`', 'On the course page, verify that `Prof. Gilbert Strang` is listed as the instructor'"
+        },
+        "expected": {
+          "outcome": "User successfully finds a course by a specific instructor and verifies the instructor's presence",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Find a Course Through 'Discover Collections' and Check for Downloadable Content",
+        "category": "Navigation",
+        "instruction": "go to https://ocw.mit.edu/ and perform the following test case",
+        "description": "User navigates through collections to find a course and looks for downloadable content.",
+        "input": {
+          "action": "'Scroll down to the `Discover Collections` section', 'Click on the `Introductory Programming` button under the `Discover Collections` section', 'Scroll down and click on the `Introduction to Computational Thinking and Data Science` course', 'Click on the `Download Course` button', 'Go to the `Problem Sets` section', 'Click on `Problem Sets` to open a dropdown menu', 'Click on `Problem Set 1: Space Cows Transportation`', 'Verify the presence of the `Download File` button on this page'"
+        },
+        "expected": {
+          "outcome": "The user finds a course via collections and checks for downloadable materials.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Verify Accessibility Features",
+        "category": "Accessibility & Language",
+        "instruction": "go to https://ocw.mit.edu/ and perform the following test case",
+        "description": "User checks for accessibility information and features.",
+        "input": {
+          "action": "'Scroll to the bottom of the page', 'Click on the `Accessibility` link in the footer', 'Verify the `Accessibility` page loads', 'Review the content for information on OCW's commitment to accessibility', 'Click on the search bar in the main page', 'Type `Introduction to Computer Science and Programming in Python` into the search bar', 'Click on the `Search` button', 'Click on the `Introduction to Computer Science and Programming in Python` link from the search results', 'Click on `Lecture Videos` in the left sidebar', 'Click on the first lecture video on the `Lecture Videos` page', 'Click on the play icon to start the video', 'Click on the CC icon in the video player controls to enable closed captions', 'Verify that closed captions are present in the video', 'Click on `TRANSCRIPT` below the video player to open the video transcipt', 'Verify that the transcript function is working'"
+        },
+        "expected": {
+          "outcome": "User successfully finds the accessibility statement and verifies accessibility features like closed captions and video transcript.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Explore Educator Resources",
+        "category": "Navigation",
+        "instruction": "go to https://ocw.mit.edu/ and perform the following test case",
+        "description": "User finds educator-specific instructions and explores a course .",
+        "input": {
+          "action": "'Click on the `Educators Start Here` link', 'Wait for the page to load', 'Review the page contents', 'Scroll up to the top of the page', 'Return to the main page by clicking on the website icon in the top left section of the page header', 'Click on the search bar in the main page', 'Type `Introduction to Computer Science and Programming in Python` into the search bar', 'Click on the `Search` button', 'Click on the `Introduction to Computer Science and Programming in Python` link from the search results', 'Click on the `Instructor Insights` page in the left sidebar', 'Review the page contents', 'Click on `Readings` in the left sidebar', 'Review the page contents', 'Click on `Syllabus` in the left sidebar',  'Verify that the `Syllabus` and `Calendar` sections are present.'"
+        },
+        "expected": {
+          "outcome": "User successfully explores Educators page and discovers relevant resources for a course.",
+          "status": "Successful"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,381 @@
+{
+  "testcases": [
+    {
+      "prompt": {
+        "name": "Search for a Specific Book",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.gutenberg.org/ and perform the following test case",
+        "description": "User searches for a specific book and verifies that the book appears in the search results.",
+        "input": {
+          "search_input": "Pride and Prejudice",
+          "action": "'Click on the `Quick search` search bar in the main navigation header', 'Type `Pride and Prejudice` into the search bar', 'Click on the `Go!` button to search', 'Verify that the book `Pride and Prejudice` is in the search results'"
+        },
+        "expected": {
+          "outcome": "The search results page is displayed, with 'Pride and Prejudice' listed as a result.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to About Page",
+        "category": "Navigation",
+        "instruction": "go to https://www.gutenberg.org/ and perform the following test case",
+        "description": "User navigates to the 'About' page and verifies the page title.",
+        "input": {
+          "action": "'Click on `About` in the main navigation header to open a dropdown menu', 'Click on the `About Project Gutenberg` link from the dropdown menu', 'Verify that the title of the page is `About Project Gutenberg`'"
+        },
+        "expected": {
+          "outcome": "The 'About Project Gutenberg' page is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to Help Pages",
+        "category": "Navigation",
+        "instruction": "go to https://www.gutenberg.org/ and perform the following test case",
+        "description": "User navigates to the 'Help Pages' page and verifies the page title.",
+        "input": {
+          "action": "'Click on `About` in the main navigation header to open a dropdown menu', 'Click on the `Help Pages` link from the dropdown menu', 'Verify that the title of the page is `Help, How-To, Procedures, Guidance and Information`'"
+        },
+        "expected": {
+          "outcome": "The 'Help Pages' page is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to Contact Us Page",
+        "category": "Navigation",
+        "instruction": "go to https://www.gutenberg.org/ and perform the following test case",
+        "description": "User navigates to the 'Contact Us' page and verifies the page content.",
+        "input": {
+          "action": "'Click on `About` in the main navigation header to open a dropdown menu', 'Click on the `Contact Us` link from the dropdown menu', 'Verify that the title of the page is `Contact Information`'"
+        },
+        "expected": {
+          "outcome": "The 'Contact Us' page is displayed with the correct information.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to Terms of Use Page",
+        "category": "Policy & External Links",
+        "instruction": "go to https://www.gutenberg.org/ and perform the following test case",
+        "description": "User navigates to the 'Terms of Use' page and verifies the page title.",
+        "input": {
+          "action": "'Scroll down to the bottom of the page', 'Click on the `Terms of Use` link in the footer', 'Verify that the title of the page is `Terms of Use`'"
+        },
+        "expected": {
+          "outcome": "The 'Terms of Use' page is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Explore Main Categories",
+        "category": "Navigation",
+        "instruction": "go to https://www.gutenberg.org/ and perform the following test case",
+        "description": "User navigates to the 'Main Categories' and verifies the page content.",
+        "input": {
+          "action": "'Click on the `Main Categories` link in the main navigation header', 'Verify that the title of the page is `Main Categories`'"
+        },
+        "expected": {
+          "outcome": "The 'Main Categories' page is displayed, showing different categories of books.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Explore Reading Lists",
+        "category": "Navigation",
+        "instruction": "go to https://www.gutenberg.org/ and perform the following test case",
+        "description": "User navigates to the 'Reading Lists' and verifies the page content.",
+        "input": {
+          "action": "'Click on the `Reading Lists` link in the main navigation header', 'Verify that the title of the page is `Reading Lists` '"
+        },
+        "expected": {
+          "outcome": "The 'Reading Lists' page is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Check Frequently Downloaded Section",
+        "category": "Navigation",
+        "instruction": "go to https://www.gutenberg.org/ and perform the following test case",
+        "description": "User navigates to the 'Frequently Downloaded' section and verifies the page content.",
+        "input": {
+          "action": "'Click on the `Frequently Downloaded` link in the main navigation header', 'Verify that the title of the page is `Frequently Viewed or Downloaded`'"
+        },
+        "expected": {
+          "outcome": "The 'Frequently Downloaded' page is displayed, with a list of top downloaded books.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Access Offline Catalogs Page",
+        "category": "Navigation",
+        "instruction": "go to https://www.gutenberg.org/ and perform the following test case",
+        "description": "User navigates to the 'Offline Catalogs' page and verifies the page content.",
+        "input": {
+          "action": "'Click on `About` in the main navigation header to open a dropdown menu', 'Click on the `Offline Catalogs` link from the dropdown menu', 'Verify that the title of the page is `Offline Catalogs and Feeds`'"
+        },
+        "expected": {
+          "outcome": "The 'Offline Catalogs' page is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Verify Donate Link",
+        "category": "Policy & External Links",
+        "instruction": "go to https://www.gutenberg.org/ and perform the following test case",
+        "description": "User clicks the 'Donate' button and verifies the navigation to the donation page.",
+        "input": {
+          "action": "'Click on the `Donate` button in the main navigation header', 'Verify that the title of the page is `Project Gutenberg Needs Your Donation`'"
+        },
+        "expected": {
+          "outcome": "The donation page is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Find Social Media icons",
+        "category": "Information Retrieval",
+        "instruction": "go to https://www.gutenberg.org/ and perform the following test case",
+        "description": "User finds the social media links on the page and verifies their presence.",
+        "input": {
+          "action": "'Scroll to the bottom of the page', 'Verify that the icons for Facebook, Mastodon, and Bluesky are present under the `Social Media` section'"
+        },
+        "expected": {
+          "outcome": "The social media icons are visible on the page.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Explore Audio Books Section",
+        "category": "Navigation",
+        "instruction": "go to https://www.gutenberg.org/ and perform the following test case",
+        "description": "User navigates to the 'Audio books' section and verifies the page content.",
+        "input": {
+          "action": "'Scroll down to the `Audio books` section', 'Click on the `human-read audio books` link under the `Audio books` section', 'Verify that the page contains the text `Abbott, Eleanor Hallowell, 1872-1958`'"
+        },
+        "expected": {
+          "outcome": "The 'Audio books' section is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Check Newest Releases",
+        "category": "Information Retrieval",
+        "instruction": "go to https://www.gutenberg.org/ and perform the following test case",
+        "description": "User checks the 'Newest Releases' section and verifies its presence.",
+        "input": {
+          "action": "'On the main page, scroll down to the `Our Newest Releases` section', 'Verify that there is a link `click here for more`'"
+        },
+        "expected": {
+          "outcome": "The 'Newest Releases' section is visible with a 'click here for more' link.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Search for an Author",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.gutenberg.org/ and perform the following test case",
+        "description": "User searches for a specific author and verifies that the author's books appear in the search results.",
+        "input": {
+          "search_input": "Mark Twain",
+          "action": "'Click on the `Quick search` search bar in the main navigation header', 'Type `Mark Twain` into the search bar', 'Click on the `Go!` button to search', 'Verify that books by `Mark Twain` are in the search results'"
+        },
+        "expected": {
+          "outcome": "The search results page is displayed, with books by 'Mark Twain' listed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Verify Privacy Policy Link",
+        "category": "Policy & External Links",
+        "instruction": "go to https://www.gutenberg.org/ and perform the following test case",
+        "description": "User navigates to the 'Privacy policy' page and verifies the page title.",
+        "input": {
+          "action": "'Scroll down to the bottom of the page', 'Click on the `Privacy policy` link in the footer', 'Verify that the title of the page is `Privacy Policy`'"
+        },
+        "expected": {
+          "outcome": "The 'Privacy Policy' page is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Search, Filter, and Verify a Book",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.gutenberg.org/ and perform the following test case",
+        "description": "User searches for a book, filters the results, and downloads the book in a specific format.",
+        "input": {
+          "action": "'Click on the `Search Options` link in the main navigation header', 'In the search form, click on the field beside `Title` and type in `Frankenstein`', 'Click on the field beside `Language` to open the language dropdown menu', 'Click on `English` from the language dropdown menu', 'Scroll down to the `Search` button', 'Click the `Search` button', 'From the results, click on the `Frankenstein; Or, The Modern Prometheus` link', 'On the book page, verify that the section `Read or download for free` exists, containing various links for different download options'"
+        },
+        "expected": {
+          "outcome": "The user successfully navigates the search, filtering, and verify process, and the availability of download options is verified.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate Categories to Find a Specific Book Format",
+        "category": "Navigation",
+        "instruction": "go to https://www.gutenberg.org/ and perform the following test case",
+        "description": "User navigates through bookshelves to find a specific book and downloads its plain text version.",
+        "input": {
+          "action": "'Click on `Main Categories` link in the main navigation header', 'Click on the `Science-Fiction & Fantasy` link to go to the Science-Fiction page', 'Click on the `The Time Machine` link on the Science-Fiction page to go to the book page', 'On the book page, click on the `Plain Text UTF-8` link to view the plain text version'"
+        },
+        "expected": {
+          "outcome": "The plain text version of 'The Time Machine' is displayed in the browser.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Find a Book, its Author, and Another Book by the Same Author",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.gutenberg.org/ and perform the following test case",
+        "description": "User finds a book, navigates to the author's page, and then finds another book by the same author.",
+        "input": {
+          "action": "'Click on the `Quick search` search bar in the main navigation header', 'Type `A Study in Scarlet` into the search bar', 'Click on the `Go!` button to search', 'Click on the `A Study in Scarlet` link to go to the book page', 'On the book page, scroll down to the `About this eBook` table', 'Click on the `Doyle, Arthur Conan, 1859-1930` link in the `Author` row to go to the author page', 'On the author page, find and click on the `The Adventures of Sherlock Holmes` link' , 'Verify that the page for `The Adventures of Sherlock Holmes` is displayed'"
+        },
+        "expected": {
+          "outcome": "The user successfully navigates from one book to its author's page and then to another book by the same author.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Search for a Book in a Specific Language",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.gutenberg.org/ and perform the following test case",
+        "description": "User uses the search options to find books in a specific language and verifies the language of a resulting book.",
+        "input": {
+          "action": "'Click on the `Search Options` link in the main navigation header', 'Click on the field beside `Language` to open the language dropdown menu', 'Click on `French` from the language dropdown menu', 'Scroll down to the `Search` button', 'Click the `Search` button', 'From the results, click on the `Douze ans de séjour dans la Haute-Éthiopie` link to go to the book page', 'On the book page, scroll down to the `Language` row in the `About this eBook` table', 'Verify that the language is listed as `Français`'"
+        },
+        "expected": {
+          "outcome": "The book 'Le Tour du Monde en Quatre-vingts Jours' is found, and its language is correctly identified as French.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Find a Book's HTML version and verify download options",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.gutenberg.org/ and perform the following test case",
+        "description": "User finds a book, checks its HTML version, and verifies download options.",
+        "input": {
+          "action": "'Click on the `Quick search` search bar in the main navigation header', 'Type `Moby Dick` into the search bar', 'Click on the `Go!` button to search', 'Click on the `Moby Dick; Or, The Whale` link to go to the book page', 'Click on the `Read now!` button to open the HTML version', 'Verify that the page title is `The Project Gutenberg eBook of Moby Dick; Or, The Whale`', 'Go back to the book page by clicking the back button of the browser', 'Verify the existence of download links in the `Read or download for free` section'"
+        },
+        "expected": {
+          "outcome": "The user finds the HTML version and successfully verifies the download options of 'Moby Dick'.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Explore Reading Lists and Find a Specific Book",
+        "category": "Navigation",
+        "instruction": "go to https://www.gutenberg.org/ and perform the following test case",
+        "description": "User explores the 'Reading Lists' and finds a specific book within a list.",
+        "input": {
+          "action": "'Click on the `Reading Lists` link in the main navigation' , 'Scroll down to the `B` section', 'Click on the `Banned Books List from the American Library Association` link', 'Click on the `Ulysses` link', 'Verify the book page for `Ulysses` is displayed'"
+        },
+        "expected": {
+          "outcome": "The user successfully navigates to the 'Banned Books' list and finds the page for 'Ulysses'.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate Help Section to Find eReader Instructions",
+        "category": "Information Retrieval",
+        "instruction": "go to https://www.gutenberg.org/ and perform the following test case",
+        "description": "User navigates to the 'Help' section and finds specific instructions for eReaders.",
+        "input": {
+          "action": "'Click on `About` in the main navigation header to open a dropdown menu', 'Click on the `Help Pages` link from the dropdown menu', 'Click on the `Tablets, phones and eReaders How-To` link from the `T` section of this page', 'Scroll down to the `Kindle` section', 'Verify that there are instructions for using Kindle with Project Gutenberg'"
+        },
+        "expected": {
+          "outcome": "The user finds the Kindle-specific instructions within the Help section.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Verify Different File Formats for a Book",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.gutenberg.org/ and perform the following test case",
+        "description": "User searches for a book, navigates to its page, and verifies the presence of different file formats.",
+        "input": {
+          "action": "'Click on the `Quick search` search bar in the main navigation header', 'Type `Dracula` into the search bar', 'Click on the `Go!` button to search', 'Click on the `Dracula` link', 'Scroll down to the `Read or download for free` section', 'Verify the presence of the `Plain Text UTF-8` link', 'Verify the presence of the `EPUB (no images, older E-readers)` link', 'Verify the presence of the `Kindle` link'"
+        },
+        "expected": {
+          "outcome": "The page for 'Dracula' is displayed, showing various download formats.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Perform an Advanced Search with Multiple Criteria",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.gutenberg.org/ and perform the following test case",
+        "description": "User performs an advanced search with multiple criteria and verifies the results.",
+        "input": {
+          "action": "'Click on the `Search Options` link in the main navigation header', 'In the search form, click on the field beside `Author` and type in `Jane Austen`', 'Click on the field beside `Title` and type in `Jane Austen`', 'Scroll down to the `Search` button', 'Click the `Search` button', 'Verify that the result title is `Emma` and the author is `Austen, Jane, 1775-1817`'"
+        },
+        "expected": {
+          "outcome": "The search result correctly filters to 'Emma' by Jane Austen.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to Human-Read Audio Books and Find a Specific Book",
+        "category": "Navigation",
+        "instruction": "go to https://www.gutenberg.org/ and perform the following test case",
+        "description": "User navigates to the human-read audio books section and verifies the presence of a specific audio book.",
+        "input": {
+          "action": "'Scroll down to the `Audio books` section', 'Click on the `human-read audio books` link under the `Audio books` section', 'Click on the `The Indiscreet Letter` link in the page', 'Verify that the page title is `The Indiscreet Letter by Eleanor Hallowell Abbott`'"
+        },
+        "expected": {
+          "outcome": "The user successfully finds 'The Indiscreet Letter' in the human-read audio books section.",
+          "status": "Successful"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,425 @@
+{
+  "testcases": [
+    {
+      "prompt": {
+        "name": "Search for a Specific Article",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.wikipedia.org/ and perform the following test case",
+        "description": "User searches for a specific article from the main portal and verifies the resulting page title. This tests the most fundamental feature of the site.",
+        "input": {
+          "search_input": "Python (programming language)",
+          "action": "'In the search input field, type `Python (programming language)`', 'Click the search button with the arrow icon', 'Click on Dark Mode'"
+        },
+        "expected": {
+          "outcome": "The article page for 'Python (programming language)' is displayed, with the correct heading.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Change Language from Portal Page",
+        "category": "Accessibility & Language",
+        "instruction": "go to https://www.wikipedia.org/ and perform the following test case",
+        "description": "User changes the Wikipedia language edition by clicking a direct language link on the main portal page.",
+        "input": {
+          "language_to_select": "Español",
+          "action": "'Click the `Español` link under the 'Read Wikipedia in your language' section', 'Select Grande from Texto', 'Select Ancho"
+        },
+        "expected": {
+          "outcome": "The user is successfully redirected to the Spanish Wikipedia main page.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to a Random Article",
+        "category": "Navigation",
+        "instruction": "go to https://en.wikipedia.org/wiki/Main_Page and perform the following test case",
+        "description": "User uses the 'Random article' feature from the main menu to discover a new page. This tests a key navigation and discovery tool.",
+        "input": {
+          "initial_page": "Main_Page",
+          "action": "'Click the `Main menu` (hamburger icon) on the top left', 'Click the `Random article` link from the menu', 'Click on hambuerger icon', 'CLick on Current events'"
+        },
+        "expected": {
+          "outcome": "A random Wikipedia article is loaded, and the URL is different from the Main Page's URL.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Change Language to Japanese",
+        "category": "Accessibility & Language",
+        "instruction": "go to https://www.wikipedia.org/ and perform the following test case",
+        "description": "User changes the Wikipedia language from the main portal by clicking the direct link for Japanese.",
+        "input": {
+          "language_to_select": "日本語",
+          "action": "'Click the `日本語` link under the 'Read Wikipedia in your language' section'"
+        },
+        "expected": {
+          "outcome": "The user is successfully redirected to the Japanese Wikipedia main page.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to Today's Featured Article",
+        "category": "Navigation",
+        "instruction": "go to https://www.wikipedia.org/ and perform the following test case",
+        "description": "User navigates from the English Main Page to view the full content of the day's featured article.",
+        "input": {
+          "action": "'click on English language', 'locate the `From today's featured article` section', 'Click on the main bolded link for the article's title'"
+        },
+        "expected": {
+          "outcome": "The full page for the featured article is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Toggle Dark Mode",
+        "category": "Accessibility & Language",
+        "instruction": "go to https://www.wikipedia.org/ and perform the following test case",
+        "description": "User enables the 'Dark mode' appearance setting on an article page.",
+        "input": {
+          "action": "'input cat in search bar', 'Click search', 'switch to dark mode from sidebar'"
+        },
+        "expected": {
+          "outcome": "The page was successfully switched to dark mode.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to 'On This Day'",
+        "category": "Navigation",
+        "instruction": "go to https://en.wikipedia.org/wiki/Main_Page and perform the following test case",
+        "description": "User explores a historical event listed in the 'On this day...' section of the Main Page.",
+        "input": {
+          "action": "'On the Main Page, locate the `On this day...` section', 'Click on any bolded link for a historical event', 'Locate See Also','Click on the first link in the See Also section'"
+        },
+        "expected": {
+          "outcome": "The article page for the selected historical event is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Use Table of Contents to Navigate",
+        "category": "Navigation",
+        "instruction": "go to https://en.wikipedia.org/wiki/United_States and perform the following test case",
+        "description": "User clicks a link in the article's 'Contents' box to jump to a specific section on the page.",
+        "input": {
+          "section_to_find": "Government and politics",
+          "action": "'On the article page, find the `Contents` box near the top', 'Click the link for the `Government and politics` section'"
+        },
+        "expected": {
+          "outcome": "The viewport successfully jumps to the selected section of the article.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Toggle Table of Contents Visibility",
+        "category": "Accessibility & Language",
+        "instruction": "go to https://en.wikipedia.org/wiki/United_States and perform the following test case",
+        "description": "User clicks a link in the article's 'Contents' box to jump to a specific section on the page.",
+        "input": {
+          "section_to_find": "Government and politics",
+          "action": "'On the article page, find the `Contents` box near the top', 'Click the hide button to hide contents', 'Click on the hamburger icon with three dots','Click on move to sidebar"
+        },
+        "expected": {
+          "outcome": "The Table of Contents is restored in the sidebar.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to 'Current Events'",
+        "category": "Navigation",
+        "instruction": "go to https://wikipedia.org/and perform the following test case",
+        "description": "User navigates to the 'Current events' portal from the main menu.",
+        "input": {
+          "action": "'Click on English language', 'Click the `Main menu` (hamburger icon) on the top left', 'Click the `Current events` link from the menu'"
+        },
+        "expected": {
+          "outcome": "The Current Events portal page is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "View a 'Talk' Page",
+        "category": "Navigation",
+        "instruction": "go to https://en.wikipedia.org/wiki/Science and perform the following test case",
+        "description": "User navigates from an article to its associated 'Talk' page where discussions about the article take place.",
+        "input": {
+          "action": "'On the article page, click the `Talk` tab at the very top of the page', 'Click on final version of the article'"
+        },
+        "expected": {
+          "outcome": "The final version of the 'Talk:Science' page is displayed, showing discussions and edits related to the article.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Change Text Appearance",
+        "category": "Accessibility & Language",
+        "instruction": "go to https://en.wikipedia.org/wiki/Moon and perform the following test case",
+        "description": "User changes the text size and width using the appearance settings.",
+        "input": {
+          "action": "'Click the settings icon (looks like a cog or 'Aa') in the top sticky header', 'Under `Text size`, click `Large`', 'Under `Width`, click `Wide`','Click on `hide` beside `Contents`','Click on three dots besides `Moon` title to open Table of COntents','Click on move to sidebar to restore appearance'"
+        },
+        "expected": {
+          "outcome": "The article's text size changes to large, the width changes to wide, and the Table of Contents is restored to the sidebar.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to 'What Links Here'",
+        "category": "Information Retrieval",
+        "instruction": "go to https://en.wikipedia.org/wiki/Gold and perform the following test case",
+        "description": "User finds the tool that lists all other Wikipedia pages linking to the current article.",
+        "input": {
+          "action": " 'Open the `Tools` dropdown menu', 'Click on `What links here`', 'Go back to the article page"
+        },
+        "expected": {
+          "outcome": "Gold article page is displayed",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Download pdf version of an Article",
+        "category": "Information Retrieval",
+        "instruction": "go to https://en.wikipedia.org/wiki/Water and perform the following test case",
+        "description": "User navigates to the simplified, printable version of an article.",
+        "input": {
+          "action": " 'Open the `Tools` dropdown menu', 'Click on `Download as pdf`','Click on Download'"
+        },
+        "expected": {
+          "outcome": "A simplified, printer-friendly version of the 'Water' article is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Go to the 'About Wikipedia' Page",
+        "category": "Navigation",
+        "instruction": "go to https://en.wikipedia.org/wiki/Main_Page and perform the following test case",
+        "description": "User navigates from the main menu to learn more about the Wikipedia project itself.",
+        "input": {
+          "action": "'Click the `Main menu` (hamburger icon) on the top left', 'Click the `About Wikipedia` link from the menu'"
+        },
+        "expected": {
+          "outcome": "The 'About Wikipedia' information page is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Use Search Autocomplete",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.wikipedia.org/ and perform the following test case",
+        "description": "User types in the search bar and clicks on a suggested article from the autocomplete dropdown.",
+        "input": {
+          "search_input": "solar sy",
+          "action": "'In the search input field, type `solar sy`', 'Wait for the search suggestions to appear below the search bar', 'Click the first suggestion, which should be `Solar System`'"
+        },
+        "expected": {
+          "outcome": "The user successfully navigates to an article by using the search suggestion feature.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "View related changes",
+        "category": "Information Retrieval",
+        "instruction": "go to https://en.wikipedia.org/wiki/Gold and perform the following test case",
+        "description": "User navigates to the page that shows recent changes related to the current article.",
+        "input": {
+          "action": "'Click on tools dropdown', 'Click on `Related changes`', 'Enable live updates', 'Disable live updates'"
+        },
+        "expected": {
+          "outcome": "The user is redirected to the 'Related changes' page, which shows recent edits and changes related to the 'Gold' article.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "In-depth Article Navigation and History Check",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.wikipedia.org/ and perform the following test case",
+        "description": "A user researches a topic by searching for an article, navigating within it using the table of contents, inspecting a citation, and then checking the article's edit history.",
+        "input": {
+          "search_input": "World War II",
+          "action": "'Search for `World War II` and navigate to the article', 'In the table of contents, click the `Aftermath` link','In the `Aftermath` section, click on any numbered citation link (e.g., `[315]`)','Scroll to the top and click the `View history` tab','Select oldest revision'"
+        },
+        "expected": {
+          "outcome": "The user successfully navigates within the article, checks a citation, and views its revision history page.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Advanced Search and File Page Exploration",
+        "category": "Search & Filter",
+        "instruction": "go to https://en.wikipedia.org/wiki/Main_Page and perform the following test case",
+        "description": "A user performs an advanced search to find a specific article, then navigates to the page for an image file contained within that article to view its metadata.",
+        "input": {
+          "search_term": "Oort cloud",
+          "action": "'Click the search icon without typing anything to navigate to the search page', 'Click the `Advanced search` link', 'In the `Search in page text` section, enter `Oort cloud` into the `These words:` input field', 'Select Image File type', 'Click the `Search` button', 'From the search results, click on the first link for the `Oort cloud` image', 'Click on the metadata tab','Show extended details','Hide extended details'"
+        },
+        "expected": {
+          "outcome": "User successfully uses advanced search to find an article, then navigates to its main image's file page and confirms the presence of file information.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Category Navigation and Cross-Language Verification",
+        "category": "Navigation",
+        "instruction": "go to https://www.wikipedia.org/ and perform the following test case",
+        "description": "A user explores a topic by navigating through its categories, finds a related article, and then switches to a different language version of that article.",
+        "input": {
+          "search_input": "Albert Einstein",
+          "action": "'Search for `Albert Einstein` and navigate to the article', 'Scroll to the bottom of the page', ' Click the `20th-century American physicists` link in the categories box', 'On the category page, click the `S` link in the page index to jump to articles starting with 'S'', 'From the list of articles, click on `Alfred Schildn`', 'At the top of the Alfred Schild article, click the `Languages` button', 'In the language selection panel that appears, find and click `Deutsch`', 'Verify the new page URL contains `de.wikipedia.org`'"
+        },
+        "expected": {
+          "outcome": "The user successfully navigates from one article to another via categories and then views the second article in German.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate via Special Pages to Find Specific Content",
+        "category": "Search & Filter",
+        "instruction": "go to https://en.wikipedia.org/wiki/Main_Page and perform the following test case",
+        "description": "A user navigates through Wikipedia's special utility pages to find a specific type of article, demonstrating a deep understanding of the site's structure beyond simple searching.",
+        "input": {
+          "prefix_to_search": "List of films",
+          "action": "'Click the `Main menu` (hamburger icon) on the top left', 'Click the `Special pages` link', 'On the Special Pages directory, click `All pages with prefix`', 'In the input field next to `Prefix:`, type `List of films`', 'Click the `Show` button', 'From the results, click on a specific list, for example `List of films: A`', 'On that page, click on a link to a film article, such as `A.I. Artificial Intelligence`', 'On the film's article page, click the `Talk` tab at the top'"
+        },
+        "expected": {
+          "outcome": "The user successfully uses a special page to filter articles, navigates to a specific article from the results, and then views its associated discussion page.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Inspect a Citation's Source via ISBN",
+        "category": "Information Retrieval",
+        "instruction": "go to https://www.wikipedia.org/ and perform the following test case",
+        "description": "A user finds a book-based citation in an article, navigates to the book sources page, and follows an external link to find the book on another website.",
+        "input": {
+          "search_input": "Photosynthesis",
+          "action": "'Search for `Photosynthesis` and navigate to the article', 'Scroll down to the `Further reading` section', 'Find the first book citation and click the `ISBN` number next to it', 'On the `Book sources` special page, find the `Find this book in a library` section', 'Click the Find this book link for `WorldCat`',  'Go back to the Wikipedia page'"
+        },
+        "expected": {
+          "outcome": "User successfully follows a citation to the Book Sources page, navigates to an external library site, and returns to wikipedia",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate from Wikipedia to Wikimedia Commons",
+        "category": "Navigation",
+        "instruction": "go to https://en.wikipedia.org/wiki/Main_Page and perform the following test case",
+        "description": "A user inspects an image in an article, navigates to the central Wikimedia Commons repository for that file, and views its version history.",
+        "input": {
+          "search_input": "Mona Lisa",
+          "action": "'Search for `Mona Lisa` and navigate to the article', 'Click the main image of the Mona Lisa painting to go to the `File:` page','Click on more details', 'On the file page, find the link that says `View on Commons` and click it', 'On the Wikimedia Commons page, scroll down and click the `File history` tab', 'In the file history table, click the timestamp of an older version of the file', 'The page should now display an older version of the image'"
+        },
+        "expected": {
+          "outcome": "User successfully navigates from a Wikipedia article to the corresponding file page on Wikimedia Commons, inspects older versions, and views the contributor's page.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Follow a Disambiguation Path and Change Language",
+        "category": "Navigation",
+        "instruction": "go to https://www.wikipedia.org/ and perform the following test case",
+        "description": "A user searches for an ambiguous term, chooses the correct article from the disambiguation page, navigates to a related topic, and then switches languages.",
+        "input": {
+          "search_term": "Mercury",
+          "action": "'Search for `Mercury`', 'On the disambiguation page, click the link for the chemical element: `Mercury (element)`', 'On the article for the element, find the infobox on the right side', 'In the infobox, click the link for its group, `group 12`', 'On the Group 12 page, scroll to the `Applications` section and click a linked application, such as `amalgams`', 'On the Amalgam article, click the `Languages` button at the top', 'In the language selection panel, search for `Français`', 'Click on `Français` to view the French version of the article'"
+        },
+        "expected": {
+          "outcome": "The user successfully resolves an ambiguity, navigates through several related articles, and views the final article in a different language.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Use 'Related Changes' Tool to Monitor a Topic",
+        "category": "Information Retrieval",
+        "instruction": "go to https://en.wikipedia.org/wiki/Main_Page and perform the following test case",
+        "description": "A user selects a high-traffic portal and uses the 'Related Changes' tool to monitor recent edits on all pages linked from that portal, then inspects a specific change.",
+        "input": {
+          "portal_name": "Portal:Current events",
+          "action": " 'Open the `Tools` dropdown menu', 'Click on `Related changes`', 'Click on gear icon','Set the `Recent days` to `1`', 'From the resulting list of edits, click on a `(diff)` link', 'From the diff view, click the timestamp of the new revision to view that version of the article'"
+        },
+        "expected": {
+          "outcome": "User successfully uses the 'Related changes' tool to find a recent edit, views the difference, and then views the historical version of the article.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate Portals and Sub-portals",
+        "category": "Navigation",
+        "instruction": "go to https://en.wikipedia.org/wiki/Main_Page and perform the following test case",
+        "description": "A user explores Wikipedia's content structure by navigating from the main portal directory to a specific sub-portal and then to a featured article within it.",
+        "input": {
+          "action": "'Click the `Main menu` (hamburger icon) and select `Contents`', 'On the `Contents` page, click the `Portals` link', 'On the main portals page, click the `Mathematics and logic` section link', 'Click on ` Arithmetic` link', 'On the Arithmetic portal page, find the `Related portals` section and click on `Mathematics`', 'On the Mathematics portal, Go to `Topics in Mathematics` section', 'Under `Analysis` click on `Calculus`'"
+        },
+        "expected": {
+          "outcome": "The user successfully navigates to the `Calculus` article.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Explore Page Information and Analytics",
+        "category": "Information Retrieval",
+        "instruction": "go to https://en.wikipedia.org/wiki/Earth and perform the following test case",
+        "description": "A user navigates to an article's 'Page information' screen to view metadata and then accesses external tools to see detailed analytics about the page's edit history.",
+        "input": {
+          "article_name": "Earth",
+          "action": "'Navigate to the `Earth` article page', 'Click the `Main menu` (hamburger icon) on the top left', 'Open the `Tools` dropdown menu and click `Page information`', 'On the `Page information` page, scroll down to the `External tools` section', 'Click the `Pageviews` link to see traffic statistics', 'Navigate back to the previous page', 'Click the `Revision history statistics` link', 'The browser should open a new tab with detailed editing statistics for the article'"
+        },
+        "expected": {
+          "outcome": "The user successfully finds and views the Page information screen and uses the external tools links to access pageview and revision history analytics.",
+          "status": "Successful"
+        }
+      }
+    }
+  ]
+}

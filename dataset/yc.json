@@ -1,0 +1,373 @@
+{
+  "testcases": [
+    {
+      "prompt": {
+        "name": "Navigate to the 'Apply' page and back to Home",
+        "category": "Navigation",
+        "instruction": "go to https://www.ycombinator.com/ and perform the following test case",
+        "description": "User navigates to the 'Apply' page from the main navigation and then returns to the homepage.",
+        "input": {
+          "search_input": "",
+          "action": "'Click on the `Apply` link in the main navigation', 'Apply to Fall 25'. 'Click on the Y logo in the header "
+        },
+        "expected": {
+          "outcome": "The user successfully navigates to the 'Apply' page",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to the 'Companies' page and check for search bar",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.ycombinator.com/ and perform the following test case",
+        "description": "User navigates to the 'Companies' page and verifies the presence of the search functionality.",
+        "input": {
+          "search_input": "",
+          "action": "'Click on the `Companies` link in the main navigation', 'CLick on Startup directory from dropdown','Input DOordash on search field','CLick on first search result'"
+        },
+        "expected": {
+          "outcome": "The 'Doordash' page is visible.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to the 'Startup Jobs' page and view role filters",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.ycombinator.com/ and perform the following test case",
+        "description": "User navigates to the 'Startup Jobs' page and checks the job role filter options.",
+        "input": {
+          "search_input": "",
+          "action": "'Click on the `Startup Jobs` link in the main navigation', 'Click on the 'Role' filter dropdown to view options'"
+        },
+        "expected": {
+          "outcome": "The 'Startup Jobs' page is displayed and the role filter options are visible.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to the 'Find a Co-Founder' page",
+        "category": "Navigation",
+        "instruction": "go to https://www.ycombinator.com/ and perform the following test case",
+        "description": "User navigates to the 'Find a Co-Founder' page and verifies the main heading.",
+        "input": {
+          "search_input": "",
+          "action": "'Click on the `Find a Co-Founder` link in the main navigation', 'Go to 'From YC companies who met on co-founder matching' section','Focus on the first card and click on company name"
+        },
+        "expected": {
+          "outcome": "The company page is displayed with the correct title and heading.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to the 'YC Blog' and see recent posts",
+        "category": "Navigation",
+        "instruction": "go to https://www.ycombinator.com/ and perform the following test case",
+        "description": "User navigates to the 'YC Blog' page and verifies that a list of posts is present.",
+        "input": {
+          "search_input": "",
+          "action": "'Focus on About','Click on the `YC Blog` link in the dropdown', 'Click on first post of 'Recent post'"
+        },
+        "expected": {
+          "outcome": "The blog post is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to the 'About' page",
+        "category": "Navigation",
+        "instruction": "go to https://www.ycombinator.com/ and perform the following test case",
+        "description": "User navigates to the 'About' page and sees the 'What is YC' section.",
+        "input": {
+          "search_input": "",
+          "action": "'Click on the `About` link in the main navigation', 'Go to Demo Day section', 'Click on Demo day','Click on Demo Day FAQ'"
+        },
+        "expected": {
+          "outcome": "The 'Demo day faq' page is displayed with the correct introductory section.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to the 'FAQ' page",
+        "category": "Information Retrieval",
+        "instruction": "go to https://www.ycombinator.com/ and perform the following test case",
+        "description": "User navigates to the 'FAQ' page and clicks on a question.",
+        "input": {
+          "search_input": "",
+          "action": "'Focus on About','Click on the `FAQ` link',  'Click on the question `What are the dates for the next batch?` from the Logistics sideboard'"
+        },
+        "expected": {
+          "outcome": "The 10th question is displayed with its answer.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to the 'People' page",
+        "category": "Navigation",
+        "instruction": "go to https://www.ycombinator.com/ and perform the following test case",
+        "description": "User navigates to the 'People' page and views the list of group partners.",
+        "input": {
+          "search_input": "",
+          "action": "'Click on the `People` link in the footer', 'Click on the president profile', 'Visit linkedin profile'"
+        },
+        "expected": {
+          "outcome": "The president's LinkedIn profile is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to the 'Launch YC' page",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.ycombinator.com/ and perform the following test case",
+        "description": "User navigates to the 'Launch YC' page and verifies the presence of company cards.",
+        "input": {
+          "search_input": "",
+          "action": "'Click on the `Launch YC` link in the footer',  'Choose summer 2022 from batches dropdown', 'Choose fintech from companies dropdown', 'Sort by votes'"
+        },
+        "expected": {
+          "outcome": "The 'Launch YC' page is displayed with a list of recently launched companies.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to the 'Library' page",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.ycombinator.com/ and perform the following test case",
+        "description": "User navigates to the 'Library' page and views the different content tabs.",
+        "input": {
+          "search_input": "",
+          "action": "'Click on the `Library` link in the main navigation','Go to the full library link', 'Select Blog type', 'Select Early stages from company stages checkbox', 'Select Becoming a founder'"
+        },
+        "expected": {
+          "outcome": "The 'Library' page is displayed with options to browse different content types.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to 'SAFE' documents page from the footer",
+        "category": "Policy & External Links",
+        "instruction": "go to https://www.ycombinator.com/ and perform the following test case",
+        "description": "User navigates to the 'SAFE' documents page from the website's footer.",
+        "input": {
+          "search_input": "",
+          "action": "'Scroll to the footer', 'Click on the `SAFE` link under the `Resources` section', 'Click on SAFE user guide to download`'"
+        },
+        "expected": {
+          "outcome": "The 'SAFE' documents page is displayed with the user guide available for download.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to 'Hacker News' from the footer",
+        "category": "Navigation",
+        "instruction": "go to https://www.ycombinator.com/ and perform the following test case",
+        "description": "User navigates to 'Hacker News' from the footer and verifies the new URL.",
+        "input": {
+          "search_input": "",
+          "action": "'Scroll to the footer', 'Click on the `Hacker News` link', 'Click on second news`'"
+        },
+        "expected": {
+          "outcome": "The 'Hacker News' website is displayed in a new tab.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to 'Startup School' page from the footer",
+        "category": "Navigation",
+        "instruction": "go to https://www.ycombinator.com/ and perform the following test case",
+        "description": "User navigates to the 'Startup School' page from the footer and verifies the title.",
+        "input": {
+          "search_input": "",
+          "action": "'Scroll down to the footer', 'Click on the `Startup School` link', 'Click sign up'"
+        },
+        "expected": {
+          "outcome": "The 'Sign up' page is displayed with the signup form",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "View YC's Twitter/X profile from the footer",
+        "category": "Policy & External Links",
+        "instruction": "go to https://www.ycombinator.com/ and perform the following test case",
+        "description": "User navigates to YC's Twitter/X profile from the footer and verifies the new URL.",
+        "input": {
+          "search_input": "",
+          "action": "'Scroll to the footer', 'Click on the `Twitter` icon'"
+        },
+        "expected": {
+          "outcome": "A new tab opens with YC's Twitter/X profile.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "View YC's YouTube channel from the footer",
+        "category": "Policy & External Links",
+        "instruction": "go to https://www.ycombinator.com/ and perform the following test case",
+        "description": "User navigates to YC's YouTube channel from the footer and verifies the new URL.",
+        "input": {
+          "search_input": "",
+          "action": "'Scroll to the footer', 'Click on the `Youtube` icon'"
+        },
+        "expected": {
+          "outcome": "A new tab opens with YC's YouTube channel.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Filter companies by industry, batch, and region",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.ycombinator.com/ and perform the following test case",
+        "description": "User filters the list of companies by selecting a specific industry, batch, and region, then resets the filters.",
+        "input": {
+          "search_input": "",
+          "action": "'Click on the `Companies` link', 'Click on the `Industry` filter', 'Select `B2B`', 'Focus on the `Batch` filter', 'Select `Winter 2024`', 'Click on the `Region` filter', 'Select America/Canda','Select `United states of America`', 'Select company size 1-50 by dragging', 'Select `Has bonus questions`'"
+        },
+        "expected": {
+          "outcome": "The company list is updated with the selected filters.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Search for a specific company and view its jobs",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.ycombinator.com/ and perform the following test case",
+        "description": "User searches for a specific company, navigates to its profile, and then views its open job positions.",
+        "input": {
+          "search_input": "Stripe",
+          "action": "'Click on the `Companies` link', 'Enter `Stripe` in the search bar', 'Click on the `Stripe` company profile link',  'Scroll down to the `Jobs at Stripe` section on the profile page', 'Click on the first job title to view the description','Click Apply to role'., 'Click close'"
+        },
+        "expected": {
+          "outcome": "The user successfully finds Stripe's profile and navigates to one of its job listings.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Find a specific job and apply for it",
+        "category": "Form Interaction",
+        "instruction": "go to https://www.ycombinator.com/ and perform the following test case",
+        "description": "User searches for a specific job role and applies location and equity filters.",
+        "input": {
+          "search_input": "",
+          "action": "'Click on the `Startup Jobs` link', 'Click on the first job', 'Scroll down to see available role with heading starting with `Jobs At...`','Click Apply Now on the first available role', 'Enter first name `Nafiu`', 'Enter last name `Rahman`', 'Enter email `nafiu.rahman@gmail.com`','Enter linkedin url `https://www.linkedin.com/in/mdnafiurahman/`', 'Write `Dhaka, Bangladesh` as current location', 'Click on `Dhaka, Bangladesh` to select the location', 'Choose No for the following two questions', 'Write `good` in `What interest you about aden?`', 'Click send message button'"
+        },
+        "expected": {
+          "outcome": "The Thank you for applying is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Explore the YC Library for essays by a specific author and read one",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.ycombinator.com/ and perform the following test case",
+        "description": "User navigates to the YC Library, filters essays by a specific author, and reads an essay.",
+        "input": {
+          "search_input": "Paul Graham",
+          "action": "'Click on the `Library` link', 'Click on the `Essays` tab', 'In the search bar, type `Paul Graham` and press Enter', 'Click on the title of the third essay in the list', 'Scroll to the end of the essay'"
+        },
+        "expected": {
+          "outcome": "The user successfully navigates to and reads an essay by Paul Graham.",
+          "status": "Successful"
+        }
+      }
+    },
+
+    {
+      "prompt": {
+        "name": "Navigate to 'Requests for Startups' and explore an author",
+        "category": "Navigation",
+        "instruction": "go to https://www.ycombinator.com/ and perform the following test case",
+        "description": "User navigates to the 'Requests for Startups' page from the footer, explores a category, and views a request.",
+        "input": {
+          "search_input": "",
+          "action": "'Focus on Resources in navigation bar', 'Click `Requests for Startups` under `Resources`', 'Focus on left bar and click on `Healthcare Ai``', 'Click on Author's name', 'Go to recent posts', 'Click on the first link of recent posts'"
+        },
+        "expected": {
+          "outcome": "The user can successfully navigate to the 'Requests for Startups' page, explore a category, and go to a author's page.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Explore 'Launch YC', filter by trending, and view a company profile",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.ycombinator.com/ and perform the following test case",
+        "description": "User navigates to 'Launch YC', filters to see trending companies, and opens a profile.",
+        "input": {
+          "search_input": "",
+          "action": "'Scroll down to the footer','Click on the `Launch YC` link in footer', 'Click on the `B2B', 'Click on the name of the first company in the list', 'Click the back button to return to the list','Sort by Votes', 'Choose `Summer 2024` from batches'"
+        },
+        "expected": {
+          "outcome": "The user successfully filters 'Launch YC' by trending, views a company's profile, and navigates back and applies another filter.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Find information about the YC interview process via the FAQ",
+        "category": "Information Retrieval",
+        "instruction": "go to https://www.ycombinator.com/ and perform the following test case",
+        "description": "User finds information about the YC interview process by navigating through the FAQ section.",
+        "input": {
+          "search_input": "",
+          "action": "'Focus on About','Click on the `FAQ` link', 'Click on the 5th question in Logistics section', 'Click on standard terms', 'Click on full list', 'Click on `here`'"
+        },
+        "expected": {
+          "outcome": "The user is able to find and read about the YC interview process.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Explore the 'YC Blog', filter by a category, and open a post",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.ycombinator.com/ and perform the following test case",
+        "description": "User navigates to the 'YC Blog', filters the posts by a specific category, and reads a post.",
+        "input": {
+          "search_input": "",
+          "action": "'Click on the `YC Blog` link in footer', 'Select a category, e.g., `Founder Stories`', 'Click the first blog post title from the filtered list','Click on Author's name'"
+        },
+        "expected": {
+          "outcome": "The user successfully filters the blog posts, reads a post, and goes to author's page.",
+          "status": "Successful"
+        }
+      }
+    }
+  ]
+}

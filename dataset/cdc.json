@@ -1,0 +1,452 @@
+{
+  "testcases": [
+    {
+      "prompt": {
+        "name": "Search for a Health Topic",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.cdc.gov/ and perform the following test case",
+        "description": "User utilizes the search bar to find information on a specific health topic and verifies the search results page.",
+        "input": {
+          "search_input": "Influenza",
+          "action": "'Click the Search Button', 'Type `Influenza` into the search bar at the top of the page', 'Click the search icon'"
+        },
+        "expected": {
+          "outcome": "The search results page is displayed, showing all content matching the 'Influenza' keyword.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to a Specific Disease Page",
+        "category": "Navigation",
+        "instruction": "go to https://www.cdc.gov/ and perform the following test case",
+        "description": "User navigates to the 'Diseases & Conditions' section via the A-Z index to find information about a specific disease.",
+        "input": {
+          "search_input": "Lyme Disease",
+          "action": "'Click on the `Health Topics` link in the main navigation menu', 'On the Health Topics Dropdown, click on the `Lyme Disease` link'"
+        },
+        "expected": {
+          "outcome": "The user successfully reaches the main information page for 'Lyme Disease'.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Find a Data Set",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.cdc.gov/ and perform the following test case",
+        "description": "User navigates to the 'Data & Statistics' section to find a specific data set.",
+        "input": {
+          "search_input": "NCHS - National Center for Health Statistics",
+          "action": "'Click the Search Button', 'Type `NCHS - National Center for Health Statistics` in the input field', 'Click the search icon'"
+        },
+        "expected": {
+          "outcome": "The main page for the National Center for Health Statistics (NCHS) is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Find a Specific Vital Signs Report",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.cdc.gov/ and perform the following test case",
+        "description": "User navigates to the 'Publications' section, then to the 'Vital Signs' reports, and filters by year and topic to find a specific report.",
+        "input": {
+          "search_input": "HIV",
+          "action": "'Click the Search Button', 'Type `HIV` in the input field', 'Click the search icon', 'On the HIV Search page, Click Journals', 'Wait for the page to update', 'Click 7 days in the Filter By Date', 'Wait for the page to update', 'Click on the first report link that appears in the filtered results'"
+        },
+        "expected": {
+          "outcome": "The user successfully navigates and filters to find a specific Vital Signs report on HIV, confirming the filtering and navigation workflow.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Explore Vaccine Information for a Specific Disease",
+        "category": "Information Retrieval",
+        "instruction": "go to https://www.cdc.gov/ and perform the following test case",
+        "description": "User searches for a disease, navigates to its page, finds the 'Vaccines' section, and then locates information for healthcare professionals.",
+        "input": {
+          "search_input": "Mpox",
+          "action": "'Search for `Mpox` using the main search bar', 'From the search results, click the primary link for `Mpox`', 'On the Mpox page, find and click the `Vaccines` link in the left-hand navigation menu', 'On the vaccination page, scroll down and find a link for `Adult Immunization Schedule Notes | Vaccines & Immunizations` and click it'"
+        },
+        "expected": {
+          "outcome": "The user successfully finds detailed Mpox vaccine administration information intended for healthcare professionals.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Toggle Language to Spanish",
+        "category": "Accessibility & Language",
+        "instruction": "go to https://www.cdc.gov/ and perform the following test case",
+        "description": "User changes the site language to Spanish using the language selector.",
+        "input": {
+          "search_input": "None",
+          "action": "'Click on the `Español` link in the top navigation bar'"
+        },
+        "expected": {
+          "outcome": "The user is redirected to the Spanish version of the CDC website.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Access CDC Newsroom",
+        "category": "Navigation",
+        "instruction": "go to https://www.cdc.gov/ and perform the following test case",
+        "description": "User opens the 'Newsroom' from the CDC homepage.",
+        "input": {
+          "search_input": "None",
+          "action": "'Scroll to bottom of homepage', 'Click the `Pressroom` link in the footer'"
+        },
+        "expected": {
+          "outcome": "The user successfully lands on the CDC Newsroom section.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Explore Eggs based Outbreaks",
+        "category": "Policy & External Links",
+        "instruction": "go to https://www.cdc.gov/ and perform the following test case",
+        "description": "User navigates to the Eggs section from the homepage.",
+        "input": {
+          "search_input": "None",
+          "action": "'Click `Outbreaks`', 'Click `Eggs`'"
+        },
+        "expected": {
+          "outcome": "The Salmonella Outbreak Linked to Eggs page is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Check Contact CDC Page",
+        "category": "Navigation",
+        "instruction": "go to https://www.cdc.gov/ and perform the following test case",
+        "description": "User visits the contact page to find ways to reach CDC.",
+        "input": {
+          "search_input": "None",
+          "action": "'Scroll to the bottom of the homepage', 'Click `Contact Us`', 'Click the `Contact CDC` link in the footer'"
+        },
+        "expected": {
+          "outcome": "The user reaches the CDC contact page with appropriate information.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "View Health Topics A-Z Index Results",
+        "category": "Navigation",
+        "instruction": "go to https://www.cdc.gov/ and perform the following test case",
+        "description": "User opens the CDC Health Topics A-Z index page to browse topics alphabetically.",
+        "input": {
+          "search_input": "None",
+          "action": "'Click `Health Topics`', 'Click `A-Z Index`'"
+        },
+        "expected": {
+          "outcome": "The Health Topics A-Z index page is loaded successfully.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Access CDC Organization Page",
+        "category": "Policy & External Links",
+        "instruction": "go to https://www.cdc.gov/ and perform the following test case",
+        "description": "User finds CDC Organizations links via the footer.",
+        "input": {
+          "search_input": "None",
+          "action": "'Scroll to bottom of homepage', 'Click `Organization` under `About CDC` in the footer'"
+        },
+        "expected": {
+          "outcome": "CDC's official Organization page is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Find Traveler's Health Info",
+        "category": "Navigation",
+        "instruction": "go to https://www.cdc.gov/ and perform the following test case",
+        "description": "User navigates to the Travel Health section.",
+        "input": {
+          "search_input": "None",
+          "action": "'Click Health Topics', 'Click on `Travelers Health`'"
+        },
+        "expected": {
+          "outcome": "Traveler health resources are displayed correctly.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Open Weekly MMWR Reports",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.cdc.gov/ and perform the following test case",
+        "description": "User accesses the MMWR page to view weekly reports.",
+        "input": {
+          "search_input": "MMWR",
+          "action": "'Type `MMWR` in the search bar', 'Click the search icon', 'Click the `Home page for MMWR`'"
+        },
+        "expected": {
+          "outcome": "MMWR reports page is loaded.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Browse COVID-19 Updates",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.cdc.gov/ and perform the following test case",
+        "description": "User navigates to the COVID-19 page from the homepage.",
+        "input": {
+          "search_input": "None",
+          "action": "'Type `COVID-19` in the search bar', 'Click the search icon', 'Click `Coronavirus Disease 2019 (COVID-19)`'"
+        },
+        "expected": {
+          "outcome": "COVID-19 information hub is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Access Flu Prevention Info",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.cdc.gov/ and perform the following test case",
+        "description": "User searches for flu prevention and verifies result page.",
+        "input": {
+          "search_input": "Flu prevention",
+          "action": "'Click search', 'Type `Flu prevention` in the search bar', 'Press enter', 'Click the top result titled `Flu Burden Prevented by Vaccination 2023-2024 Flu Season`'"
+        },
+        "expected": {
+          "outcome": "Flu prevention tips and materials are shown.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Open CDC Museum Page",
+        "category": "Policy & External Links",
+        "instruction": "go to https://www.cdc.gov/ and perform the following test case",
+        "description": "User navigates to CDC Museum from footer.",
+        "input": {
+          "search_input": "None",
+          "action": "'Scroll to the bottom of the homepage', 'Click the `CDC Museum` link in the footer'"
+        },
+        "expected": {
+          "outcome": "The user is taken to the official CDC Museum website.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Find Monkeypox Resource Page",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.cdc.gov/ and perform the following test case",
+        "description": "User searches for Monkeypox and verifies official page.",
+        "input": {
+          "search_input": "Monkeypox",
+          "action": "'Click the search icon', 'Type `Monkeypox`', 'Click the top result'"
+        },
+        "expected": {
+          "outcome": "User is redirected to the updated Mpox resource center.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Access Healthy Schools Info",
+        "category": "Navigation",
+        "instruction": "go to https://www.cdc.gov/ and perform the following test case",
+        "description": "User navigates to School Health program information.",
+        "input": {
+          "search_input": "None",
+          "action": "'Scroll down to `A-Z Index`', 'Click letter `S`', 'Input `School Health` in Health topics', 'Click Search'"
+        },
+        "expected": {
+          "outcome": "The Healthy Schools page is loaded successfully.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Open Injury Prevention Page",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.cdc.gov/ and perform the following test case",
+        "description": "User searches for 'injury prevention' to read CDC resources.",
+        "input": {
+          "search_input": "Injury prevention",
+          "action": "'Click on the search icon', 'Type `Injury prevention` in the search bar', 'Click `Injury and Violence Prevention `'"
+        },
+        "expected": {
+          "outcome": "Injury and Violence Prevention  and resources are shown.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "View Environmental Health Section",
+        "category": "Navigation",
+        "instruction": "go to https://www.cdc.gov/ and perform the following test case",
+        "description": "User visits CDC's Environmental Health topic section.",
+        "input": {
+          "search_input": "None",
+          "action": "'Click `Health Topics`', 'Click `A-Z Index`', 'Click on letter `E`', 'Click on `Environmental Health`'"
+        },
+        "expected": {
+          "outcome": "Environmental Health program info is visible.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Read About CDC Funding and Grants",
+        "category": "Policy & External Links",
+        "instruction": "go to https://www.cdc.gov/ and perform the following test case",
+        "description": "User finds the Funding and Grants of CDC.",
+        "input": {
+          "search_input": "None",
+          "action": "'Scroll to footer', 'Click on `Funding and Grants`'"
+        },
+        "expected": {
+          "outcome": "Funding and Grants of CDC is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Read About CDC History",
+        "category": "Policy & External Links",
+        "instruction": "go to https://www.cdc.gov/ and perform the following test case",
+        "description": "User finds the historical background of CDC.",
+        "input": {
+          "search_input": "None",
+          "action": "'Scroll to footer', 'Click on `CDC Museum`', 'In the museum site, click on `CDC History` link in Related Links tab'"
+        },
+        "expected": {
+          "outcome": "Historical overview of CDC is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "View Publications Page",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.cdc.gov/ and perform the following test case",
+        "description": "User explores publications from main menu.",
+        "input": {
+          "search_input": "None",
+          "action": "'Click `Archive` from footer', 'Click `Public Health Publications` in the top menu'"
+        },
+        "expected": {
+          "outcome": "CDC publication resources are shown.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Open CDC Careers Page",
+        "category": "Policy & External Links",
+        "instruction": "go to https://www.cdc.gov/ and perform the following test case",
+        "description": "User looks for career opportunities at CDC.",
+        "input": {
+          "search_input": "None",
+          "action": "'Scroll to the footer', 'Click `Careers & Jobs` under About CDC'"
+        },
+        "expected": {
+          "outcome": "User sees available career info on CDC Careers site.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Track Weekly Influenza Surveillance Reports",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.cdc.gov/ and perform the following test case",
+        "description": "User searches for FluView to access weekly influenza surveillance reports, selects a season, and verifies the report's availability.",
+        "input": {
+          "search_input": "FluView",
+          "action": "'Click the search icon', 'Type `FluView`', 'Click the top result that says `FluView`', 'Click `View More` in Past Reports', 'Click 'Weekly US Influenza Surveillance Report: Key Updates for Week 22, ending May 31, 2025''"
+        },
+        "expected": {
+          "outcome": "User views archived weekly influenza surveillance data for a selected season.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Use CDC's COVID Data Tracker to Analyze Death Trends",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.cdc.gov/ and perform the following test case",
+        "description": "User navigates to the COVID Data Tracker and drills into death trends by demographic.",
+        "input": {
+          "search_input": "COVID Data Tracker",
+          "action": "'Search for `COVID Data Tracker`', 'Click the top result', 'Click `Deaths`', 'Click `Trends` tab', 'Select `The United States`in Geographic Area', 'Select `Weekly Deaths` in View(Left Axis)', 'Select `Weekly %Deaths Due to COVID-19` in View(Right Axis)'"
+        },
+        "expected": {
+          "outcome": "User successfully explores death trends based on demographic filters and time ranges.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Explore the National Notifiable Diseases Surveillance System (NNDSS)",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.cdc.gov/ and perform the following test case",
+        "description": "User finds NNDSS, accesses data weekly tables, and filters by year.",
+        "input": {
+          "search_input": "NNDSS",
+          "action": "'Search for `NNDSS`', 'Click `National Notifiable Diseases Surveillance System` result', 'Click `Notifiable Infectious Disease Data Tables` link', 'Click `DATA.CDC.gov Provisional Weekly Infectious Disease Data (2014 to present)`', 'Click `NNDSS Annual Summary Data Query(Available on Wonder)`'"
+        },
+        "expected": {
+          "outcome": "User views disease data request form using the NNDSS portal.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to Chronic Disease Data Portal",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.cdc.gov/ and perform the following test case",
+        "description": "User finds and uses the CDC's Chronic Disease Interactive Atlas to visualize heart disease rates by state.",
+        "input": {
+          "search_input": "Chronic Disease Portal",
+          "action": "'Search for `Chronic Disease Portal`', 'Click on the link titled `Chronic Disease Indicators (CDI)`', 'Scroll to the `View Maps` tab', 'On the interactive map, select `Cancer` as the indicator', 'Click GO', 'Select indicator `Colon and rectum (colorectal) cancer`', 'Click `View Results`'"
+        },
+        "expected": {
+          "outcome": "User views Colon and rectum (colorectal) cancer data.",
+          "status": "Successful"
+        }
+      }
+    }
+  ]
+}

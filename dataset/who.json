@@ -1,0 +1,513 @@
+{
+  "testcases": [
+    {
+      "prompt": {
+        "name": "Search for a Specific Health Condition",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.who.int/home and perform the following test case",
+        "description": "User clicks the search icon, searches for a specific health condition, and verifies that the search results page is displayed.",
+        "input": {
+          "search_input": "Diabetes",
+          "action": "'Click on the search icon', 'Type `Diabetes` into the search input field', 'Click the search button'"
+        },
+        "expected": {
+          "outcome": "The search results page for 'Diabetes' is displayed, showing relevant articles and publications.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to a Health Topic via A-Z List",
+        "category": "Navigation",
+        "instruction": "go to https://www.who.int/home and perform the following test case",
+        "description": "User navigates to the 'Health Topics' section, uses the A-Z list to find and access the information page for 'Tuberculosis'.",
+        "input": {
+          "search_input": "Tuberculosis",
+          "action": "'Click on the `Health Topics` link in the main navigation menu', 'Click on the `Health topics A-Z` link', 'Click on the letter `T` in the alphabetical index', 'Click on the `Tuberculosis` link'"
+        },
+        "expected": {
+          "outcome": "The main fact sheet for 'Tuberculosis' is displayed, with 'Tuberculosis' in the page title.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Find a Specific Country's Profile Page",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.who.int/home and perform the following test case",
+        "description": "User navigates to the 'Countries' section and selects a specific country to view its health profile page.",
+        "input": {
+          "search_input": "Japan",
+          "action": "'Click on the `Countries` link in the main navigation menu', 'Click All Countries', 'Type `Japan` on the country filter field', 'Click on the `Japan` link'"
+        },
+        "expected": {
+          "outcome": "The country profile page for 'Japan' is displayed, showing the country's name as the main heading.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Find the Latest World Malaria Report",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.who.int/home and perform the following test case",
+        "description": "User finds a specific annual report by first searching for the relevant WHO programme, navigating to their page, accessing the reports section, and opening the correct document.",
+        "input": {
+          "search_input": "Global Malaria Programme",
+          "action": "'Click the search icon', 'Type `Global Malaria Programme` into the search bar and submit the search', 'Click the search result link titled `Global Malaria Programme`', 'On the programme page, Click the All Publications Page', 'Click on the `Mekong Malaria Elimination Programme epidemiology summary, volume 29, January–March 2025`"
+        },
+        "expected": {
+          "outcome": "The landing page for the 'Mekong Malaria Elimination Programme epidemiology summary, volume 29, January–March 2025' is successfully displayed, providing links to the full report and its key findings.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Find a Specific News Release Using Filters",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.who.int/home and perform the following test case",
+        "description": "User navigates to the 'Newsroom', selects 'News releases', and applies multiple filters (Year and Topic) to find a specific press release from 2023 concerning the COVID-19 pandemic.",
+        "input": {
+          "search_input": "Statement on the fifteenth meeting of the IHR (2005) Emergency Committee on the COVID-19 pandemic",
+          "action": "'Click on `Newsroom` in the main menu', 'Click on `News releases` from the dropdown', 'In the left filter panel, under `Year`, click `2023`', 'Wait for the results to update', 'In the left filter panel, under `Topic`, click `Coronavirus disease (COVID-19)`', 'Wait for the results to update', 'Find and click on the news release titled `Statement on the fifteenth meeting of the IHR (2005) Emergency Committee on the COVID-19 pandemic`'"
+        },
+        "expected": {
+          "outcome": "The specific news release from May 5, 2023, is displayed, confirming the filter functionality and navigation workflow.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Investigate a Specific Disease Outbreak Report",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.who.int/home and perform the following test case",
+        "description": "User navigates to the 'Emergencies' section, then to 'Disease Outbreak News', and filters by year and disease to find a specific report on an Mpox outbreak.",
+        "input": {
+          "search_input": "Mpox (Monkeypox) - Democratic Republic of the Congo",
+          "action": "'Click on `Emergencies` in the main menu', 'Click on `Disease Outbreak News` from the dropdown', 'In the From Field input `2023`', 'Wait for the results to update', 'In the Search by Keyword, input `Mpox (monkeypox)`', 'Wait for the results to update', 'Find and click the report titled `Mpox (Monkeypox) - Democratic Republic of the Congo`'"
+        },
+        "expected": {
+          "outcome": "The specific Disease Outbreak News report for Mpox in the Democratic Republic of the Congo, published in 2023, is successfully located and displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Search for COVID-19",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.who.int/home and perform the following test case",
+        "description": "User searches for COVID‑19 and verifies search results heading.",
+        "input": {
+          "search_input": "COVID-19",
+          "action": "'Click on the search icon', 'Type `COVID‑19` into the search input field', 'Click search button'"
+        },
+        "expected": {
+          "outcome": "Search results for 'COVID‑19' are displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate via A-Z to Malaria",
+        "category": "Navigation",
+        "instruction": "go to https://www.who.int/home and perform the following test case",
+        "description": "User finds 'Malaria' from Health Topics A‑Z.",
+        "input": {
+          "search_input": "Malaria",
+          "action": "'Click Health Topics', 'Click Health topics A‑Z', 'Click letter M', 'Select Malaria link'"
+        },
+        "expected": {
+          "outcome": "Malaria fact sheet page appears.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Open About WHO",
+        "category": "Navigation",
+        "instruction": "go to https://www.who.int/home and perform the following test case",
+        "description": "User accesses the About WHO section.",
+        "input": {
+          "search_input": "",
+          "action": "'Click About WHO in main navigation', 'Click `Who we are` in the menu'"
+        },
+        "expected": {
+          "outcome": "About WHO page is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Switch site language",
+        "category": "Accessibility & Language",
+        "instruction": "go to https://www.who.int/home and perform the following test case",
+        "description": "User changes site language and confirms change.",
+        "input": {
+          "search_input": "",
+          "action": "'Click the language selector (e.g. English)', 'Choose `Français`'"
+        },
+        "expected": {
+          "outcome": "Website language switches to French.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Open Countries page",
+        "category": "Navigation",
+        "instruction": "go to https://www.who.int/home and perform the following test case",
+        "description": "User navigates to the 'Countries' listing.",
+        "input": {
+          "search_input": "",
+          "action": "'Click Countries in nav menu', 'Click `All Countries`"
+        },
+        "expected": {
+          "outcome": "Countries page with filter is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Locate Japan profile",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.who.int/home and perform the following test case",
+        "description": "User filters countries and opens Japan.",
+        "input": {
+          "search_input": "Japan",
+          "action": "'Click Countries', 'Click All Countries', 'Type Japan in country filter', 'Click Japan result'"
+        },
+        "expected": {
+          "outcome": "Japan country profile is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Visit Publications",
+        "category": "Navigation",
+        "instruction": "go to https://www.who.int/home and perform the following test case",
+        "description": "User opens the Publications listing.",
+        "input": {
+          "search_input": "",
+          "action": "'Click Health Topics', 'Click on Publications'"
+        },
+        "expected": {
+          "outcome": "Publications page displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Search publication PDF",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.who.int/home and perform the following test case",
+        "description": "User downloads a PDF from Publications.",
+        "input": {
+          "search_input": "",
+          "action": "'Click Health Topics', 'Click Publications', 'Click `All`', 'Search for 'World Malaria Report 2024'', 'Click 'World Malaria Report 2024''"
+        },
+        "expected": {
+          "outcome": "The description page of 'World Malaria Report 2024' is shown successfully.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Explore Data & stats",
+        "category": "Navigation",
+        "instruction": "go to https://www.who.int/home and perform the following test case",
+        "description": "User visits data dashboard.",
+        "input": {
+          "search_input": "",
+          "action": "'Click Data', 'Click `Data Hub`'"
+        },
+        "expected": {
+          "outcome": "Data & statistics page is visible.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Access Newsletter",
+        "category": "Navigation",
+        "instruction": "go to https://www.who.int/home and perform the following test case",
+        "description": "User views the Newsletter.",
+        "input": {
+          "search_input": "",
+          "action": "'Scroll to footer', 'Click Newsletter'"
+        },
+        "expected": {
+          "outcome": "Newsletter page appears.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "View Disease Outbreak News",
+        "category": "Navigation",
+        "instruction": "go to https://www.who.int/home and perform the following test case",
+        "description": "User opens Emergencies menu.",
+        "input": {
+          "search_input": "",
+          "action": "'Click Emergencies in nav', 'Click Disease Outbreak News'"
+        },
+        "expected": {
+          "outcome": "Disease Outbreak News page visible.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate Cholera Emergencies",
+        "category": "Navigation",
+        "instruction": "go to https://www.who.int/home and perform the following test case",
+        "description": "User opens Emergencies menu and goes to Cholera Upsurge page",
+        "input": {
+          "search_input": "",
+          "action": "'Click Emergencies in nav', 'Click Cholera'"
+        },
+        "expected": {
+          "outcome": "Cholera Upsurge page visible.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Load Newsroom",
+        "category": "Navigation",
+        "instruction": "go to https://www.who.int/home and perform the following test case",
+        "description": "User navigates to Newsroom.",
+        "input": {
+          "search_input": "",
+          "action": "'Click Newsroom in nav', 'Click `All news`'"
+        },
+        "expected": {
+          "outcome": "Newsroom overview page is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Filter News by Year",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.who.int/home and perform the following test case",
+        "description": "User filters news by year.",
+        "input": {
+          "search_input": "",
+          "action": "'Click Newsroom in nav', 'Click `News Releases`', 'Under Year filter click `2025`'"
+        },
+        "expected": {
+          "outcome": "News releases from 2025 are listed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Locate FAQ page",
+        "category": "Information Retrieval",
+        "instruction": "go to https://www.who.int/home and perform the following test case",
+        "description": "User opens the frequently asked questions page.",
+        "input": {
+          "search_input": "",
+          "action": "'Scroll to footer', 'Click Frequently asked questions'"
+        },
+        "expected": {
+          "outcome": "FAQ page is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Open Careers page",
+        "category": "Navigation",
+        "instruction": "go to https://www.who.int/home and perform the following test case",
+        "description": "User visits Careers.",
+        "input": {
+          "search_input": "",
+          "action": "'Click Careers in footer'"
+        },
+        "expected": {
+          "outcome": "Careers opportunities page is shown.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Check Ethics",
+        "category": "Policy & External Links",
+        "instruction": "go to https://www.who.int/home and perform the following test case",
+        "description": "User accesses Ethics information.",
+        "input": {
+          "search_input": "",
+          "action": "'Scroll to footer', 'Click Ethics'"
+        },
+        "expected": {
+          "outcome": "Ethics Page is visible.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Find 2024 World Health Statistics Report",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.who.int/home and perform the following test case",
+        "description": "User searches for the latest World Health Statistics report, filters results by year, and downloads the PDF.",
+        "input": {
+          "search_input": "World Health Statistics 2024",
+          "action": [
+            "Click the search icon",
+            "Type `World Health Statistics 2024` into the search input field",
+            "Click the search button",
+            "In search results, click the result titled 'World Health Statistics 2024'",
+            "On the report page, click the 'Download' button"
+          ]
+        },
+        "expected": {
+          "outcome": "The user successfully locates and begins downloading the 2024 World Health Statistics report PDF.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Locate COVID-19 Press Release Using Filters",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.who.int/home and perform the following test case",
+        "description": "User navigates to Newsroom, applies Year and Topic filters to find a specific COVID‑19 press release, and verifies page.",
+        "input": {
+          "search_input": "WHO COVID-19 press release 2021",
+          "action": [
+            "Click on `Newsroom` in the main menu",
+            "Click on `News releases`",
+            "In the Year filter, select `2021`",
+            "In the Topic filter, input`Coronavirus disease (COVID-19)`",
+            "In the Topic filter, select`Coronavirus disease (COVID-19)`",
+            "Wait for the results to update",
+            "Locate and click the release titled `WHO recommends against the use of convalescent plasma to treat COVID-19`"
+          ]
+        },
+        "expected": {
+          "outcome": "The specified COVID‑19 press release from 2021 is displayed with correct heading and date.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Retrieve Mpox Outbreak Update from 2024",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.who.int/home and perform the following test case",
+        "description": "User filters Disease Outbreak News by year and keyword to find Mpox update and verifies the page.",
+        "input": {
+          "search_input": "Mpox outbreak 2024",
+          "action": [
+            "Click on `Emergencies` in the main menu",
+            "Click on `Disease Outbreak News`",
+            "In the From Year filter, input `2024`",
+            "In the keyword filter, type `Mpox - South Africa`",
+            "Wait for results to update",
+            "Click on the report titled `Mpox - South Africa`"
+          ]
+        },
+        "expected": {
+          "outcome": "The Mpox outbreak report in South Africa from 2024 is located and loaded correctly.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "View Selected News from Bangladesh Country Profile",
+        "category": "Information Retrieval",
+        "instruction": "go to https://www.who.int/home and perform the following test case",
+        "description": "User navigates to the Bangladesh country profile, and views a Bangladesh Specific Trending News",
+        "input": {
+          "search_input": "Bangladesh country profile PDF",
+          "action": [
+            "Click on `Countries` in the main navigation",
+            "Click on `All countries`",
+            "Type `Bangladesh` in the country filter",
+            "Click on `Bangladesh` link",
+            "On the Bangladesh page, click the `Bangladesh achieves historic milestone by eliminating kala-azar as a public health problem` link in News"
+          ]
+        },
+        "expected": {
+          "outcome": "Bangladesh achieves historic milestone by eliminating kala-azar as a public health problem news page is successfully displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Search and view a Data Set",
+        "category": "Information Retrieval",
+        "instruction": "go to https://www.who.int/home and perform the following test case",
+        "description": "User locates the Global Health Observatory dataset, exports CSV, and verifies the file.",
+        "input": {
+          "search_input": "Global Health Observatory life expectancy dataset",
+          "action": [
+            "Click on `Data ` in navigation",
+            "Click on `Global Health Estimates`",
+            "Click on `Global Health Observatory`",
+            "Click Indicators",
+            "Use the search or filter to locate `Life expectancy` dataset",
+            "Select the dataset Life expectancy at birth (years) under World Health Statistics"
+          ]
+        },
+        "expected": {
+          "outcome": "User successfully views the selected GHO dataset.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Explore Maternal Mortality Ratio Indicator and Export Data",
+        "category": "Information Retrieval",
+        "instruction": "go to https://www.who.int/home and perform the following test case",
+        "description": "User locates the maternal mortality ratio indicator in the data portal, filters by country/year, downloads data.",
+        "input": {
+          "search_input": "Maternal mortality ratio WHO data",
+          "action": [
+            "Click on `Data and statistics`",
+            "Click on `Data at WHO`",
+            "Click on `Global Health Observatory`",
+            "Click Indicators",
+            "Type `maternal mortality ratio` in the indicator search box",
+            "Select the Maternal mortality ratio (per 100 000 live births)s under World Health Statistics",
+            "Click Data",
+            "Click Filters",
+            "In filters, select `Country: Bangladesh` and `Year: 2021`",
+            "Click `Apply` and wait for table or chart to render"
+          ]
+        },
+        "expected": {
+          "outcome": "Filtered maternal mortality ratio data is successfully found.",
+          "status": "Successful"
+        }
+      }
+    }
+  ]
+}

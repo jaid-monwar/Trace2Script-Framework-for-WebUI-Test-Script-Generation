@@ -1,0 +1,461 @@
+{
+    "testcases": [
+      {
+        "prompt": {
+          "name": "Search for a Specific Movie",
+          "category": "Search & Filter",
+          "instruction": "go to https://archive.org/details/moviesandfilms and perform the following test case",
+          "description": "User searches for a specific movie and verifies the result.",
+          "input": {
+            "search_input": "Kagemusha",
+            "action": "'Click on the search bar in the main page', 'Type `Kagemusha` into the search bar','Press Enter', 'Verify that the movie `Kagemusha` is in the search results'"
+          },
+          "expected": {
+            "outcome": "The search results page displays 'Kagemusha'.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Filter by Year",
+          "category": "Search & Filter",
+          "instruction": "go to https://archive.org/details/moviesandfilms and perform the following test case",
+          "description": "User filters the movies by a specific year.",
+          "input": {
+            "action": "'Click `Filters` on the left sidebar to open the Filters dropdown menu', 'Scroll down to the `Year` section on the left sidebar', 'Click on the `2022` link on the left sidebar', 'Verify that the results are filtered to show only movies from 2022'"
+          },
+          "expected": {
+            "outcome": "The movie list is updated to show only movies from the year 2022.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Sort by Title",
+          "category": "Search & Filter",
+          "instruction": "go to https://archive.org/details/moviesandfilms and perform the following test case",
+          "description": "User sorts the movies by title.",
+          "input": {
+            "action": "'Click on the `Title` button next to `Sort by:`', 'Verify that the movies are sorted alphabetically by title'"
+          },
+          "expected": {
+            "outcome": "The movies are rearranged and sorted alphabetically by their titles.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Change View to List Mode",
+          "category": "Search & Filter",
+          "instruction": "go to https://archive.org/details/moviesandfilms and perform the following test case",
+          "description": "User changes the display of search results to list view.",
+          "input": {
+            "action": "'Click on the list view icon (seven horizontal lines) at the top right of the results', 'Verify that the view changes to a list format'"
+          },
+          "expected": {
+            "outcome": "The movie results are displayed in a list format instead of a grid.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Accessing the Movie Trailers Collection",
+          "category": "Navigation",
+          "instruction": "go to https://archive.org/details/moviesandfilms and perform the following test case",
+          "description": "User navigates to the Television Archive collection page.",
+          "input": {
+            "action": "'Click `Filters` on the left sidebar to open the Filters dropdown menu', 'Scroll down to the `Collection` section on the left sidebar ', 'Click on the `Movie Trailers` link on the left sidebar', 'Verify that the page title is now `Movie Trailers`'"
+          },
+          "expected": {
+            "outcome": "The user is on the `Movie Trailers` collection page.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Play a Movie",
+          "category": "Media & Playback",
+          "instruction": "go to https://archive.org/details/moviesandfilms and perform the following test case",
+          "description": "User plays a movie from the collection.",
+          "input": {
+            "search_input": "Night Of The Living Dead",
+            "action": "'Click on the search bar in the main page', 'Type `Night Of The Living Dead` into the search bar','Press Enter', 'Click on the `Night Of The Living Dead` link to go to its page', 'Wait for the page to load', 'Click the play button on the video player'"
+          },
+          "expected": {
+            "outcome": "The movie 'Night Of The Living Dead' starts playing.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Pause a Movie",
+          "category": "Media & Playback",
+          "instruction": "go to https://archive.org/details/moviesandfilms and perform the following test case",
+          "description": "User pauses a movie that is playing.",
+          "input": {
+            "search_input": "House on Haunted Hill",
+            "action": "'Click on the search bar in the main page', 'Type `House on Haunted Hill` into the search bar', 'Press Enter', 'Click on the 'House on Haunted Hill` link to go to its page', 'Wait for the page to load', 'Click the play button on the video player', 'Click the pause button in the video player controls'"
+          },
+          "expected": {
+            "outcome": "The movie 'The House on Haunted Hill' is paused.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Mute the Video Player",
+          "category": "Media & Playback",
+          "instruction": "go to https://archive.org/details/moviesandfilms and perform the following test case",
+          "description": "User mutes the audio of a playing movie.",
+          "input": {
+            "search_input": "The Little Shop of Horrors",
+            "action": "'Click on the search bar in the main page', 'Type `The Little Shop of Horrors` into the search bar', 'Press Enter', 'Click on the `The Little Shop of Horrors` link to go to its page', 'Wait for the page to load', 'Click the play button on the video player', 'Click the volume icon in the video player controls to mute the audio'"
+          },
+          "expected": {
+            "outcome": "The movie 'The Little Shop of Horrors' is playing without sound.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Enter Fullscreen Mode",
+          "category": "Media & Playback",
+          "instruction": "go to https://archive.org/details/moviesandfilms and perform the following test case",
+          "description": "User enters fullscreen mode for the video player.",
+          "input": {
+            "search_input": "Charade",
+            "action": "'Click on the search bar in the main page', 'Type `Charade` into the search bar', 'Press Enter', 'Click on the `Charade` link to go to its page', 'Wait for the page to load', 'Click the play button on the video player', 'Click on the fullscreen icon in the video player controls'"
+          },
+          "expected": {
+            "outcome": "The movie 'Charade' is now playing in fullscreen mode.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Filter by Language",
+          "category": "Search & Filter",
+          "instruction": "go to https://archive.org/details/moviesandfilms and perform the following test case",
+          "description": "User filters movies by a specific language.",
+          "input": {
+            "action": "'Click `Filters` on the left sidebar to open the Filters dropdown menu', 'Scroll down to the `Language` section on the left sidebar', 'Click on the `French` link on the left sidebar', 'Verify that the results now contain French-language films.'"
+          },
+          "expected": {
+            "outcome": "The movie list is updated to show films available in French.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Check for available subtitles",
+          "category": "Media & Playback",
+          "instruction": "go to https://archive.org/details/moviesandfilms and perform the following test case",
+          "description": "User checks for available subtitles on a movie.",
+          "input": {
+            "search_input": "Sita Sings the Blues",
+            "action": "'Click on the search bar in the main page', 'Type `Sita Sings the Blues` into the search bar', 'Press Enter', 'Click on the `Sita Sings the Blues` link to go to its page', 'Wait for the page to load', 'Click the play button on the video player', 'Click on the `CC` button in the video player controls to see available subtitles.'"
+          },
+          "expected": {
+            "outcome": "A menu of available subtitles is displayed.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Use the Advanced Search",
+          "category": "Search & Filter",
+          "instruction": "go to https://archive.org/details/moviesandfilms and perform the following test case",
+          "description": "User performs a search using the advanced search feature.",
+          "input": {
+            "action": "'Click on the `Advanced Search` link under the search bar', 'In the field beside `Title`, enter `The General 1926`', 'Click on the `Search` button', 'Verify `The General 1926` is in the results'"
+          },
+          "expected": {
+            "outcome": "The search results page displays 'The General' (1926 film).",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate to the TV News section",
+          "category": "Navigation",
+          "instruction": "go to https://archive.org/details/moviesandfilms and perform the following test case",
+          "description": "User navigates to the TV News section from the movies page.",
+          "input": {
+            "action": "'Click on the `Video` link in the main navigation breadcrumb at the top', 'Click on the `TV News` link', 'Verify that the page title is now `TV News Search & Borrow`'"
+          },
+          "expected": {
+            "outcome": "The user is on the TV News page.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "View a movie's details",
+          "category": "Information Retrieval",
+          "instruction": "go to https://archive.org/details/moviesandfilms and perform the following test case",
+          "description": "User views the detailed information about a movie.",
+          "input": {
+            "search_input": "The Gold Rush",
+            "action": "'Click on the search bar in the main page', 'Type `The Gold Rush` into the search bar', 'Press Enter', 'Click on the `The Gold Rush` link to go to its page', 'Scroll down to the description section and verify it is visible.'"
+          },
+          "expected": {
+            "outcome": "The details/description for 'The Gold Rush' are visible.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Complex Search and Filter Workflow",
+          "category": "Search & Filter",
+          "instruction": "go to https://archive.org/details/moviesandfilms and perform the following test case",
+          "description": "User performs a search, applies multiple filters, sorts the results, and then views a movie.",
+          "input": {
+            "search_input": "silent film",
+            "action": [
+              "Click on the search bar in the main page",
+              "Type `silent film` into the search bar",
+              "Press Enter",
+              "Click `Filters` on the left sidebar to open the Filters dropdown menu",
+              "On the left sidebar, under `Year`, click on `1909`",
+              "Wait for the page to load",
+              "On the left sidebar, under `Subject`, click `D.W. Griffith`",
+              "Click on the `Title` button next to `Sort by:`",
+              "Click on the title of the first movie in the results",
+              "Verify the movie page loads and the title is correct",
+              "Click the play button on the video player to start the movie"
+            ]
+          },
+          "expected": {
+            "outcome": "A silent film from 1909, directed by D.W. Griffith, sorted by alphabetical order, is successfully played.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Explore and Watch a Feature in a Specific Collection",
+          "category": "Navigation",
+          "instruction": "go to https://archive.org/details/moviesandfilms and perform the following test case",
+          "description": "User navigates to a specific collection, opens a sub-collection, sorts, and then watches a film.",
+          "input": {
+            "action": [
+              "Click `Filters` on the left sidebar to open the Filters dropdown menu",
+              "Click on `collection` under `Media Type` on the left sidebar",
+              "Click on the `Feature Films` collection",
+              "Click on the `Film Noir` sub-collection",
+              "Click on the `Weekly views` button to open a dropdown menu",
+              "Click on `All-time views` from the dropdown menu",
+              "Wait for the page to load",
+              "Click on the title of the first movie in the results",
+              "Wait for the page to load",
+              "Click the play button on the video player",
+              "Click on the fullscreen icon the in the video player controls"
+            ]
+          },
+          "expected": {
+            "outcome": "The most viewed Film Noir movie is playing in fullscreen.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Find and View a Specific Director's Work",
+          "category": "Search & Filter",
+          "instruction": "go to https://archive.org/details/moviesandfilms and perform the following test case",
+          "description": "User searches for a director, filters results, and examines the movie's metadata.",
+          "input": {
+            "search_input": "Alfred Hitchcock",
+            "action": [
+              "Click on the search bar in the main page",
+              "Type `Alfred Hitchcock` into the search bar",
+              "Press Enter",
+              "Click `Filters` on the left sidebar to open the Filters dropdown menu",
+              "Click on `1934` under `Year` on the left sidebar",
+              "Click on the movie `The Man Who Knew Too Much (1934)`",
+              "Scroll down to the movie information and verify it is by `Alfred Hitchcock`",
+              "Scroll up to the top of the page",
+              "Click the play button on the video player",
+              "Pause the movie after 10 seconds by clicking on the pause button in the video player controls",
+              "Mute the audio by clicking on the volume icon in the video player controls"
+            ]
+          },
+          "expected": {
+            "outcome": "The movie 'The Man Who Knew Too Much', directed by Alfred Hitchcock, is paused and muted.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Explore Colorized Movies and Share",
+          "category": "Media & Playback",
+          "instruction": "go to https://archive.org/details/moviesandfilms and perform the following test case",
+          "description": "User explores the Colorized Movies collection and finds the share options.",
+          "input": {
+            "action": [
+              "Click on `Colorized Movies` in the main page",
+              "Click `Filters` on the left sidebar to open the Filters dropdown menu",
+              "Scroll down to the `Subject` section on the left sidebar and click `science fiction`",
+              "Click on the `Date Published` button on the main page", 
+              "Wait for the page to load",           
+              "Click on the first film in the results",
+              "Click the play button on the video player",
+              "Click on the `Share` button",
+              "Verify that sharing options (e.g., for Facebook, Twitter) are visible."
+            ]
+          },
+          "expected": {
+            "outcome": "An old, colorized, science fiction film is playing, and the share options are visible.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Investigate Movie Download Options",
+          "category": "Information Retrieval",
+          "instruction": "go to https://archive.org/details/moviesandfilms and perform the following test case",
+          "description": "User finds a movie and investigates the different download formats available.",
+          "input": {
+            "search_input": "Reefer Madness",
+            "action": [
+              "Click on the search bar in the main page",
+              "Type `Reefer Madness` into the search bar",
+              "Press Enter",
+              "Click on the `Reefer Madness` link to go to its page",
+              "Scroll down to the `DOWNLOAD OPTIONS` section",
+              "Verify that multiple download formats are listed (e.g., `512KB MPEG4`, `H.264`, `OGG VIDEO`)",
+              "Hover over the `H.264` link",
+              "Verify a tooltip with file size is displayed",
+              "Click on `OGG VIDEO`, and verify that the download is initiated (no need to complete it)."
+            ]
+          },
+          "expected": {
+            "outcome": "The user is able to see and interact with the various download options for 'Reefer Madness'.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate Through 'About' and 'Contact' Pages",
+          "category": "Navigation",
+          "instruction": "go to https://archive.org/details/moviesandfilms and perform the following test case",
+          "description": "User navigates from the movies section to the main 'About' and 'Contact' pages of the Internet Archive.",
+          "input": {
+            "action": [
+              "Click on the `About` link in the main navigation header",
+              "Verify the page title is `About the Internet Archive`",
+              "Use the browser's back button to return to the Movies page.",
+              "Click on the `Contact` link in the main navigation header",
+              "Verify the page title is `Contacts at the Internet Archive`",
+              "Use the browser's back button to return to the Movies page."
+            ]
+          },
+          "expected": {
+            "outcome": "The user successfully navigates to and from the 'About' and 'Contact' pages and returns to the Movies section.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Playback Speed and Subtitles Test",
+          "category": "Media & Playback",
+          "instruction": "go to https://archive.org/details/moviesandfilms and perform the following test case",
+          "description": "User plays a movie, changes the playback speed, and enables subtitles.",
+          "input": {
+            "search_input": "Killers From Space",
+            "action": [
+              "Click on the search bar in the main page",
+              "Type `Killers From Space` into the search bar",
+              "Press Enter",
+              "Click on the `Killers From Space` link from the search results",
+              "Wait for the page to load",
+              "Click the play button on the video player",
+              "Click on the settings gear icon in the video player controls to open the settings menu",
+              "Click on the playback rates icon on the top of the settings menu to open the playback rates section",
+              "Click on `1.25x` in the playback rates section of the settings menu",
+              "Click on the CC icon to open the subtitles menu",
+              "Click on `asr` to enable subtitles",
+              "Verify the movie is playing faster and with subtitles",
+              "Click on the settings gear icon in the video player controls to open the settings menu",
+              "Click on the playback rates icon on the top of the settings menu to open the playback rates section",
+              "Click on `1x` in the playback rates section of the settings menu"
+            ]
+          },
+          "expected": {
+            "outcome": "The user is able to control the playback speed and subtitles for 'Killers From Space'.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Filter by Multiple Criteria and View as List",
+          "category": "Search & Filter",
+          "instruction": "go to https://archive.org/details/moviesandfilms and perform the following test case",
+          "description": "A user filters movies by a genre and a decade, then changes the view to a list and sorts it.",
+          "input": {
+            "action": [
+              "Click on the 'Sci-Fi / Horror' link in the main page",
+              "Click `Filters` on the left sidebar to open the Filters dropdown menu",
+              "Scroll down to the `Year` section",
+              "Click on `1960`",
+              "Click on the `Title` button next to `Sort by:`",
+              "Click on the first movie in the sorted list",
+              "Verify the movie's page has loaded",
+              "Click the play button on the video player"
+            ]
+          },
+          "expected": {
+            "outcome": "A Sci-Fi/Horror movie from the 1950s, sorted by title, is playing.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Search for a Silent Film and Check its Metadata",
+          "category": "Information Retrieval",
+          "instruction": "go to https://archive.org/details/moviesandfilms and perform the following test case",
+          "description": "A user searches for a specific silent film, checks its publication date, and then starts watching it.",
+          "input": {
+            "search_input": "Le Voyage Dans la Lun",
+            "action": [
+              "Click on the search bar in the main page",
+              "Type `Le Voyage Dans la Lun` into the search bar",
+              "Press Enter",
+              "Click on `Le Voyage Dans la Lun` from the search results",
+              "Scroll down to the details to find the `Publication date`",
+              "Verify that the publication date is `1902`",
+              "Scroll to the top of the page",
+              "Click the play button on the video player",
+              "Click the pause button in the video player controls after a few seconds",
+              "Click the fullscreen button in the video player controls"
+            ]
+          },
+          "expected": {
+            "outcome": "The 1902 film 'Le Voyage Dans la Lun' is paused in fullscreen mode.",
+            "status": "Successful"
+          }
+        }
+      }
+    ]
+  }
+  

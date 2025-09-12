@@ -1,0 +1,395 @@
+{
+  "testcases": [
+    {
+      "prompt": {
+        "name": "Navigate to the 'About' Page",
+        "category": "Navigation",
+        "instruction": "go to https://ai.googleblog.com/ and perform the following test case",
+        "description": "User navigates to the 'About' page from the footer.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Scroll down to the bottom of the page', 'Click on the `About Google` link in the footer'"
+        },
+        "expected": {
+          "outcome": "The user is taken to the 'About Google' page.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Perform a Simple Search",
+        "category": "Search & Filter",
+        "instruction": "go to https://ai.googleblog.com/ and perform the following test case",
+        "description": "User performs a search for 'quantum computing'.",
+        "input": {
+          "search_input": "quantum computing",
+          "action": "'Click on the search icon in the header', 'Enter `quantum computing` into the search bar', 'Press Enter'"
+        },
+        "expected": {
+          "outcome": "Search results for 'quantum computing' are displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Filter Posts by Year",
+        "category": "Search & Filter",
+        "instruction": "go to https://ai.googleblog.com/ and perform the following test case",
+        "description": "User filters the blog posts to show only those from the year 2023.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Click on the `Years` button to open the years filter menu', 'Click on the `2023` link from the years filter menu'"
+        },
+        "expected": {
+          "outcome": "A list of blog posts from the year 2023 is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Filter Posts by Label",
+        "category": "Search & Filter",
+        "instruction": "go to https://ai.googleblog.com/ and perform the following test case",
+        "description": "User filters the blog posts by the 'Generative AI' label.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Click on the `Labels` button to open the labels filter menu', 'Click on the `Generative AI` link from the labels filter menu'"
+        },
+        "expected": {
+          "outcome": "A list of blog posts with the 'Generative AI' label is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to Next Page of Posts",
+        "category": "Navigation",
+        "instruction": "go to https://ai.googleblog.com/ and perform the following test case",
+        "description": "User navigates to the second page of blog posts.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Scroll down to the page navigation', 'Click on the `2` button in the page navigation'"
+        },
+        "expected": {
+          "outcome": "The user is taken to the second page of blog posts.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to Privacy Policy",
+        "category": "Policy & External Links",
+        "instruction": "go to https://ai.googleblog.com/ and perform the following test case",
+        "description": "User navigates to the Privacy Policy page from the footer.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Scroll down to the bottom of the page', 'Click on the `Privacy` link in the footer'"
+        },
+        "expected": {
+          "outcome": "The user is taken to Google's Privacy Policy page.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to Terms of Service",
+        "category": "Policy & External Links",
+        "instruction": "go to https://ai.googleblog.com/ and perform the following test case",
+        "description": "User navigates to the Terms of Service page from the footer.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Scroll down to the bottom of the page', 'Click on the `Terms` link in the footer'"
+        },
+        "expected": {
+          "outcome": "The user is taken to Google's Terms of Service page.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Click on Main Logo",
+        "category": "Navigation",
+        "instruction": "go to https://ai.googleblog.com/ and perform the following test case",
+        "description": "User clicks on the main logo to return to the homepage.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Click on the Google Research logo in the header'"
+        },
+        "expected": {
+          "outcome": "The user is returned to the homepage.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Open a Blog Post",
+        "category": "Navigation",
+        "instruction": "go to https://ai.googleblog.com/ and perform the following test case",
+        "description": "User opens the first blog post from the main page.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Click on the title of the first blog post'"
+        },
+        "expected": {
+          "outcome": "The full content of the first blog post is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Check for 'Follow Us' Section",
+        "category": "Information Retrieval",
+        "instruction": "go to https://ai.googleblog.com/ and perform the following test case",
+        "description": "User verifies the presence of the 'Follow us' section.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Scroll to the `Follow us` section'"
+        },
+        "expected": {
+          "outcome": "The 'Follow us' section with social media links is visible.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Verify 'OK, got it' button on cookie banner",
+        "category": "Policy & External Links",
+        "instruction": "go to https://ai.googleblog.com/ and perform the following test case",
+        "description": "User clicks the 'OK, got it' button on the cookie consent banner.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Click on the `OK, got it` button in the cookie consent banner'"
+        },
+        "expected": {
+          "outcome": "The cookie consent banner is dismissed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to the 'Research areas' page",
+        "category": "Navigation",
+        "instruction": "go to https://ai.googleblog.com/ and perform the following test case",
+        "description": "User navigates to the 'Research areas' page from the header.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Click on `Research areas` in the header', 'Click on the `Explore all research areas` link from the dropdown menu'"
+        },
+        "expected": {
+          "outcome": "The user is taken to the 'Research areas' page.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to the 'Publications' page",
+        "category": "Navigation",
+        "instruction": "go to https://ai.googleblog.com/ and perform the following test case",
+        "description": "User navigates to the 'Publications' page from the header.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Click on `Our work` in the header', 'Click on the `Learn more` link under `Publications`'"
+        },
+        "expected": {
+          "outcome": "The user is taken to the 'Publications' page.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to the 'People' page",
+        "category": "Navigation",
+        "instruction": "go to https://ai.googleblog.com/ and perform the following test case",
+        "description": "User navigates to the 'People' page from the header.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Click on `Who we are` in the header', 'Click on the `Learn more` link under `People`'"
+        },
+        "expected": {
+          "outcome": "The user is taken to the 'People' page.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to the 'Careers' page",
+        "category": "Navigation",
+        "instruction": "go to https://ai.googleblog.com/ and perform the following test case",
+        "description": "User navigates to the 'Careers' page from the header.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Click on the `Careers` link in the header'"
+        },
+        "expected": {
+          "outcome": "The user is taken to the 'Careers' page.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Search and Open First Result",
+        "category": "Search & Filter",
+        "instruction": "go to https://ai.googleblog.com/ and perform the following test case",
+        "description": "User searches for 'robotics' and opens the first search result.",
+        "input": {
+          "search_input": "robotics",
+          "action": "'Click on the search icon in the header', 'Enter `robotics` into the search bar', 'Press Enter', 'Click on the title of the first search result'"
+        },
+        "expected": {
+          "outcome": "The full content of the first blog post from the search results is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Filter and Open a Post",
+        "category": "Search & Filter",
+        "instruction": "go to https://ai.googleblog.com/ and perform the following test case",
+        "description": "User filters posts by the 'Health & Bioscience' label and opens the first post.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Click on the `Labels` button to open the labels filter menu', 'Click on `Health & Bioscience` link from the labels filter menu', 'Click on the title of the first blog post in the page'"
+        },
+        "expected": {
+          "outcome": "The full content of the first blog post from the filtered list is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate Multiple Pages and Open a Post",
+        "category": "Navigation",
+        "execution_difficulty": "hard",
+        "instruction": "go to https://ai.googleblog.com/ and perform the following test case",
+        "description": "User navigates to the third page of posts and opens the first post on that page.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Scroll down to the page navigation', 'Click on the `3` button in the page navigation', 'Click on the title of the first blog post on the page'"
+        },
+        "expected": {
+          "outcome": "The user is on the third page and the full content of the first blog post on that page is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to a Deeply Nested Page",
+        "category": "Navigation",
+        "execution_difficulty": "hard",
+        "instruction": "go to https://ai.googleblog.com/ and perform the following test case",
+        "description": "User navigates to the 'Quantum Computing' sub-area within 'Research Areas'.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Click on `Research areas` in the header', 'Click on the `Explore all research areas` link', 'Scroll down to the `Computing Systems & Quantum AI` section', 'Click on the `Quantum Computing` link under the `Computing Systems & Quantum AI` section'"
+        },
+        "expected": {
+          "outcome": "The user is taken to the 'Quantum Computing' research area page.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Verify Social Media Link Navigation",
+        "category": "Policy & External Links",
+        "execution_difficulty": "hard",
+        "instruction": "go to https://ai.googleblog.com/ and perform the following test case",
+        "description": "User navigates to the Google Research Twitter/X page from the 'Follow us' section.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Scroll to the 'Follow us' section', 'Click on the github icon'"
+        },
+        "expected": {
+          "outcome": "The user is taken to the Google Research github page in a new tab.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Search, Filter by Content Type, and Open Post",
+        "category": "Search & Filter",
+        "execution_difficulty": "hard",
+        "instruction": "go to https://ai.googleblog.com/ and perform the following test case",
+        "description": "User searches for 'AI', filters by 'Publication', and opens the first post.",
+        "input": {
+          "search_input": "AI",
+          "action": "'Click on the search icon in the header', 'Enter `AI` into the search bar', 'Press Enter', 'Click on the `Content Type` button to open a dropdown menu', 'Click on `Publications` from the dropdown menu', 'Click on the title of the first blog post'"
+        },
+        "expected": {
+          "outcome": "The full content of the first blog post from the filtered search results is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to Student Programs Page",
+        "category": "Navigation",
+        "execution_difficulty": "hard",
+        "instruction": "go to https://ai.googleblog.com/ and perform the following test case",
+        "description": "User navigates to the 'Student programs' page from the main navigation.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Click on `Programs & events` in the header', 'Click on the `Learn more` link under `Student programs`'"
+        },
+        "expected": {
+          "outcome": "The user is taken to the 'Student programs' page.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Filter by Year, then Navigate Pages",
+        "category": "Search & Filter",
+        "execution_difficulty": "hard",
+        "instruction": "go to https://ai.googleblog.com/ and perform the following test case",
+        "description": "User filters posts by the year 2022, then navigates to the second page of results.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Click on the `Years` button to open the years filter menu', 'Click on the `2022` link from the years filter menu', 'Scroll down to the page navigation', 'Click on the `2` button in the page navigation'"
+        },
+        "expected": {
+          "outcome": "The user is on the second page of blog posts from the year 2022.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Open Post and Return to Homepage",
+        "category": "Navigation",
+        "execution_difficulty": "hard",
+        "instruction": "go to https://ai.googleblog.com/ and perform the following test case",
+        "description": "User opens the first blog post and then returns to the homepage by clicking the main logo.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Click on the title of the first blog post', 'Click on the Google Research logo in the header'"
+        },
+        "expected": {
+          "outcome": "The user is returned to the homepage.",
+          "status": "Successful"
+        }
+      }
+    }
+  ]
+}

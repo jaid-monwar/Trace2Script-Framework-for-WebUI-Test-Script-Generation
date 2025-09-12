@@ -1,0 +1,404 @@
+{
+  "testcases": [
+    {
+      "prompt": {
+        "name": "Search for a One-Way Trip",
+        "instruction": "go to https://www.amtrak.com/home.html and perform the following test case",
+        "description": "User searches for a one-way trip between two stations.",
+        "input": {
+          "search_input": "From: New York, NY - Moynihan Train Hall (NYP), To: Washington, DC - Union Station (WAS), select a date",
+          "action": "'Enter `New York, NY - Moynihan Train Hall (NYP)` in the 'From' field', 'Enter `Washington, DC - Union Station (WAS)` in the 'To' field', 'Select a departure date as 18 July 2025', 'Click the `Find Trains` button'"
+        },
+        "expected": {
+          "outcome": "The user is presented with a list of available trains for the selected route and date.",
+          "status": "Successful"
+        },
+        "category": "Search & Filter"
+      }
+    },
+    {
+      "prompt": {
+        "name": "Search for a Round Trip",
+        "instruction": "go to https://www.amtrak.com/home.html and perform the following test case",
+        "description": "User searches for a round trip between two stations.",
+        "input": {
+          "search_input": "From: Chicago, IL - Union Station (CHI), To: Seattle, WA - King Street Station (SEA), select a departure and return date",
+          "action": "'Click the `Round-Trip` radio button', 'Enter `Chicago, IL - Union Station (CHI)` in the 'From' field', 'Enter `Seattle, WA - King Street Station (SEA)` in the 'To' field', 'Select a departure date as 18 July 2025', 'Select a return date as 25 July 2025', 'Click the `Find Trains` button'"
+        },
+        "expected": {
+          "outcome": "The user is presented with a list of available trains for the selected route and dates.",
+          "status": "Successful"
+        },
+        "category": "Search & Filter"
+      }
+    },
+    {
+      "prompt": {
+        "name": "Check Train Status",
+        "instruction": "go to https://www.amtrak.com/home.html and perform the following test case",
+        "description": "User checks the status of a train using the 'Check Status' feature.",
+        "input": {
+          "search_input": "From: Boston, MA - South Station (BOS), To: New York, NY - Moynihan Train Hall (NYP)",
+          "action": "'Click the `TRAIN STATUS` tab', 'Enter `Boston, MA - South Station (BOS)` in the `From` field', 'Enter `New York, NY - Moynihan Train Hall (NYP)` in the `To` field', 'Click on `CHECK STATUS`'"
+        },
+        "expected": {
+          "outcome": "The user is shown the status of trains on the selected route.",
+          "status": "Successful"
+        },
+        "category": "Information Retrieval"
+      }
+    },
+    {
+      "prompt": {
+        "name": "Find Trip",
+        "instruction": "go to https://www.amtrak.com/home.html and perform the following test case",
+        "description": "User attempts to find a trip using a reservation number and email.",
+        "input": {
+          "search_input": "Reservation Number: 123456, Email: test@example.com",
+          "action": "'Click the `MY TRIP` tab', 'Enter `123456` in the `Reservation/Ticket Number` field', 'Select `Email Address`', 'Enter `test@example.com` in the `Email Address` field', 'Click on `FIND TRIP`'"
+        },
+        "expected": {
+          "outcome": "The user is shown an error message indicating the trip cannot be found, as the reservation is fictional.",
+          "status": "Successful"
+        },
+        "category": "Information Retrieval"
+      }
+    },
+    {
+      "prompt": {
+        "name": "Change Language to Spanish",
+        "instruction": "go to https://www.amtrak.com/home.html and perform the following test case",
+        "description": "User changes the website's language to Spanish.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Click on the `English` link in the header', 'Select `Español` from the dropdown menu'"
+        },
+        "expected": {
+          "outcome": "The website content is displayed in Spanish.",
+          "status": "Successful"
+        },
+        "category": "Accessibility & Language"
+      }
+    },
+    {
+      "prompt": {
+        "name": "Access Deals Page",
+        "instruction": "go to https://www.amtrak.com/home.html and perform the following test case",
+        "description": "User navigates to the 'Deals' page from the main navigation.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Click on the `DEALS` link in the main navigation bar', 'Click on `See current promotions`'"
+        },
+        "expected": {
+          "outcome": "The 'Deals' page is displayed, showing all the available deals.",
+          "status": "Successful"
+        },
+        "category": "Navigation"
+      }
+    },
+    {
+      "prompt": {
+        "name": "Access Schedules Page",
+        "instruction": "go to https://www.amtrak.com/home.html and perform the following test case",
+        "description": "User navigates to the 'Schedules' page from the main navigation.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Click on the `SCHEDULES` link in the main navigation bar', 'Enter `Boston, MA - South Station (BOS)` in the `From` field', 'Enter `Newton, KS (NEW)` in the `To` field', 'Select dates as 18 July 2025 and 25 July 2025', 'Click on `FIND SCHEDULE`'"
+        },
+        "expected": {
+          "outcome": "The 'Timetable' page is displayed with available trips.",
+          "status": "Successful"
+        },
+        "category": "Search & Filter"
+      }
+    },
+    {
+      "prompt": {
+        "name": "Access Plan Page",
+        "instruction": "go to https://www.amtrak.com/home.html and perform the following test case",
+        "description": "User navigates to the 'Plan' page from the main navigation.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Click on the `PLAN` link in the main navigation bar', 'Click on `More about trip planning`'"
+        },
+        "expected": {
+          "outcome": "The 'Plan Your Train Travel' page is displayed.",
+          "status": "Successful"
+        },
+        "category": "Navigation"
+      }
+    },
+    {
+      "prompt": {
+        "name": "Use the 'Ask Julie' chatbot",
+        "instruction": "go to https://www.amtrak.com/home.html and perform the following test case",
+        "description": "User opens and interacts with the 'Ask Julie' chatbot.",
+        "input": {
+          "search_input": "What is the baggage allowance?",
+          "action": "'Click on `Need Help?` in the page main navigation', 'Click on the `Ask Julie` button', 'Type `What is the baggage allowance?` into the chat input', 'Click search icon'"
+        },
+        "expected": {
+          "outcome": "The chatbot search icon is clicked.",
+          "status": "Successful"
+        },
+        "category": "Information Retrieval"
+      }
+    },
+    {
+      "prompt": {
+        "name": "Explore Onboard Features (Baggage)",
+        "instruction": "go to https://www.amtrak.com/home.html and perform the following test case",
+        "description": "User navigates to the baggage information page.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Scroll down to the `Onboard Experience` section', 'Click on the `Baggage` tab', 'Click on `Baggage information and services`'"
+        },
+        "expected": {
+          "outcome": "The baggage information page is displayed.",
+          "status": "Successful"
+        },
+        "category": "Information Retrieval"
+      }
+    },
+    {
+      "prompt": {
+        "name": "Explore Onboard Features (Seating)",
+        "instruction": "go to https://www.amtrak.com/home.html and perform the following test case",
+        "description": "User navigates to the seating options page.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Scroll down to the `Onboard Experience` section', 'Click on the `Seating` tab', 'Click on `Seat options and features`'"
+        },
+        "expected": {
+          "outcome": "The seating options page is displayed.",
+          "status": "Successful"
+        },
+        "category": "Information Retrieval"
+      }
+    },
+    {
+      "prompt": {
+        "name": "Explore Onboard Features (Dining)",
+        "instruction": "go to https://www.amtrak.com/home.html and perform the following test case",
+        "description": "User navigates to the dining options page.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Scroll down to the `Onboard Experience` section', 'Click on the `Food & Dining` tab', 'Click on `Dining options and menus`'"
+        },
+        "expected": {
+          "outcome": "The dining options page is displayed.",
+          "status": "Successful"
+        },
+        "category": "Information Retrieval"
+      }
+    },
+    {
+      "prompt": {
+        "name": "View Everyday Discounts",
+        "instruction": "go to https://www.amtrak.com/home.html and perform the following test case",
+        "description": "User navigates to the 'Everyday Discounts' page.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Click on the `DEALS` link in the main navigation', 'Click on `See all discounts` under the `Everyday Discounts` section'"
+        },
+        "expected": {
+          "outcome": "The everyday discounts page is displayed, showing discounts for various groups.",
+          "status": "Successful"
+        },
+        "category": "Information Retrieval"
+      }
+    },
+    {
+      "prompt": {
+        "name": "Manage Cookie Preferences",
+        "instruction": "go to https://www.amtrak.com/home.html and perform the following test case",
+        "description": "User opens the cookie preferences and rejects all non-essential cookies.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Click on the `Customize Settings` button in the cookie banner', 'Click on `Reject All`', 'Click on `Confirm My Choices`'"
+        },
+        "expected": {
+          "outcome": "The cookie preferences are saved and the banner disappears.",
+          "status": "Successful"
+        },
+        "category": "Policy & External Links"
+      }
+    },
+    {
+      "prompt": {
+        "name": "Access the Mobile App page",
+        "instruction": "go to https://www.amtrak.com/home.html and perform the following test case",
+        "description": "User navigates to the page with information about the Amtrak mobile app.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Scroll down to the `Trip Planning Map` section', 'Click on the `Mobile App` tab', 'Click on `GET THE APP`'"
+        },
+        "expected": {
+          "outcome": "The user is taken to a page with information and links to download the Amtrak mobile app.",
+          "status": "Successful"
+        },
+        "category": "Policy & External Links"
+      }
+    },
+    {
+      "prompt": {
+        "name": "Detailed Trip Search with Passenger Types",
+        "instruction": "go to https://www.amtrak.com/home.html and perform the following test case",
+        "description": "User performs a one-way search with two adults, one child, and one senior.",
+        "input": {
+          "search_input": "From: Los Angeles, CA - Union Station (LAX), To: San Francisco, CA - Salesforce Plaza (SFC), with 2 adults, 1 child, 1 senior",
+          "action": "'Enter `Los Angeles, CA - Union Station (LAX)` in the 'From' field', 'Enter `San Francisco, CA - Salesforce Plaza (SFC)` in the 'To' field', 'Select the departure date as 18 July 2025', 'Click on `1 Passenger`', 'Increase `Adults` to `2`', 'Increase `Children (2-12)` to `1`', 'Increase `Seniors (65+)` to `1`', 'Click `Done`','Click the `Find Trains` button'"
+        },
+        "expected": {
+          "outcome": "The user is presented with a list of available trains and prices calculated for the specified passenger types.",
+          "status": "Successful"
+        },
+        "category": "Search & Filter"
+      }
+    },
+    {
+      "prompt": {
+        "name": "Round-trip Search with Future Dates",
+        "instruction": "go to https://www.amtrak.com/home.html and perform the following test case",
+        "description": "User searches for a round trip several months in the future.",
+        "input": {
+          "search_input": "From: Washington, DC - Union Station (WAS), To: Orlando, FL (ORL) for a week-long trip in 3 months",
+          "action": "'Click the `Round-Trip` radio button', 'Enter `Washington, DC - Union Station (WAS)` in the 'From' field', 'Enter `Orlando, FL (ORL)` in the 'To' field', 'Select a departure date three months from now', 'Select a return date one week after the departure date', 'Click the `Find Trains` button'"
+        },
+        "expected": {
+          "outcome": "The user is presented with a list of available trains for the selected future dates.",
+          "status": "Successful"
+        },
+        "category": "Search & Filter"
+      }
+    },
+    {
+      "prompt": {
+        "name": "Multi-Ride & Rail Passes Exploration",
+        "instruction": "go to https://www.amtrak.com/home.html and perform the following test case",
+        "description": "User navigates to the rail passes page and explores the USA Rail Pass.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Click on the `DEALS` link in the main navigation', 'Click on `USA Rail Pass`', 'Review the details of the USA Rail Pass', 'Click on `Purchase` button'"
+        },
+        "expected": {
+          "outcome": "The user is taken to the page to purchase a USA Rail Pass.",
+          "status": "Successful"
+        },
+        "category": "Information Retrieval"
+      }
+    },
+    {
+      "prompt": {
+        "name": "Amtrak Vacations Exploration",
+        "instruction": "go to https://www.amtrak.com/home.html and perform the following test case",
+        "description": "User explores vacation packages available on Amtrak Vacations.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Click on the `DEALS` link in the main navigation', 'Click on `Amtrak Vacations`', 'On the Amtrak Vacations site, click on a featured vacation package', 'Review the details of the package'"
+        },
+        "expected": {
+          "outcome": "The user successfully navigates to the Amtrak Vacations website and views a vacation package.",
+          "status": "Successful"
+        },
+        "category": "Policy & External Links"
+      }
+    },
+    {
+      "prompt": {
+        "name": "Find a Station and Check Details",
+        "instruction": "go to https://www.amtrak.com/home.html and perform the following test case",
+        "description": "User uses the 'Find Station' feature to get details about a specific station.",
+        "input": {
+          "search_input": "New Orleans, LA - Union Passenger Terminal (NOL)",
+          "action": "'Click on the `PLAN` link in the main navigation', 'Click on `Find Station/Route`', 'Enter `New Orleans, LA` in the search input', 'Select `New Orleans, LA - Union Passenger Terminal (NOL)` from the results', 'Review the station details page for address and hours'"
+        },
+        "expected": {
+          "outcome": "The station details page for New Orleans Union Passenger Terminal is displayed, showing address, hours, and other information.",
+          "status": "Successful"
+        },
+        "category": "Search & Filter"
+      }
+    },
+    {
+      "prompt": {
+        "name": "Track a Train by Number",
+        "instruction": "go to https://www.amtrak.com/home.html and perform the following test case",
+        "description": "User attempts to track a train using a specific train number.",
+        "input": {
+          "search_input": "Train Number 66",
+          "action": "'Click the `TRAIN STATUS` tab', 'Change `SEARCH BY` to `Train Number`', 'Enter `66` in the `Train Number` field', 'Choose Station as `Newton, KS (NEW)`', 'Select a date as 18 July 2025', 'Click `CHECK STATUS`'"
+        },
+        "expected": {
+          "outcome": "The user is shown the status of train number 66 for the selected date.",
+          "status": "Successful"
+        },
+        "category": "Information Retrieval"
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to and Explore 'A New Era of Rail'",
+        "instruction": "go to https://www.amtrak.com/home.html and perform the following test case",
+        "description": "User navigates to the 'A New Era of Rail' page and verifies its content.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Scroll to the footer of the page', 'Under the `About Amtrak` section, click on `A New Era of Rail`', 'Verify that the page title is related to new era of rail', 'Browse the content of the page'"
+        },
+        "expected": {
+          "outcome": "The 'A New Era of Rail' page is displayed, showing information about Amtrak's development projects.",
+          "status": "Successful"
+        },
+        "category": "Navigation"
+      }
+    },
+    {
+      "prompt": {
+        "name": "Find Information about Accessible Travel Services",
+        "instruction": "go to https://www.amtrak.com/home.html and perform the following test case",
+        "description": "User navigates to the accessible travel services page to find information.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Click on the `PLAN` link in the main navigation', 'Click on `Accessible Travel Services`', 'On the accessibility page, find and click on a link for more details about making a reservation'"
+        },
+        "expected": {
+          "outcome": "The user is on a page detailing how to make an accessible travel reservation.",
+          "status": "Successful"
+        },
+        "category": "Accessibility & Language"
+      }
+    },
+    {
+      "prompt": {
+        "name": "Explore Trip Insurance and Reserved Parking",
+        "instruction": "go to https://www.amtrak.com/home.html and perform the following test case",
+        "description": "User navigates to the page about trip insurance and reserved parking.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Scroll to the footer', 'Under the `Traveling with Us` section, click on `Trip Insurance, Reserved Parking`', 'Verify that information about both trip insurance and parking is present'"
+        },
+        "expected": {
+          "outcome": "The user is on a page with information regarding trip insurance and reserved parking options.",
+          "status": "Successful"
+        },
+        "category": "Policy & External Links"
+      }
+    },
+    {
+      "prompt": {
+        "name": "Check Career Opportunities",
+        "instruction": "go to https://www.amtrak.com/home.html and perform the following test case",
+        "description": "User navigates to the careers page and searches for job openings.",
+        "input": {
+          "search_input": "Engineer",
+          "action": "'Scroll to the footer of the page', 'Under the `About Amtrak` section, click on `Careers`', 'On the careers page, enter `Engineer` in the search bar', 'Click the search button'"
+        },
+        "expected": {
+          "outcome": "A list of job openings related to the 'Engineer' keyword is displayed.",
+          "status": "Successful"
+        },
+        "category": "Policy & External Links"
+      }
+    }
+  ]
+}

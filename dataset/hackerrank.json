@@ -1,0 +1,405 @@
+{
+    "testcases": [
+      {
+        "prompt": {
+          "name": "Navigate to Tech Roles section",
+          "category": "Navigation",
+          "instruction": "go to https://www.hackerrank.com/blog/ and perform the following test case",
+          "description": "User navigates to the 'Tech Roles' section from the main blog page.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Click on the `Tech Roles` link in the navigation bar'"
+          },
+          "expected": {
+            "outcome": "The user is taken to the 'Tech Roles' section of the blog.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate to Tech Skills section",
+          "category": "Navigation",
+          "instruction": "go to https://www.hackerrank.com/blog/ and perform the following test case",
+          "description": "User navigates to the 'Tech Skills' section from the main blog page.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Click on the `Tech Skills` link in the navigation bar'"
+          },
+          "expected": {
+            "outcome": "The user is taken to the 'Tech Skills' section of the blog.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate to Hiring Tech Talent section",
+          "category": "Navigation",
+          "instruction": "go to https://www.hackerrank.com/blog/ and perform the following test case",
+          "description": "User navigates to the 'Hiring Tech Talent' section from the main blog page.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Click on the `Hiring Tech Talent` link in the navigation bar'"
+          },
+          "expected": {
+            "outcome": "The user is taken to the 'Hiring Tech Talent' section of the blog.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate to Career Growth section",
+          "category": "Navigation",
+          "instruction": "go to https://www.hackerrank.com/blog/ and perform the following test case",
+          "description": "User navigates to the 'Career Growth' section from the main blog page.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Click on the `Career Growth` link in the navigation bar'"
+          },
+          "expected": {
+            "outcome": "The user is taken to the 'Career Growth' section of the blog.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate to Updates section",
+          "category": "Navigation",
+          "instruction": "go to https://www.hackerrank.com/blog/ and perform the following test case",
+          "description": "User navigates to the 'Updates' section from the main blog page.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Click on the `Updates` link in the navigation bar'"
+          },
+          "expected": {
+            "outcome": "The user is taken to the 'Updates' section of the blog.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate to Pricing Page",
+          "category": "Navigation",
+          "instruction": "go to https://www.hackerrank.com/blog/ and perform the following test case",
+          "description": "User navigates to the 'Pricing' page from the main blog page.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Click on the `Pricing` link in the main navigation header'"
+          },
+          "expected": {
+            "outcome": "The user is taken to the HackerRank pricing page.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate to Log in Page",
+          "category": "Navigation",
+          "instruction": "go to https://www.hackerrank.com/blog/ and perform the following test case",
+          "description": "User navigates to the 'Log in' page from the main blog page.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Click on the `Log in` link in the main navigation header'"
+          },
+          "expected": {
+            "outcome": "The user is taken to the HackerRank login page.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate to Request Demo Page",
+          "category": "Navigation",
+          "instruction": "go to https://www.hackerrank.com/blog/ and perform the following test case",
+          "description": "User navigates to the 'Request Demo' page from the main blog page.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Click on the `Request demo` link in the main navigation header'"
+          },
+          "expected": {
+            "outcome": "The user is taken to the HackerRank request demo page.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate to For Developers Page",
+          "category": "Navigation",
+          "instruction": "go to https://www.hackerrank.com/blog/ and perform the following test case",
+          "description": "User navigates to the 'For developers' page from the main blog page.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Click on the `For developers` link in the main navigation header'"
+          },
+          "expected": {
+            "outcome": "The user is taken to the HackerRank for developers page.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Accept Cookies",
+          "category": "Policy & External Links",
+          "instruction": "go to https://www.hackerrank.com/blog/ and perform the following test case",
+          "description": "User accepts the cookie policy.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Click on the `OK` button in the cookie banner'"
+          },
+          "expected": {
+            "outcome": "The cookie banner disappears.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Decline Cookies",
+          "category": "Policy & External Links",
+          "instruction": "go to https://www.hackerrank.com/blog/ and perform the following test case",
+          "description": "User declines the cookie policy.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Click on the `Decline` button in the cookie banner'"
+          },
+          "expected": {
+            "outcome": "The cookie banner disappears.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate to second page of blogs",
+          "category": "Navigation",
+          "instruction": "go to https://www.hackerrank.com/blog/ and perform the following test case",
+          "description": "User navigates to the second page of blog posts.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Click on the `2` button'"
+          },
+          "expected": {
+            "outcome": "The user is taken to the second page of blog posts.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate to HackerRank Facebook Page",
+          "category": "Policy & External Links",
+          "instruction": "go to https://www.hackerrank.com/blog/ and perform the following test case",
+          "description": "User navigates to the HackerRank Facebook page from the footer.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Scroll down to the bottom of the page', 'Click on the Facebook icon in the footer'"
+          },
+          "expected": {
+            "outcome": "The user is taken to the HackerRank Facebook page.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate to HackerRank LinkedIn Page",
+          "category": "Policy & External Links",
+          "instruction": "go to https://www.hackerrank.com/blog/ and perform the following test case",
+          "description": "User navigates to the HackerRank LinkedIn page from the footer.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Scroll down to the bottom of the page', 'Click on the LinkedIn icon in the footer'"
+          },
+          "expected": {
+            "outcome": "The user is taken to the HackerRank LinkedIn page.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate to HackerRank Twitter Page",
+          "category": "Policy & External Links",
+          "instruction": "go to https://www.hackerrank.com/blog/ and perform the following test case",
+          "description": "User navigates to the HackerRank Twitter page from the footer.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Scroll down to the bottom of the page', 'Click on the Twitter icon in the footer'"
+          },
+          "expected": {
+            "outcome": "The user is taken to the HackerRank Twitter page.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Explore a Featured Post",
+          "category": "Navigation",
+          "instruction": "go to https://www.hackerrank.com/blog/ and perform the following test case",
+          "description": "User navigates to and explores a featured blog post.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Click on the first blog post on the page', 'Read the title of the post', 'Scroll to the end of the post'"
+          },
+          "expected": {
+            "outcome": "The user is on the blog post page and has scrolled to the end.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Read AI Skills Report",
+          "category": "Navigation",
+          "instruction": "go to https://www.hackerrank.com/blog/ and perform the following test case",
+          "description": "User navigates to the AI Skills Report from the banner.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Click on the `Read now` button in the AI Skills Report banner', 'Review the AI Skills Report page'"
+          },
+          "expected": {
+            "outcome": "The user is on the AI Skills Report page.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Explore a Tech Role",
+          "category": "Navigation",
+          "instruction": "go to https://www.hackerrank.com/blog/ and perform the following test case",
+          "description": "User navigates to a specific tech role and explores it.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Hover over `Tech Roles` in the navigation bar', 'Click on the `Artificial Intelligence` link', 'Review the content on the Artificial Intelligence page'"
+          },
+          "expected": {
+            "outcome": "The user is on the Artificial Intelligence tech role page.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Explore Products Dropdown",
+          "category": "Navigation",
+          "instruction": "go to https://www.hackerrank.com/blog/ and perform the following test case",
+          "description": "User explores the Products dropdown menu and navigates to the 'Interview' page.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Hover over `Products` in the main navigation header', 'Click on `Interview`'"
+          },
+          "expected": {
+            "outcome": "The user is taken to the HackerRank Interview product page.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Explore Resources Dropdown",
+          "category": "Navigation",
+          "instruction": "go to https://www.hackerrank.com/blog/ and perform the following test case",
+          "description": "User explores the Resources dropdown menu and navigates to the 'Customer Stories' page.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Hover over `Resources` in the main navigation header', 'Click on `Customer Stories`'"
+          },
+          "expected": {
+            "outcome": "The user is taken to the HackerRank Customer Stories page.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Explore Solutions Dropdown",
+          "category": "Navigation",
+          "instruction": "go to https://www.hackerrank.com/blog/ and perform the following test case",
+          "description": "User explores the Solutions dropdown menu and navigates to the 'Remote Hiring' page.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Hover over `Solutions` in the main navigation header', 'Click on `Remote Hiring`'"
+          },
+          "expected": {
+            "outcome": "The user is taken to the HackerRank Remote Hiring solutions page.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate to a specific category of posts",
+          "category": "Navigation",
+          "instruction": "go to https://www.hackerrank.com/blog/ and perform the following test case",
+          "description": "User navigates to a blog post and then to the category page it is under to see all posts under that category.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Click on the first blog post on the page', 'Click on the category link above the post title', 'Review the category page'"
+          },
+          "expected": {
+            "outcome": "The user is on the category page, viewing all posts under that category.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate to a blog post on the second page",
+          "category": "Navigation",
+          "instruction": "go to https://www.hackerrank.com/blog/ and perform the following test case",
+          "description": "User navigates to the second page of the blog and opens a blog post.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Click on the `2` button', 'Click on the first blog post after the Featured section on the page'"
+          },
+          "expected": {
+            "outcome": "The user is on a blog post from the second page.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Explore Customer Stories",
+          "category": "Navigation",
+          "instruction": "go to https://www.hackerrank.com/blog/ and perform the following test case",
+          "description": "User navigates to the Customer Stories page and explores a story.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Hover over `Resources` in the main navigation header', 'Click on `Customer Stories`', 'Click on the first customer story'"
+          },
+          "expected": {
+            "outcome": "The user is viewing a specific customer story.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Explore the Roles Directory",
+          "category": "Navigation",
+          "instruction": "go to https://www.hackerrank.com/blog/ and perform the following test case",
+          "description": "User navigates to the Roles Directory and explores it.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Hover over `Resources` in the main navigation header', 'Click on `Roles Directory`', 'Click on the `View all roles` button to go to the `All roles` section', 'Click on a role under the `All roles` section'"
+          },
+          "expected": {
+            "outcome": "The user is viewing a specific role in the Roles Directory.",
+            "status": "Successful"
+          }
+        }
+      }
+    ]
+  }
+  

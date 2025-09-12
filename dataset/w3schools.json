@@ -1,0 +1,405 @@
+{
+    "testcases": [
+      {
+        "prompt": {
+          "name": "Navigate to HTML Tutorial",
+          "category": "Navigation",
+          "instruction": "go to https://www.w3schools.com/ and perform the following test case",
+          "description": "User navigates to the HTML tutorial page from the main page.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Scroll down to the `HTML` section', 'Click on the `Learn HTML` button'"
+          },
+          "expected": {
+            "outcome": "The user is taken to the HTML tutorial page.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate to CSS Tutorial",
+          "category": "Navigation",
+          "instruction": "go to https://www.w3schools.com/ and perform the following test case",
+          "description": "User navigates to the CSS tutorial page from the main page.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Scroll down to the `CSS` section','Click on the `Learn CSS` button'"
+          },
+          "expected": {
+            "outcome": "The user is taken to the CSS tutorial page.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Use the Search Bar",
+          "category": "Search & Filter",
+          "instruction": "go to https://www.w3schools.com/ and perform the following test case",
+          "description": "User searches for 'python' using the search bar.",
+          "input": {
+            "search_input": "python",
+            "action": "'Type `python` into the main navigation search bar', 'Click on the search icon'"
+          },
+          "expected": {
+            "outcome": "The user is shown search results for 'python'.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate to Exercises",
+          "category": "Navigation",
+          "instruction": "go to https://www.w3schools.com/ and perform the following test case",
+          "description": "User navigates to the exercises menu from the main navigation.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Click on the `Exercises` button in the main navigation'"
+          },
+          "expected": {
+            "outcome": "The user is taken to the exercises menu.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate to Certificates",
+          "category": "Navigation",
+          "instruction": "go to https://www.w3schools.com/ and perform the following test case",
+          "description": "User navigates to the certificates menu from the main navigation.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Click on the `Certificates` button in the main navigation'"
+          },
+          "expected": {
+            "outcome": "The user is taken to the certificates menu.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate to Color Picker",
+          "category": "Navigation",
+          "instruction": "go to https://www.w3schools.com/ and perform the following test case",
+          "description": "User navigates to the color picker tool.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Click on the `Services` button in the main navigation', 'Scroll down to the `Color Picker` option', 'Click on the `Color Picker` link'"
+          },
+          "expected": {
+            "outcome": "The user is taken to the color picker page.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate to How To Section",
+          "category": "Navigation",
+          "instruction": "go to https://www.w3schools.com/ and perform the following test case",
+          "description": "User navigates to the 'How To' section.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Scroll down to the `How To Section` section', 'Click on the `Learn How To` button under the `How To Section` section'"
+          },
+          "expected": {
+            "outcome": "The user is taken to the 'How To' section.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "View Web Templates",
+          "category": "Navigation",
+          "instruction": "go to https://www.w3schools.com/ and perform the following test case",
+          "description": "User navigates to the web templates page.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Scroll down to the `Web Templates` section', 'Click on the `Browse Templates` button'"
+          },
+          "expected": {
+            "outcome": "The user is taken to the web templates page.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Test Typing Speed",
+          "category": "Navigation",
+          "instruction": "go to https://www.w3schools.com/ and perform the following test case",
+          "description": "User navigates to the typing speed test.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Click on the `Services` button in the main navigation', 'Scroll down to the `Typing Speed` option', 'Click on the `Typing Speed` link'"
+          },
+          "expected": {
+            "outcome": "The user is taken to the typing speed test page.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate to the About Page",
+          "category": "Navigation",
+          "instruction": "go to https://www.w3schools.com/ and perform the following test case",
+          "description": "User navigates to the about page from the footer.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Scroll to the bottom of the page', 'Click on the `ABOUT` link in the footer'"
+          },
+          "expected": {
+            "outcome": "The user is taken to the about page.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate to the Forum",
+          "category": "Navigation",
+          "instruction": "go to https://www.w3schools.com/ and perform the following test case",
+          "description": "User navigates to the forum from the footer.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Scroll to the bottom of the page', 'Click on the `FORUM` link in the footer'"
+          },
+          "expected": {
+            "outcome": "The user is taken to the forum page.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Open the Code Game",
+          "category": "Navigation",
+          "instruction": "go to https://www.w3schools.com/ and perform the following test case",
+          "description": "User navigates to the code game.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Scroll down to the `Code Game` section', 'Click on the `Play Game` button'"
+          },
+          "expected": {
+            "outcome": "The user is taken to the code game page.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate to the Spaces page",
+          "category": "Navigation",
+          "instruction": "go to https://www.w3schools.com/ and perform the following test case",
+          "description": "User navigates to the Spaces page from the main page.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Click on the `Spaces` button in the main navigation'"
+          },
+          "expected": {
+            "outcome": "The user is taken to the Spaces page.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate to the `Learn Rust` page",
+          "category": "Navigation",
+          "instruction": "go to https://www.w3schools.com/ and perform the following test case",
+          "description": "User navigates to the `Learn Rust` page from the main page.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Scroll down to the `Rust` button', 'Click on the `Rust` button'"
+          },
+          "expected": {
+            "outcome": "The user is taken to the `Learn Rust` page.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate to the `Learn Git` page",
+          "category": "Navigation",
+          "instruction": "go to https://www.w3schools.com/ and perform the following test case",
+          "description": "User navigates to the `Learn Git` page from the main page.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Scroll down to the `Git` button', 'Click on the `Git` button'"
+          },
+          "expected": {
+            "outcome": "The user is taken to the `Learn Git` page.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "HTML Tryit Editor",
+          "category": "Form Interaction",
+          "instruction": "go to https://www.w3schools.com/ and perform the following test case",
+          "description": "User opens the HTML Tryit Editor, modifies the code, and runs it.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Scroll down to the `HTML` section', 'Click on the `Learn HTML` button', 'Click on the `Try it Yourself` button', 'In the code editor, change the text inside the <h1> tag to `My First Heading`', 'Click the `Run` button'"
+          },
+          "expected": {
+            "outcome": "The output on the right side of the screen should display 'My First Heading'.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "CSS Tryit Editor",
+          "category": "Form Interaction",
+          "instruction": "go to https://www.w3schools.com/ and perform the following test case",
+          "description": "User opens the CSS Tryit Editor, modifies the style, and runs it.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Scroll down to the `CSS` section', 'Click on the `Learn CSS` button', 'Click on the `Try it Yourself` button', 'In the code editor, change the `background-color` to `powderblue`', 'Click the `Run` button'"
+          },
+          "expected": {
+            "outcome": "The background color of the output on the right side of the screen should change to powderblue.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Take a Quiz",
+          "category": "Form Interaction",
+          "instruction": "go to https://www.w3schools.com/ and perform the following test case",
+          "description": "User starts the HTML quiz and answers the first question.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Scroll down to the `HTML` section', 'Click on the `Learn HTML` button', 'Scroll down to the `HTML Quiz Test` section',  'Click on the `Start HTML Quiz!` button', 'Click on the `Start the HTML Quiz` button', 'Select an answer for the first question', 'Click on the `Next` button'"
+          },
+          "expected": {
+            "outcome": "The user should be taken to the second question of the HTML quiz.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Use the Color Picker to select a color",
+          "category": "Form Interaction",
+          "instruction": "go to https://www.w3schools.com/ and perform the following test case",
+          "description": "User uses the color picker to select a color and see its values.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Click on the `Services` button in the main navigation', 'Scroll down to the `Color Picker` option', 'Click on the `Color Picker` link', 'Click on a color in the color wheel', 'Observe the HEX, RGB, and HSL values'"
+          },
+          "expected": {
+            "outcome": "The HEX, RGB, and HSL value fields should update to reflect the selected color.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate through tutorials",
+          "category": "Navigation",
+          "instruction": "go to https://www.w3schools.com/ and perform the following test case",
+          "description": "User navigates from the homepage to a specific sub-topic in the Python tutorial.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Scroll down to the `Python` section', 'Click on the `Learn Python` button', 'In the left-side navigation, click on `Python Dictionaries`', 'Click on `Add Items` in the sub-menu under `Python Dictionaries`', 'Click the `Next` button'"
+          },
+          "expected": {
+            "outcome": "The user should be on the 'Python - Remove Dictionary Items' page of the tutorial.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Explore 'How To' Snippets",
+          "category": "Form Interaction",
+          "instruction": "go to https://www.w3schools.com/ and perform the following test case",
+          "description": "User explores the 'How To' section and tries a code snippet.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Scroll down to the `How To Section` section', 'Click on the `Learn How To` button under the `How To Section` section', 'Click on `Menu Icon` in the left-side navigation', 'Click on the `Try it Yourself` button for the first example', 'Click the `Run` button'"
+          },
+          "expected": {
+            "outcome": "The user should see an interactive example of a menu icon.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Use Frontend Code Editor",
+          "category": "Form Interaction",
+          "instruction": "go to https://www.w3schools.com/ and perform the following test case",
+          "description": "User opens and uses the frontend code editor.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Scroll down to the `Code Editor` section', 'Click on the `Try Frontend Editor (HTML/CSS/JS)` button', 'In the code editor, change the text inside the <p> tag to `My First Paragraph`, 'Click the `Run` button'"
+          },
+          "expected": {
+            "outcome": "The output pane should render the new paragraph with the specified style.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Use Backend Code Editor",
+          "category": "Form Interaction",
+          "instruction": "go to https://www.w3schools.com/ and perform the following test case",
+          "description": "User opens and uses the backend code editor.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Click on the `Try Backend Editor (Python/PHP/Java/C..)` button', 'Select `Python` from the language dropdown', 'In the editor, modify the parameters of the `print` function', 'Click the `Run` button'"
+          },
+          "expected": {
+            "outcome": "The output pane should show the result of the executed Python code.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Find and use a website template",
+          "category": "Form Interaction",
+          "instruction": "go to https://www.w3schools.com/ and perform the following test case",
+          "description": "User finds a website template and opens it in the editor.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Scroll down to the `Web Templates` section', 'Click on the `Browse Templates` button', 'Scroll down to the `Black & White Photo Template` section', 'Click on the `Try it Yourself` button in the `Black & White Photo Template` section'"
+          },
+          "expected": {
+            "outcome": "The selected website template should open in the Tryit Editor.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Check Browser Statistics",
+          "category": "Information Retrieval",
+          "instruction": "go to https://www.w3schools.com/ and perform the following test case",
+          "description": "User navigates to the Browser Statistics page to view browser usage trends.",
+          "input": {
+            "search_input": "N/A",
+            "action": "'Click on the `Services` button in the main navigation', 'Scroll down to the `Browser Statistics` option','Click on `Browser Statistics`', 'Review the browser usage charts'"
+          },
+          "expected": {
+            "outcome": "The user is on the Browser Statistics page and can see charts for browser usage.",
+            "status": "Successful"
+          }
+        }
+      }
+    ]
+  }
+  

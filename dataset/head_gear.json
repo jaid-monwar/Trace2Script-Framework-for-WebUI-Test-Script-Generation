@@ -1,0 +1,307 @@
+{
+    "testcases": [
+      {
+        "prompt": {
+          "name": "Search for a Specific Cap",
+          "category": "Search & Filter",
+          "instruction": "go to https://headgearbd.com/ and perform the following test case",
+          "description": "User searches for a specific cap and verifies the search results.",
+          "input": {
+            "search_input": "HEAD GEAR BROWN STUBBORN CAP",
+            "action": "'Click on the search icon in the header to open the search bar', 'Type `HEAD GEAR BROWN STUBBORN CAP` into the search bar', 'Press Enter', 'Verify that the cap is displayed in the search results'"
+          },
+          "expected": {
+            "outcome": "The search results page for 'HEAD GEAR BROWN STUBBORN CAP' is displayed, with the correct cap shown.",
+            "status": "Successful" 
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate to 'New Arrival' Page",
+          "category": "Navigation",
+          "instruction": "go to https://headgearbd.com/ and perform the following test case",
+          "description": "User navigates to the 'New Arrival' page and verifies the page title.",
+          "input": {
+            "action": "'Click on the `NEW ARRIVAL!` link in the header', 'Verify that the title of the page is `NEW ARRIVALS`'"
+          },
+          "expected": {
+            "outcome": "The 'New Arrivals' page is displayed, with the correct title.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate to 'Flash Sale' Page",
+          "category": "Navigation",
+          "instruction": "go to https://headgearbd.com/ and perform the following test case",
+          "description": "User navigates to the 'Flash Sale' page and verifies the page title.",
+          "input": {
+            "action": "'Click on the `FLASH SALE` link in the header', 'Review the contents of the page'"
+          },
+          "expected": {
+            "outcome": "The 'Flash Sale' page is displayed.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "View 'About Us' Page",
+          "category": "Navigation",
+          "instruction": "go to https://headgearbd.com/ and perform the following test case",
+          "description": "User navigates to the 'About Us' page and verifies the content.",
+          "input": {
+            "action": "'Scroll down to the bottom of the page', 'Click on the `ABOUT US` link in the footer', 'Verify that the page contains information about the company'"
+          },
+          "expected": {
+            "outcome": "The 'About Us' page is displayed with relevant content.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "View 'Return and Refund Policy' Page",
+          "category": "Policy & External Links",
+          "instruction": "go to https://headgearbd.com/ and perform the following test case",
+          "description": "User navigates to the 'Return and Refund Policy' page and verifies the content.",
+          "input": {
+            "action": "'Scroll down to the bottom of the page', 'Click on the `RETURN AND REFUND POLICY` link in the footer', 'Verify that the page contains the return and refund policy'"
+          },
+          "expected": {
+            "outcome": "The 'Return and Refund Policy' page is displayed with the correct policy information.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Check 'FAQ' Page",
+          "category": "Information Retrieval",
+          "instruction": "go to https://headgearbd.com/ and perform the following test case",
+          "description": "User navigates to the 'FAQ' page and verifies the content.",
+          "input": {
+            "action": "'Scroll down to the bottom of the page', 'Click on the `FAQ` link in the footer', 'Verify that the page contains frequently asked questions and answers.'"
+          },
+          "expected": {
+            "outcome": "The 'FAQ' page is displayed with relevant questions and answers.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Track Order without Order ID",
+          "category": "Form Interaction",
+          "instruction": "go to https://headgearbd.com/ and perform the following test case",
+          "description": "User tries to track an order without providing an Order ID.",
+          "input": {
+            "action": "'Click on the `TRACK ORDER` link in the header', 'Click on `Track by Order Number` button without entering an Order Number'"
+          },
+          "expected": {
+            "outcome": "An error message is displayed indicating that the Order Number is required.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate to 'KIDS CAP' category",
+          "category": "Navigation",
+          "instruction": "go to https://headgearbd.com/ and perform the following test case",
+          "description": "User navigates to the 'KIDS CAP' category and verifies the products.",
+          "input": {
+            "action": "'Click on `COLLECTIONS` in the header to open a dropdown menu', 'Click on the `KIDS CAP` link from the dropdown menu to enter the kids cap collection', 'Verify that the title of the page is `KIDS CAP`'"
+          },
+          "expected": {
+            "outcome": "The 'KIDS CAP' category page is displayed, showing a variety of kids' caps.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate to 'BUCKET HAT' category",
+          "category": "Navigation",
+          "instruction": "go to https://headgearbd.com/ and perform the following test case",
+          "description": "User navigates to the 'BUCKET HAT' category and verifies the page.",
+          "input": {
+            "action": "'Click on `COLLECTIONS` in the header to open a dropdown menu', 'Click on the `BUCKET HAT` link from the dropdown menu to enter the bucket hat collection', 'Verify that the title of the page is `BUCKET HAT`'"
+          },
+          "expected": {
+            "outcome": "The 'BUCKET HAT' category page is displayed correctly.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "View Product Details",
+          "category": "Navigation",
+          "instruction": "go to https://headgearbd.com/ and perform the following test case",
+          "description": "User clicks on a product to view its details.",
+          "input": {
+            "action": "'Click on `AVAILABLE CAPS` in the header', 'Click on any product in this page', 'Verify that the product details page with price, description, and images is displayed.'"
+          },
+          "expected": {
+            "outcome": "The product detail page is displayed as expected.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Add a specific cap to the cart and proceed to checkout",
+          "category": "Form Interaction",
+          "instruction": "go to https://headgearbd.com/ and perform the following test case",
+          "description": "User searches for a cap, adds it to the cart, and proceeds to the checkout page.",
+          "input": {
+            "search_input": "HEAD GEAR GREY RUSTIC METAL PATCH SANDWICH CAP",
+            "action": "'Click on the search icon in the header to open the search bar', 'Type `HEAD GEAR GREY RUSTIC METAL PATCH SANDWICH CAP` into the search bar', 'Press Enter', 'Click on the first product in the search results to view details', 'Scroll down and click on the `ADD TO CART` button', 'Verify that the correct item and price are in the cart menu that has opened on the right-hand side of the page', 'Click on the `CHECK OUT` button', 'Verify the user is on the checkout page'"
+          },
+          "expected": {
+            "outcome": "User should be on the checkout page with the correct item in the cart",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Filter products by collection and add to cart",
+          "category": "Form Interaction",
+          "instruction": "go to https://headgearbd.com/ and perform the following test case",
+          "description": "User filters products by a specific collection, adds a cap to the cart and verifies the cart.",
+          "input": {
+            "action": "'Click on `COLLECTIONS` in the header to open a dropdown menu', 'Click on the `DIGNIFIED` link from the dropdown menu to enter the Dignified collection', 'Click on a product from the collection', 'Scroll down and click on the  `ADD TO CART` button', 'Verify that the correct item and price are in the cart menu that has opened on the right-hand side of the page', 'Click on the cross icon in the top right side of the page to dismiss the cart menu', 'Verify the user is back on the product page'"
+          },
+          "expected": {
+            "outcome": "The user successfully adds a filtered item to the cart and returns to the product page.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Use the 'Buy it now' feature",
+          "category": "Form Interaction",
+          "instruction": "go to https://headgearbd.com/ and perform the following test case",
+          "description": "User selects a product and uses the 'Buy it now' button to directly go to checkout.",
+          "input": {
+            "search_input": "HEAD GEAR COFFEE YELLOW DUAL TONE CAP",
+            "action": "'Click on the search icon in the header to open the search bar', 'Type `HEAD GEAR COFFEE YELLOW DUAL TONE CAP` into the search bar', 'Press Enter', 'Click on the first product in the search results', 'Scroll down and click on the `BUY IT NOW` button', 'Verify the user is on the checkout page', 'Verify the correct product is ready for purchase'"
+          },
+          "expected": {
+            "outcome": "The user is taken directly to the checkout page with the selected product.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate through multiple categories and view products",
+          "category": "Navigation",
+          "instruction": "go to https://headgearbd.com/ and perform the following test case",
+          "description": "User navigates through a series of product categories and verifies the displayed items.",
+          "input": {
+            "action": "'Click on `COLLECTIONS` in the header to open a dropdown menu', 'Click on the `BASIC SUEDE` link from the dropdown menu', 'Verify that basic suede caps are displayed', 'Click on `COLLECTIONS` in the header to open a dropdown menu', 'Click on the `BASEBALL TRUCKER` link from the dropdown menu', 'Verify that baseball trucker caps are displayed', 'Click on `COLLECTIONS` in the header to open a dropdown menu', 'Click on the `CLASSIC FLAT VISOR` link from the dropdown menu', 'Verify that classic flat visor caps are displayed'"
+          },
+          "expected": {
+            "outcome": "The user can successfully navigate different product categories and view the correct items in each.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Add and remove items from the cart",
+          "category": "Form Interaction",
+          "instruction": "go to https://headgearbd.com/ and perform the following test case",
+          "description": "User adds multiple items to the cart and then removes one of them.",
+          "input": {
+            "action": "'Click on `BEST SELLING` in the header', 'Click on the first product on the page', 'Scroll down and click on the `ADD TO CART` button', 'Click on the cross icon in the top right side of the page to dismiss the cart menu', 'Scroll up to the top of the page and click on the website icon in the center of the header to return to the home page', 'Click on `BEST SELLING` in the header', 'Click on the second product on the page', 'Scroll down and click on the `ADD TO CART` button', 'Verify both caps are in the cart menu that has opened on the right-hand side of the page', 'Click on the minus button under the first chosen product to remove it from the cart', 'Verify only the second cap remains in the cart.'"
+          },
+          "expected": {
+            "outcome": "The cart correctly updates after adding and removing items.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Check collaboration products and navigate to their page",
+          "category": "Navigation",
+          "instruction": "go to https://headgearbd.com/ and perform the following test case",
+          "description": "User explores the collaboration section and views a specific collaboration collection.",
+          "input": {
+            "action": "'Click on `COLLECTIONS` in the header to open a dropdown menu', 'Click on the `HEAD GEAR X SWING` link from the dropdown menu', 'Verify that the HEAD GEAR X SWING products are displayed', 'Click on a product', 'Review the page contents', 'Scroll up to the top of the page and click on the website icon in the center of the header to return to the home page', 'Click on `COLLECTIONS` in the header to open a dropdown menu', 'Click on the `HEAD GEAR X TAKEOUT` link from the dropdown menu', 'Verify that HEAD GEAR X TAKEOUT products are displayed.'"
+          },
+          "expected": {
+            "outcome": "User can navigate the different collaboration sections and view the respective products.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "View and navigate the 'Blogs' section",
+          "category": "Navigation",
+          "instruction": "go to https://headgearbd.com/ and perform the following test case",
+          "description": "User navigates to the 'Blogs' page, reads a blog, and then returns to the main blog page.",
+          "input": {
+            "action": "'Scroll down to the bottom of the page', 'Click on `BLOGS` in the footer', 'Verify blog posts are listed', 'Click on the first blog post to read', 'Verify the full blog post is displayed', 'Scroll down to the bottom of the page', 'Click on the `BACK TO ALL` link to return to the main blog page', 'Click on the second blog post to read', 'Verify the contents of the second blog post'"
+          },
+          "expected": {
+            "outcome": "The user can successfully navigate and read content within the 'Blogs' section.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Explore 'Structure Wise' categories",
+          "category": "Navigation",
+          "instruction": "go to https://headgearbd.com/ and perform the following test case",
+          "description": "User explores different cap structures and verifies the product listings.",
+          "input": {
+            "action": "'Click on `COLLECTIONS` in the header to open a dropdown menu', 'Click on the `HIGH CROWN` link from the dropdown menu', 'Verify that high crown caps are displayed', 'Click on `COLLECTIONS` in the header to open a dropdown menu', 'Click on the `UNSTRUCTURED CAP` link from the dropdown menu', 'Verify that unstructured caps are displayed', 'Click on `COLLECTIONS` in the header to open a dropdown menu', 'Click on the `DOCKER CAP` link from the dropdown menu', 'Verify that docker caps are displayed'"
+          },
+          "expected": {
+            "outcome": "The user can browse caps based on their structural categories.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Check various policy pages from the footer",
+          "category": "Policy & External Links",
+          "instruction": "go to https://headgearbd.com/ and perform the following test case",
+          "description": "User navigates to and verifies the content of several policy pages.",
+          "input": {
+            "action": "'Scroll down to the bottom of the page', 'Click on `TERMS AND CONDITIONS` in the footer', 'Verify the content', 'Scroll down to the bottom of the page', 'Click on `PRIVACY POLICY` in the footer', 'Verify the content', 'Scroll down to the bottom of the page', 'Click on `SHIPPING POLICY`', 'Verify the content'"
+          },
+          "expected": {
+            "outcome": "The user can access and view the content of different policy pages.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Add an item from 'Flash Sale' and an item from 'New Arrival' to the cart",
+          "category": "Form Interaction",
+          "instruction": "go to https://headgearbd.com/ and perform the following test case",
+          "description": "User adds items from two different promotional categories to the cart.",
+          "input": {
+            "action": "'Click on `FLASH SALE` in the header', 'Click on the first product on the page', 'Scroll down and click on the `ADD TO CART` button', 'Click on the cross icon in the top right side of the page to dismiss the cart menu', 'Scroll up to the top of the page and click on the website icon in the center of the header to return to the home page', 'Click on `NEW ARRIVAL!` in the header', 'Click on the first product on the page', 'Scroll down and click on the `ADD TO CART` button', 'Verify both items are in the cart menu that has opened on the right-hand side of the page', 'Click on the `CHECK OUT` button in the cart menu'"
+          },
+          "expected": {
+            "outcome": "The cart contains items from both 'Flash Sale' and 'New Arrival', with correct pricing, and the user can proceed to checkout.",
+            "status": "Successful"
+          }
+        }
+      }
+    ]
+  }

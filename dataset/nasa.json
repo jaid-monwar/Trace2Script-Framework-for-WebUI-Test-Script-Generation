@@ -1,0 +1,380 @@
+{
+  "testcases": [
+    {
+      "prompt": {
+        "name": "Search for a Specific Article",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.nasa.gov/ and perform the following test case",
+        "description": "User searches for a specific article and verifies the page title.",
+        "input": {
+          "search_input": "Artemis",
+          "action": "'Click on the search bar in the main navigation header', 'Type `Artemis` into the search bar', 'Press Enter', 'Verify that the search results page is displayed'"
+        }, 
+        "expected": {
+          "outcome": "The search results page for 'Artemis' is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to Image of the Day",
+        "category": "Navigation",
+        "instruction": "go to https://www.nasa.gov/ and perform the following test case",
+        "description": "User navigates to the 'Image of the Day' page and verifies the image is displayed.",
+        "input": {
+          "action": "'Click on `Multimedia` in the main navigation header to open a dropdown menu', 'Click on the `Image of the Day` link from the dropdown menu', 'Verify that the page title is `Image of the Day`'"
+        },
+        "expected": {
+          "outcome": "The 'Image of the Day' page is displayed",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Explore Missions A-Z",
+        "category": "Navigation",
+        "instruction": "go to https://www.nasa.gov/ and perform the following test case",
+        "description": "User navigates to the 'Missions' page and views the A-Z list of missions.",
+        "input": {
+          "action": "'Click on `Explore` in the main navigation header to open a dropdown menu', 'Click on `Missions` from the dropdown menu', 'Click on the `A to Z List of Missions` link', 'Verify that the page title is `A to Z List of NASA Missions`'"
+        },
+        "expected": {
+          "outcome": "The A-Z list of NASA missions is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "View NASA+ Content",
+        "category": "Navigation",
+        "instruction": "go to https://www.nasa.gov/ and perform the following test case",
+        "description": "User navigates to the NASA+ page and verifies that video content is available.",
+        "input": {
+          "action": "'Click on the `NASA+` link in the main navigation header', 'Verify that the page contains the text `Explore New Releases`'"
+        },
+        "expected": {
+          "outcome": "The NASA+ page is displayed",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Check Upcoming Launches",
+        "category": "Navigation",
+        "instruction": "go to https://www.nasa.gov/ and perform the following test case",
+        "description": "User navigates to the 'News & Events' section and finds the 'Upcoming Launches & Landings' page.",
+        "input": {
+          "action": "'Click on `News & Events` in the main navigation header to open a dropdown menu', 'Click on `Upcoming Launches & Landings` link from the dropdown menu', 'Verify the page with launch schedules is displayed'"
+        },
+        "expected": {
+          "outcome": "The 'Upcoming Launches & Landings' page is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Find Social Media Links",
+        "category": "Policy & External Links",
+        "instruction": "go to https://www.nasa.gov/ and perform the following test case",
+        "description": "User locates and verifies the presence of social media links in the footer of the homepage.",
+        "input": {
+          "action": "'Scroll to the bottom of the page', 'Verify that social media icons for Facebook, Instagram, X, and YouTube are displayed under the `Follow NASA` section in the footer'"
+        },
+        "expected": {
+          "outcome": "Social media links are present in the footer of the page.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Access NASA in Spanish",
+        "category": "Accessibility & Language",
+        "instruction": "go to https://www.nasa.gov/ and perform the following test case",
+        "description": "User switches the site language to Spanish and verifies the content is in Spanish.",
+        "input": {
+          "action": "'Click on `Explore` in the main navigation header to open a dropdown menu', 'Click on `Español` from the dropdown menu', 'Click on the `NASA en Español` link', 'Verify that the page content is displayed in Spanish'"
+        },
+        "expected": {
+          "outcome": "The NASA website is displayed in Spanish.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Explore STEM Resources for Educators",
+        "category": "Navigation",
+        "instruction": "go to https://www.nasa.gov/ and perform the following test case",
+        "description": "User navigates to the 'Learning Resources' and then to the 'For Educators' section.",
+        "input": {
+          "action": "'Click on `Explore` in the main navigation header to open a dropdown menu', 'Click on `Learning Resources` from the dropdown menu', 'Click on the `For Educators` link', 'Verify the resources for educators are displayed'"
+        },
+        "expected": {
+          "outcome": "The 'For Educators' page with relevant resources is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "View the NASA Logo and Usage Guidelines",
+        "category": "Policy & External Links",
+        "instruction": "go to https://www.nasa.gov/ and perform the following test case",
+        "description": "User finds and accesses the NASA Brand & Usage Guidelines page.",
+        "input": {
+          "action": "'Click on `Multimedia` in the main navigation header to open a dropdown menu', 'Click on `NASA Brand & Usage Guidelines` from the dropdown menu', 'Verify that the title of the page is `NASA Merchandise and Media Guidelines`'"
+        },
+        "expected": {
+          "outcome": "The NASA Brand & Usage Guidelines page is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Find Information on Internships",
+        "category": "Navigation",
+        "instruction": "go to https://www.nasa.gov/ and perform the following test case",
+        "description": "User navigates to the 'About NASA' section and locates the 'Internships' page.",
+        "input": {
+          "action": "'Click on `Explore` in the main navigation header to open a dropdown menu', 'Click on `About NASA` from the dropdown menu', 'Click on the `Internships` link', 'Verify the internships page is displayed'"
+        },
+        "expected": {
+          "outcome": "The NASA Internship Programs page is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Access the 'Humans in Space' section",
+        "category": "Navigation",
+        "instruction": "go to https://www.nasa.gov/ and perform the following test case",
+        "description": "User navigates to the 'Humans in Space' section from the main menu.",
+        "input": {
+          "action": "'Click on `Explore` in the main navigation header to open a dropdown menu', 'Click on `Humans in Space` from the dropdown menu to open an extended menu', 'Click on the `Humans in Space` link from the extended menu', 'Verify the 'Humans in Space' page is displayed'"
+        },
+        "expected": {
+          "outcome": "The 'Humans in Space' section of the website is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Explore the 'The Solar System' section",
+        "category": "Navigation",
+        "instruction": "go to https://www.nasa.gov/ and perform the following test case",
+        "description": "User goes to 'The Solar System' page and clicks on the 'Mars' link.",
+        "input": {
+          "action": "'Click on `Explore` in the main navigation header to open a dropdown menu', 'Click on `The Solar System` from the dropdown menu', 'Click on the `Mars` link', 'Verify the Mars page is displayed'"
+        },
+        "expected": {
+          "outcome": "The Mars page is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Find the latest news releases",
+        "category": "Navigation",
+        "instruction": "go to https://www.nasa.gov/ and perform the following test case",
+        "description": "User goes to the 'News & Events' and then the 'News Releases' section.",
+        "input": {
+          "action": "'Click on `News & Events` in the main navigation header to open a dropdown menu', 'Click on the `News Releases` link from the dropdown menu', 'Verify the news releases page is displayed'"
+        },
+        "expected": {
+          "outcome": "The latest news releases from NASA are displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Listen to a NASA Podcast",
+        "category": "Navigation",
+        "instruction": "go to https://www.nasa.gov/ and perform the following test case",
+        "description": "User navigates to the 'Multimedia' section and then to the 'Podcasts' page.",
+        "input": {
+          "action": "'Click on `Multimedia` in the main navigation header to open a dropdown menu', 'Click on the `Podcasts` link from the dropdown menu', 'Verify the podcasts page is displayed'"
+        },
+        "expected": {
+          "outcome": "A list of NASA podcasts is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Explore e-Books",
+        "category": "Navigation",
+        "instruction": "go to https://www.nasa.gov/ and perform the following test case",
+        "description": "User goes to the 'Multimedia' section and accesses the 'e-Books' page.",
+        "input": {
+          "action": "'Click on `Multimedia` in the main navigation header to open a dropdown menu', 'Click on the `e-Books` link from the dropdown menu', 'Verify the e-Books page is displayed'"
+        },
+        "expected": {
+          "outcome": "A collection of NASA's e-Books is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Detailed Mission Search and Media Display",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.nasa.gov/ and perform the following test case",
+        "description": "User searches for the 'James Webb Space Telescope' mission. From the mission page, navigates to its gallery. Selects and views a specific image.",
+        "input": {
+          "action": "'Click on the search bar in the main navigation header', 'Type `James Webb Space Telescope` into the search bar', 'Press Enter', 'Click on the `James Webb Space Telescope` link from the search results', 'Scroll down to the `Latest Images` button', 'Click on the `Latest Images` button', 'Click on the image to view it'"
+        },
+        "expected": {
+          "outcome": "The user successfully navigates to a specific mission's image gallery views an image.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Follow the Artemis Mission",
+        "category": "Navigation",
+        "instruction": "go to https://www.nasa.gov/ and perform the following test case",
+        "description": "User navigates to the 'Artemis' mission page. Finds the latest news updates about the mission. Navigates back to the mission page. Then, opens the Artemis Blog to view the latest updates about the mission.",
+        "input": {
+          "action": "'Click on `Explore` in the main navigation header to open a dropdown menu', 'Click on `Missions` from the dropdown menu', 'Click on the `Artemis` link', 'Scroll down to the `Latest News` section', 'Click on the `More Artemis News and Articles` link', 'Go back to the previous page by clicking on the `Artemis` link in the navigation breadcrumb', 'Scroll down to the `The Latest on Artemis` section', 'Click on the `Read Updates at the Artemis Blog` link'"
+        },
+        "expected": {
+          "outcome": "The user can visit the main page of the Artemis mission, view the latest news articles, and read updates about the Artemis mission in the blog",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Explore Earth Science Missions",
+        "category": "Navigation",
+        "instruction": "go to https://www.nasa.gov/ and perform the following test case",
+        "description": "User goes to the 'Earth' section and then the 'Earth Data' page. Explores the 'For Researchers' page. Navigates to the Earth Science Missions page and completes a search for a list of all currently active Earth science missions.",
+        "input": {
+          "action": "'Click on `Explore` in the main navigation header to open a dropdown menu', 'Click on `Earth` from the dropdown menu', 'Click on the `Earth Data` link ', 'Click on the `For Researchers` link from the main navigation header', 'Click on `Missions` to open a dropdown menu', 'Click on `Earth Science Missions` from the dropdown menu', 'Scroll down to the `View all Earth science missions` link', 'Click on the `View all Earth science missions` link'"
+        },
+        "expected": {
+          "outcome": "User can view a list of all currently active Earth science missions.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Plan a Skywatching Session",
+        "category": "Information Retrieval",
+        "instruction": "go to https://www.nasa.gov/ and perform the following test case",
+        "description": "User goes to the 'Skywatching' page. Finds the 'What's Up' video for the current month. Then, identifies the listed skywatching tips. Afterwards, navigates to the 'The Moon' page to check the current phase of the moon.",
+        "input": {
+          "action": "'Click on `Explore` in the main navigation header to open a dropdown menu', 'Click on `The Solar System` from the dropdown menu', 'Click on the `Skywatching` link', 'Click on `What's up` in the main navigaton', 'Click on the first article in the list', 'Review the information in the article', 'Click on the `Daily Moon Guide` link in the main navigation header', 'Review the information on this page'"
+        },
+        "expected": {
+          "outcome": "User can find all the necessary information to plan a skywatching session.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Learn about NASA's Technology Transfers",
+        "category": "Information Retrieval",
+        "instruction": "go to https://www.nasa.gov/ and perform the following test case",
+        "description": "User navigates to the 'Technology' section. Goes to the 'Technology Transfer & Spinoffs' page. Finds the 'Spinoff' publication for the current year. Browses the publication and identifies a technology that is now used in a commercial product.",
+        "input": {
+          "action": "'Click on `Explore` in the main navigation header to open a dropdown menu', 'Click on `Technology` from the dropdown menu', 'Click on the `Technology Transfer & Spinoffs` link', 'Click on the `Spinoff` link to navigate to the spinoffs page', 'Click on a publication from the spinoffs page', 'Review the information in the article'"
+        },
+        "expected": {
+          "outcome": "User can learn how a NASA technology is used in a commercial spinoff product.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Investigate an Astronaut's Career",
+        "category": "Information Retrieval",
+        "instruction": "go to https://www.nasa.gov/ and perform the following test case",
+        "description": "User navigates to the 'Humans in Space' section and goes to the 'Astronauts' page. Selects a currently active astronaut. Reads their biography. Finds a link to their social media if available. Goes back to the main astronauts page and find the requirements for becoming an astronaut.",
+        "input": {
+          "action": "'Click on `Explore` in the main navigation header to open a dropdown menu', 'Click on `Humans in Space` from the dropdown menu', 'Click on the `Astronauts` link', 'Scroll down to the `Active Astronauts` section', 'Click on the `Read More About Active Astronauts` link', 'Click on the arrow icon next to an astronaut name to go to their biography page', 'Review the astronauts page', 'Scroll down to the `Social Media` section to find their social media links', 'Scroll up to the top of the page', 'Go back to the `Astronauts` page by clicking on the `Astronauts Home` link in the main navigation header', 'Scroll down to the `Astronaut Selection` section', 'Click on the `Learn More About Astronaut Selection` link'"
+        },
+        "expected": {
+          "outcome": "User can find detailed information about an astronaut's career and the requirements to become one.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Trace the path of a NASA mission",
+        "category": "Information Retrieval",
+        "instruction": "go to https://www.nasa.gov/ and perform the following test case",
+        "description": "User selects a mission from the A-Z list (e.g., OSIRIS-REx). Reads the mission overview. Finds the mission's timeline. Looks for the latest updates or news about the mission. Checks the multimedia gallery for any recent images or videos.",
+        "input": {
+          "action": "'Click on `Explore` in the main navigation header to open a dropdown menu', 'Click on `Missions` from the dropdown menu', 'Click on the `A to Z List of Missions` link', 'Scroll down to the `O` section', 'Click on the `OSIRIS-REx` link', 'Scroll down to the `Mission Overview` section and review it', 'Scroll down to the `OSIRIS-REx News` section and review the article titles', 'Scroll down to the `More on the OSIRIS-REx Blog` section for more recent content'"
+        },
+        "expected": {
+          "outcome": "User can get a comprehensive overview of a specific NASA mission.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Explore NASA's Aeronautics Research",
+        "category": "Information Retrieval",
+        "instruction": "go to https://www.nasa.gov/ and perform the following test case",
+        "description": "User goes to the 'Aeronautics' section. Learns about the 'Supersonic Flight' research. Finds information about the QueSST mission. Looks for the latest news or updates on the project. Views the supersonic flight image gallery.",
+        "input": {
+          "action": "'Click on `Explore` in the main navigation header to open a dropdown menu', 'Click on `Aeronautics` from the dropdown menu', 'Click on the `Supersonic Flight` link', 'Scroll down to the `Latest Supersonic News` section and review the article titles', 'Scroll down to the `Supersonic E-Books` and review the E-Book titles', 'Scroll down to the `Quesst Mission Image Gallery` and review the image gallery'"
+        },
+        "expected": {
+          "outcome": "User can learn about NASA's supersonic flight research and the X-59 aircraft.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Discover Citizen Science Projects",
+        "category": "Information Retrieval",
+        "instruction": "go to https://www.nasa.gov/ and perform the following test case",
+        "description": "User navigates to the 'Science' section. Finds and accesses the 'Citizen Science' page. Explores the available projects. Selects a project that interests them (e.g., 'Globe Observer'). Reads the project's description and goals. Finds out how to participate.",
+        "input": {
+          "action": "'Click on `Explore` in the main navigation header to open a dropdown menu', 'Click on `Science` from the dropdown menu', 'Click on the `Citizen Science` link', 'Scroll down to the `GLOBE Observer: Clouds, Land Cover, Mosquito Habitats` section', 'Click on the `Go to Project Website` link under this section', 'Read the project description and details'"
+        },
+        "expected": {
+          "outcome": "User can explore and learn how to participate in a NASA citizen science project.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Deep Dive into Martian Exploration",
+        "category": "Information Retrieval",
+        "instruction": "go to https://www.nasa.gov/ and perform the following test case",
+        "description": "User navigates to 'The Solar System' and then to the 'Mars' page. Explores the 'Mars Rovers' section. Selects the 'Perseverance' rover. Finds the latest raw images sent from the rover.",
+        "input": {
+          "action": "'Click on `Explore` in the main navigation header to open a dropdown menu', 'Click on `The Solar System` from the dropdown menu', 'Click on the `Mars` link', 'Click on `Mars Missions` in the main navigation header to open a dropdown menu', 'Click on the `Mars Perseverance Rover` link from the dropdown menu', 'Click on `Multimedia` in the main navigation header to open a dropdown menu', 'Click on `Perseverence Raw Images` from the dropdown menu', 'Review the information in the page'"
+        },
+        "expected": {
+          "outcome": "User can access a wide range of data and multimedia from the Perseverance rover on Mars.",
+          "status": "Successful"
+        }
+      }
+    }
+  ]
+}

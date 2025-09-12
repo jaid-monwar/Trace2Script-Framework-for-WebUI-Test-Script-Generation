@@ -1,0 +1,532 @@
+{
+  "testcases": [
+    {
+      "prompt": {
+        "name": "Search for a Specific Book",
+        "category": "Search & Filter",
+        "instruction": "go to https://openlibrary.org/ and perform the following test case",
+        "description": "User searches for a specific book by its title and verifies that the correct book page is displayed.",
+        "input": {
+          "search_input": "Dune by Frank Herbert",
+          "action": "'Select `Title` from the search dropdown', 'Type `Dune` into the search input field', 'Click the search icon button', 'Click on `Dune` from search results '"
+        },
+        "expected": {
+          "outcome": "The main page for the book 'Dune' is displayed, showing details about the book and its various editions.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Browse Books by Subject",
+        "category": "Search & Filter",
+        "instruction": "go to https://openlibrary.org/ and perform the following test case",
+        "description": "User navigates to the 'Browse' menu, selects 'Subjects', and finds books related to 'Science Fiction'.",
+        "input": {
+          "search_input": "Science Fiction",
+          "action": "'Click on the `Browse` link in the main header', 'Click on the `Subjects` link from the dropdown menu', 'Click on the `Science Fiction` link on the Subjects page'"
+        },
+        "expected": {
+          "outcome": "A list of books and resources related to the 'Science Fiction' subject is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Find a Specific Book Using Advanced Search",
+        "category": "Search & Filter",
+        "instruction": "go to https://openlibrary.org/ and perform the following test case",
+        "description": "User navigates to the Advanced Search page to find a specific edition of a book by filtering by title, author, and publication year.",
+        "input": {
+          "search_input": "The Hobbit",
+          "action": "'Click on the `Browse` link in the main header', 'Click on `Advanced Search` from the dropdown menu', 'In the `Title` field, type `The Hobbit`', 'In the `Author` field, type `J.R.R. Tolkien`', 'Click the Lower `Search` button'"
+        },
+        "expected": {
+          "outcome": "The search results page displays 'The Hobbit', confirming the advanced search filters work correctly.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Search by Title",
+        "category": "Search & Filter",
+        "instruction": "go to https://openlibrary.org/ and perform the following test case",
+        "description": "User searches for a book title and checks result.",
+        "input": {
+          "search_input": "Pride and Prejudice",
+          "action": "'Type Pride and Prejudice into main search field', 'Press Enter'"
+        },
+        "expected": {
+          "outcome": "Search results list includes Pride and Prejudice",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Search by Author",
+        "category": "Search & Filter",
+        "instruction": "go to https://openlibrary.org/ and perform the following test case",
+        "description": "User searches by author name.",
+        "input": {
+          "search_input": "Isaac Asimov",
+          "action": "'Type Isaac Asimov into search field', 'Press Enter'"
+        },
+        "expected": {
+          "outcome": "Results include books of Isaac Asimov",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Search by Author",
+        "category": "Search & Filter",
+        "instruction": "go to https://openlibrary.org/ and perform the following test case",
+        "description": "User searches by author name.",
+        "input": {
+          "search_input": "Isaac Asimov",
+          "action": "'Select `Author`from Search Selector', 'Type Isaac Asimov into search field', 'Press Enter'"
+        },
+        "expected": {
+          "outcome": "Results include Author Page of Isaac Asimov",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Filter Only eBooks",
+        "category": "Search & Filter",
+        "instruction": "go to https://openlibrary.org/ and perform the following test case",
+        "description": "User applies eBooks filter.",
+        "input": {
+          "search_input": "science fiction",
+          "action": "'Type science fiction into search', 'Click checkbox Only show eBooks'"
+        },
+        "expected": {
+          "outcome": "All results display as eBooks",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to Subjects",
+        "category": "Navigation",
+        "instruction": "go to https://openlibrary.org/ and perform the following test case",
+        "description": "User opens Browse → Subjects.",
+        "input": {
+          "search_input": "",
+          "action": "'Click Browse menu', 'Select Subjects'"
+        },
+        "expected": {
+          "outcome": "Subjects page is displayed",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to Authors",
+        "category": "Navigation",
+        "instruction": "go to https://openlibrary.org/ and perform the following test case",
+        "description": "User clicks Authors link in header.",
+        "input": {
+          "search_input": "",
+          "action": "'Click Authors in the footer'"
+        },
+        "expected": {
+          "outcome": "Authors browse page shown",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Open Book Preview",
+        "category": "Information Retrieval",
+        "instruction": "go to https://openlibrary.org/ and perform the following test case",
+        "description": "User opens preview reader for a book with eBook.",
+        "input": {
+          "search_input": "The Adventures of Sherlock Holmes",
+          "action": "'Search The Adventures of Sherlock Holmes', 'Enable eBooks filter', 'Click on the first previewable result'"
+        },
+        "expected": {
+          "outcome": "Book preview opens and reader UI is visible",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Change Language",
+        "category": "Accessibility & Language",
+        "instruction": "go to https://openlibrary.org/ and perform the following test case",
+        "description": "Set display language to Español.",
+        "input": {
+          "search_input": "",
+          "action": "'Click language dropdown', 'Select Español'"
+        },
+        "expected": {
+          "outcome": "UI text appears in Spanish",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Go to Advanced Search",
+        "category": "Navigation",
+        "instruction": "go to https://openlibrary.org/ and perform the following test case",
+        "description": "User navigates to the advanced search screen.",
+        "input": {
+          "search_input": "",
+          "action": "'Click Browse menu', 'Select Advanced Search'"
+        },
+        "expected": {
+          "outcome": "Advanced Search page visible",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Search by ISBN",
+        "category": "Search & Filter",
+        "instruction": "go to https://openlibrary.org/ and perform the following test case",
+        "description": "User searches a book via ISBN.",
+        "input": {
+          "search_input": "9780140328721",
+          "action": "'Type ISBN 9780140328721 into search field', 'Press Enter'"
+        },
+        "expected": {
+          "outcome": "Book page for given ISBN displayed",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Random Book Selector",
+        "category": "Navigation",
+        "instruction": "go to https://openlibrary.org/ and perform the following test case",
+        "description": "User clicks Random Book link.",
+        "input": {
+          "search_input": "",
+          "action": "'Click 'Browse'', 'Click `Random Book`'"
+        },
+        "expected": {
+          "outcome": "Random book page appears",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Access Developer Center",
+        "category": "Information Retrieval",
+        "instruction": "go to https://openlibrary.org/ and perform the following test case",
+        "description": "User navigates to Developer Center.",
+        "input": {
+          "search_input": "",
+          "action": "'Scroll to site footer', 'Click Developer Center'"
+        },
+        "expected": {
+          "outcome": "Developer documentation page shown",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Browse Collections",
+        "category": "Navigation",
+        "instruction": "go to https://openlibrary.org/ and perform the following test case",
+        "description": "User views Collections section.",
+        "input": {
+          "search_input": "",
+          "action": "'Click Browse', 'Click Collections'"
+        },
+        "expected": {
+          "outcome": "Collections page is displayed",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Change Sort Order",
+        "category": "Search & Filter",
+        "instruction": "go to https://openlibrary.org/ and perform the following test case",
+        "description": "User changes sort from relevance to newest.",
+        "input": {
+          "search_input": "Harry Potter",
+          "action": "'Search Harry Potter', 'Click sort dropdown', 'Select Top Rated'"
+        },
+        "expected": {
+          "outcome": "Top Rated editions appear first",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Exact Phrase Search",
+        "category": "Search & Filter",
+        "instruction": "go to https://openlibrary.org/ and perform the following test case",
+        "description": "User searches exact phrase in quotes.",
+        "input": {
+          "search_input": "\"To Kill a Mockingbird\"",
+          "action": "'Type `To Kill a Mockingbird`', 'Press search'"
+        },
+        "expected": {
+          "outcome": "Results include the exact book title only",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Browse Trending",
+        "category": "Navigation",
+        "instruction": "go to https://openlibrary.org/ and perform the following test case",
+        "description": "User navigates to Trending books.",
+        "input": {
+          "search_input": "",
+          "action": "'Click `Browse`', 'Click Trending'"
+        },
+        "expected": {
+          "outcome": "Trending books listing visible",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Open Help & Support",
+        "category": "Information Retrieval",
+        "instruction": "go to https://openlibrary.org/ and perform the following test case",
+        "description": "User accesses Help & Support.",
+        "input": {
+          "search_input": "",
+          "action": "'Click Help Center in footer'"
+        },
+        "expected": {
+          "outcome": "Help & Support content displayed",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Open Blog",
+        "category": "Navigation",
+        "instruction": "go to https://openlibrary.org/ and perform the following test case",
+        "description": "User goes to blog.",
+        "input": {
+          "search_input": "",
+          "action": "'Click Blog link in footer'"
+        },
+        "expected": {
+          "outcome": "Blog page loads",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Open Terms of Service",
+        "category": "Policy & External Links",
+        "instruction": "go to https://openlibrary.org/ and perform the following test case",
+        "description": "User views terms.",
+        "input": {
+          "search_input": "",
+          "action": "'Click Terms of Service in footer'"
+        },
+        "expected": {
+          "outcome": "Terms of Service page is shown",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Advanced Search Title+Author+Year",
+        "category": "Search & Filter",
+        "instruction": "go to https://openlibrary.org/ and perform the following test case",
+        "description": "User runs a multi-field advanced search.",
+        "input": {
+          "search_input": "",
+          "action": "'Click Browse', 'Select Advanced Search', 'Fill Title: Foundation', 'Fill Author: Isaac Asimov', 'Click the lower Search button'"
+        },
+        "expected": {
+          "outcome": "Filtered results include the correct Foundation book",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "BookReader Dark Mode Filter",
+        "category": "Accessibility & Language",
+        "instruction": "go to https://openlibrary.org/ and perform the following test case",
+        "description": "User enables dark mode in BookReader.",
+        "input": {
+          "search_input": "The Adventures of Sherlock Holmes",
+          "action": "'Search `The Adventures of Sherlock Holmes`', 'Enable Only eBooks', 'Open first eBook', 'Click Read Online', 'Click Ellipses icon', 'Click `Visual Adjustment` Icon', 'Enable Invert Colors'"
+        },
+        "expected": {
+          "outcome": "BookReader displays dark background text",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Explorer Filter & 3D View",
+        "category": "Search & Filter",
+        "instruction": "go to https://openlibrary.org/ and perform the following test case",
+        "description": "Test Library Explorer filters.",
+        "input": {
+          "search_input": "",
+          "action": "'Click Browse', 'Click Library Explorer', 'Click Filter icon', 'Type subject:biography', 'Apply filter', 'Click Settings gear', 'Click book style `3d`'"
+        },
+        "expected": {
+          "outcome": "Explorer shows 3D filtered biography books",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Sort Editions by Year",
+        "category": "Search & Filter",
+        "instruction": "go to https://openlibrary.org/ and perform the following test case",
+        "description": "User sorts editions list on a Work page.",
+        "input": {
+          "search_input": "The Hobbit Tolkien",
+          "action": "'Search The Hobbit Tolkien', 'Select Filter Dropdown', 'Click `First Published`'"
+        },
+        "expected": {
+          "outcome": "Editions list sorted by publication year ",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Sort Results by Most Editions",
+        "category": "Search & Filter",
+        "instruction": "go to https://openlibrary.org/ and perform the following test case",
+        "description": "User sorts editions list on a Work page.",
+        "input": {
+          "search_input": "The Hobbit Tolkien",
+          "action": "'Search The Hobbit Tolkien',, 'Select Filter Dropdown', 'Click `Most Editions`'"
+        },
+        "expected": {
+          "outcome": "Editions list sorted by Most Editions",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Sort Results by Top Rated",
+        "category": "Search & Filter",
+        "instruction": "go to https://openlibrary.org/ and perform the following test case",
+        "description": "User sorts editions list on a Work page.",
+        "input": {
+          "search_input": "The Hobbit Tolkien",
+          "action": "'Search The Hobbit Tolkien', 'Select Filter Dropdown', 'Click `Top Rated`'"
+        },
+        "expected": {
+          "outcome": "Editions list sorted by Top Rated",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Advanced Search by Subject & Publisher",
+        "category": "Search & Filter",
+        "instruction": "go to https://openlibrary.org/ and perform the following test case",
+        "description": "User uses Advanced Search to find books on a specific subject by a specific Publisher.",
+        "input": {
+          "search_input": "",
+          "action": "'Click Browse menu', 'Select Advanced Search', 'In Subject field type Science Fiction', 'In Publisher field type Standard Ebooks', 'Click the lower Search button'"
+        },
+        "expected": {
+          "outcome": "Search results are limited to Standard Ebooks published science-fiction books",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Advanced Search by ISBN & Publisher",
+        "category": "Search & Filter",
+        "instruction": "go to https://openlibrary.org/ and perform the following test case",
+        "description": "User uses Advanced Search to find a book by its ISBN and publisher.",
+        "input": {
+          "search_input": "",
+          "action": "'Click Browse menu', 'Select Advanced Search', 'In ISBN field type 9780262033848', 'In Publisher field type MIT Press', 'Click the lower Search button'"
+        },
+        "expected": {
+          "outcome": "Correct edition by MIT Press found via combined filters",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Advanced Search by Place & Person",
+        "category": "Search & Filter",
+        "instruction": "go to https://openlibrary.org/ and perform the following test case",
+        "description": "User searches for works set in a location, by a person.",
+        "input": {
+          "search_input": "",
+          "action": "'Click Browse menu', 'Select Advanced Search', 'In Place field type London', 'In Person field type Sherlock Holmes', 'Click the lower Search button'"
+        },
+        "expected": {
+          "outcome": "Search results match specified place and character criteria",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Advanced Search by Author & Subject",
+        "category": "Search & Filter",
+        "instruction": "go to https://openlibrary.org/ and perform the following test case",
+        "description": "User runs a cross-field advanced search combining author and subject.",
+        "input": {
+          "search_input": "",
+          "action": "'Click Browse menu', 'Select Advanced Search', 'In Author field type Ursula K. Le Guin', 'In Subject field type magic', 'Click the lower Search button'"
+        },
+        "expected": {
+          "outcome": "Only relevant books are listed correctly according to filters",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Search Inside a Book",
+        "category": "Information Retrieval",
+        "instruction": "go to https://openlibrary.org/ and perform the following test case",
+        "description": "User opens online readable eBook and searches within its text.",
+        "input": {
+          "search_input": "The Adventures of Sherlock Holmes",
+          "action": "'Search The Adventures of Sherlock Holmes', 'Filter to eBooks', 'Open first readable result', 'Click Read Online', 'Open Search icon inside reader', 'Type 'mystery''"
+        },
+        "expected": {
+          "outcome": "Inside‑book search highlights occurrences of search term",
+          "status": "Successful"
+        }
+      }
+    }
+  ]
+}

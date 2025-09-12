@@ -1,0 +1,465 @@
+{
+    "testcases": [
+      {
+        "prompt": {
+          "name": "Search for a Specific Technology",
+          "category": "Search & Filter",
+          "instruction": "go to https://developer.mozilla.org/en-US/ and perform the following test case",
+          "description": "User searches for a specific technology and verifies the search results page.",
+          "input": {
+            "search_input": "JavaScript",
+            "action": "'Click on the search bar in the main navigation', 'Enter `JavaScript` into the searchbar','Press Enter', 'Verify that the search results page is displayed with relevant articles.'"
+          },
+          "expected": {
+            "outcome": "The search results page for 'JavaScript' is displayed, showing a list of articles related to JavaScript.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate to References Section",
+          "category": "Navigation",
+          "instruction": "go to https://developer.mozilla.org/en-US/ and perform the following test case",
+          "description": "User navigates to the 'References' section from the main menu.",
+          "input": {
+            "action": "'Click on the `References` link in the main navigation menu', 'Verify that the page title is `Web technology for developers`'"
+          },
+          "expected": {
+            "outcome": "The 'References' page is displayed, showing different web technologies.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Change Website Theme",
+          "category": "Accessibility & Language",
+          "instruction": "go to https://developer.mozilla.org/en-US/ and perform the following test case",
+          "description": "User changes the website's theme from light to dark mode.",
+          "input": {
+            "action": "'Click on the `Theme` button in the main navigation', 'Select `Dark` from the dropdown menu', 'Verify that the website background color changes to a dark color'"
+          },
+          "expected": {
+            "outcome": "The website's theme is successfully changed to dark mode.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate to HTML Reference Page",
+          "category": "Navigation",
+          "instruction": "go to https://developer.mozilla.org/en-US/ and perform the following test case",
+          "description": "User navigates to the HTML reference page using the main navigation.",
+          "input": {
+            "action": "'Click on the `References` link in the main navigation', 'Scroll down to the `Web technology references` section', 'Click on the `HTML` link in the `Web technology references` section', 'Verify the page title is `HTML: HyperText Markup Language`'"
+          },
+          "expected": {
+            "outcome": "The HTML reference page is displayed.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Check Tools Dropdown Menu",
+          "category": "Information Retrieval",
+          "instruction": "go to https://developer.mozilla.org/en-US/ and perform the following test case",
+          "description": "User checks the 'Tools' dropdown menu for available tools.",
+          "input": {
+            "action": "'Click on the `Tools` link in the main navigation', 'Verify that a dropdown menu with `Playground`, `HTTP Observatory` and `AI Help` appears'"
+          },
+          "expected": {
+            "outcome": "The 'Tools' dropdown menu is displayed with a list of available tools.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Explore the About Page",
+          "category": "Navigation",
+          "instruction": "go to https://developer.mozilla.org/en-US/ and perform the following test case",
+          "description": "User navigates to the 'About' page to learn more about MDN.",
+          "input": {
+            "action": "'Scroll to the bottom of the page', 'Click on the `About` link in the footer', 'Verify the page title is `About MDN`'"
+          },
+          "expected": {
+            "outcome": "The 'About MDN' page is displayed.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Use Search with a Typo",
+          "category": "Search & Filter",
+          "instruction": "go to https://developer.mozilla.org/en-US/ and perform the following test case",
+          "description": "User searches with a typo and checks for 'Did you mean' suggestions.",
+          "input": {
+            "search_input": "JavsScript",
+            "action": "'Click on the search bar in the main navigation', 'Enter `JavsScript` into the searchbar','Press Enter', 'Verify that a `Did you mean...` suggestion is displayed'"
+          },
+          "expected": {
+            "outcome": "A search suggestion is provided for the misspelled query.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate to the Learn Area",
+          "category": "Navigation",
+          "instruction": "go to https://developer.mozilla.org/en-US/ and perform the following test case",
+          "description": "User navigates to the 'Learn web development' area.",
+          "input": {
+            "action": "'Click on the `Learn` link in the main navigation', 'Verify the page title is `Learn web development`'"
+          },
+          "expected": {
+            "outcome": "The main 'Learn' page is displayed with different learning topics.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Find Web APIs Reference",
+          "category": "Navigation",
+          "instruction": "go to https://developer.mozilla.org/en-US/ and perform the following test case",
+          "description": "User finds the 'Web APIs' reference from the 'References' section.",
+          "input": {
+            "action": "'Click on the `References` link in the main navigation', 'Scroll down to the `Web technology references` section', 'Click on the `Web APIs` link in the `Web technology references` section', 'Verify the page title is `Web APIs`'"
+          },
+          "expected": {
+            "outcome": "The 'Web APIs' reference page is displayed.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Check for CSS Reference Page",
+          "category": "Navigation",
+          "instruction": "go to https://developer.mozilla.org/en-US/ and perform the following test case",
+          "description": "User navigates to the CSS reference page.",
+          "input": {
+            "action": "'Click on the `References` link in the main navigation', 'Scroll down to the `Web technology references` section', 'Click on the `CSS` link in the `Web technology references` section', 'Verify the page title is `CSS: Cascading Style Sheets`'"
+          },
+          "expected": {
+            "outcome": "The CSS reference page is displayed.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate to JavaScript Reference Page",
+          "category": "Navigation",
+          "instruction": "go to https://developer.mozilla.org/en-US/ and perform the following test case",
+          "description": "User navigates to the JavaScript reference page.",
+          "input": {
+            "action": "'Click on the `References` link in the main navigation', 'Scroll down to the `Web technology references` section', 'Click on the `JavaScript` link in the `Web technology references` section', 'Verify the page title is `JavaScript`'"
+          },
+          "expected": {
+            "outcome": "The JavaScript reference page is displayed.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate to HTTP Reference Page",
+          "category": "Navigation",
+          "instruction": "go to https://developer.mozilla.org/en-US/ and perform the following test case",
+          "description": "User navigates to the HTTP reference page.",
+          "input": {
+            "action": "'Click on the `References` link in the main navigation', 'Scroll down to the `Web technology references` section', 'Click on the `HTTP` link in the `Web technology references` section', 'Verify the page title is `HTTP: Hypertext Transfer Protocol`'"
+          },
+          "expected": {
+            "outcome": "The HTTP reference page is displayed.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Go to MDN Plus Page",
+          "category": "Navigation",
+          "instruction": "go to https://developer.mozilla.org/en-US/ and perform the following test case",
+          "description": "User navigates to the 'MDN Plus' page.",
+          "input": {
+            "action": "'Click on the `Plus` link in the main navigation', 'Verify the page title is `More MDN. Your MDN.`'"
+          },
+          "expected": {
+            "outcome": "The MDN Plus page is displayed.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigate to the Blog",
+          "category": "Navigation",
+          "instruction": "go to https://developer.mozilla.org/en-US/ and perform the following test case",
+          "description": "User navigates to the MDN blog.",
+          "input": {
+            "action": "'Click on the `Blog` link in the main navigation', 'Verify the page title contains `Blog`'"
+          },
+          "expected": {
+            "outcome": "The MDN blog page is displayed, showing the latest articles.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Learning Workflow: JavaScript Basics",
+          "category": "Navigation",
+          "instruction": "go to https://developer.mozilla.org/en-US/ and perform the following test case",
+          "description": "A new user wants to learn JavaScript basics by navigating through the 'Learn' area.",
+          "input": {
+            "action": [
+              "Hover over `Learn` in the main navigation",
+              "Click on the `JavaScript` card from the dropdown menu",
+              "Scroll down to the `Tutorials and challenges` section ",
+              "Click on the `What is JavaScript?` article link",
+              "Verify the article title is `What is JavaScript?`",
+              "Scroll down to the `Summary` section",
+              "Click on the `Next` button below the `Summary` section",
+              "Verify the new article title is `A first splash into JavaScript`"
+            ]
+          },
+          "expected": {
+            "outcome": "User successfully navigates through the initial JavaScript learning modules.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Finding and Exploring a Web API",
+          "category": "Search & Filter",
+          "instruction": "go to https://developer.mozilla.org/en-US/ and perform the following test case",
+          "description": "A developer wants to find information about the 'Fetch API' and explore its examples.",
+          "input": {
+            "action": [
+              "Click on the search bar in the main navigation",
+              "In the search bar, type `Fetch API` and press Enter",
+              "Verify the page title is `Fetch API`",
+              "Scroll down and click on the `Using the Fetch API` link in the left-hand side navigation",
+              "Verify the new page title is `Using the Fetch API`"
+            ]
+          },
+          "expected": {
+            "outcome": "Developer successfully finds the 'Fetch API' documentation and navigates to its examples and related guides.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Interactive Example Workflow",
+          "category": "Form Interaction",
+          "instruction": "go to https://developer.mozilla.org/en-US/ and perform the following test case",
+          "description": "A user interacts with a live code example for a JavaScript array method.",
+          "input": {
+            "action": [
+              "Click on the search bar in the main navigation",
+              "In the search bar, type `Array.prototype.map()` and press Enter",
+              "Click on the `Array.prototype.map()` link from the search results",
+              "Scroll down to the `Try it` interactive example",
+              "Click the `Run` button",
+              "Verify the output `[2, 8, 18, 32]` is displayed",
+              "In the code editor, change `x * 2` to `x * 3`",
+              "Click the `Run` button again",
+              "Verify the new output `[3, 12, 27, 48]` is displayed"
+            ]
+          },
+          "expected": {
+            "outcome": "User successfully runs, modifies, and re-runs an interactive code example.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Browser Compatibility Check Workflow",
+          "category": "Information Retrieval",
+          "instruction": "go to https://developer.mozilla.org/en-US/ and perform the following test case",
+          "description": "A developer checks the browser compatibility for the 'CSS Grid Layout' feature.",
+          "input": {
+            "action": [
+              "Click on the search bar in the main navigation",
+              "In the search bar, type `CSS Grid Layout` and press Enter",
+              "Verify the page title is `CSS Grid Layout`",
+              "Scroll down to the `Reference` section on the main page",
+              "Click on the `grid-auto-columns` link",
+              "Verify the page title is `grid-auto-columns`",
+              "Scroll down to the `Browser compatibility` table",
+              "Verify the table is visible",
+              "In the table, find the `Chrome` column",
+              "Check the version number in this column",
+              "Verify the version is `57` or another plausible number"
+            ]
+          },
+          "expected": {
+            "outcome": "Developer successfully finds and verifies browser compatibility information for a CSS feature.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Understanding an HTML Element and its Relatives",
+          "category": "Information Retrieval",
+          "instruction": "go to https://developer.mozilla.org/en-US/ and perform the following test case",
+          "description": "A user wants to understand the HTML `<canvas>` element and find related tutorials.",
+          "input": {
+            "action": [
+              "Click on the search bar in the main navigation",
+              "In the search bar, type `canvas element` and press Enter",
+              "Verify the page title is `<canvas>: The Graphics Canvas element`",
+              "Scroll down to the `See also` section",
+              "Click on the `Canvas tutorial` link",
+              "Verify the new page title is `Canvas tutorial`",
+              "Use the browser's back button to return to the `<canvas>` page",
+              "Verify the page title is `<canvas>: The Graphics Canvas element` again"
+            ]
+          },
+          "expected": {
+            "outcome": "User successfully finds information on an HTML element and navigates to and from its related tutorials.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigating through the Web APIs Reference",
+          "category": "Navigation",
+          "instruction": "go to https://developer.mozilla.org/en-US/ and perform the following test case",
+          "description": "A developer navigates deep into the Web APIs reference to find a specific method.",
+          "input": {
+            "action": [
+              "Hover over `References` in the main navigation",
+              "Click on the `Web APIs` link",
+              "Scroll down to the `I` section",
+              "Click on the `Intersection Observer API` link",
+              "Verify the page title is `Intersection Observer API`",
+              "In the left-hand navigation under `Interfaces`, click on the `IntersectionObserver` link",
+              "Verify the page title is `IntersectionObserver`",
+              "In the left-hand navigation under `Instance methods`, click on the `observe()` link",
+              "Verify the page title is `IntersectionObserver: observe() method`",
+              "Scroll down to the `Syntax` section of the page",
+              "Verify the syntax `observe(targetElement)` is displayed"
+            ]
+          },
+          "expected": {
+            "outcome": "Developer successfully navigates through the API reference to find a specific method and its syntax.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Exploring HTTP Headers",
+          "category": "Information Retrieval",
+          "instruction": "go to https://developer.mozilla.org/en-US/ and perform the following test case",
+          "description": "A security engineer looks up the 'Content-Security-Policy' HTTP header.",
+          "input": {
+            "action": [
+              "Click on the search bar in the main navigation",
+              "In the search bar, type `Content-Security-Policy (CSP) header` and press Enter",
+              "Verify the page title is `Content-Security-Policy (CSP) header`",
+              "Scroll to the `Directives` section",
+              "Click on the `script-src` link in the `Directives section` ",
+              "Verify the page title is `Content-Security-Policy: script-src directive`",
+              "Scroll down to the `Examples` section",
+              "Verify that code examples for the directive are present"
+            ]
+          },
+          "expected": {
+            "outcome": "User successfully finds and explores the documentation for a specific HTTP header and its directives.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Using the Playground Tool",
+          "category": "Form Interaction",
+          "instruction": "go to https://developer.mozilla.org/en-US/ and perform the following test case",
+          "description": "A user writes and executes code in the MDN Playground.",
+          "input": {
+            "action": [
+              "Click on the `Tools` link in the main navigation",
+              "Click on `Playground` from the dropdown menu",
+              "Verify the page title is `PLAYGROUND`",
+              "In the HTML pane, add `<h1>Hello, World!</h1>`",
+              "In the CSS pane, add `h1 { color: blue; }`",
+              "In the JS pane, add `console.log('Hello from JS!');`",
+              "Verify the text in the output pane is blue and says `Hello, World!`",
+              "Check the console output in the developer tools to see `Hello from JS!`"
+            ]
+          },
+          "expected": {
+            "outcome": "User successfully creates a simple project in the Playground and sees the live output.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Finding a Glossary Definition",
+          "category": "Search & Filter",
+          "instruction": "go to https://developer.mozilla.org/en-US/ and perform the following test case",
+          "description": "A user searches for the definition of a technical term in the MDN glossary.",
+          "input": {
+            "action": [
+              "Click on the search bar in the main navigation",
+              "In the search bar, type `glossary` and press Enter",
+              "Verify the page title is `Glossary of web terms`",
+              "On the left-hand side navigation, click on the `Filter` search bar",
+              "Type `Callback function` into the `Filter` search bar",
+              "Click on the `Callback function` link in the left-hand side navigation",
+              "Verify the page title is `Callback function`",
+              "Read the definition of a callback function",
+              "Verify the definition is present and readable"
+            ]
+          },
+          "expected": {
+            "outcome": "User successfully navigates the glossary to find and read the definition of a specific term.",
+            "status": "Successful"
+          }
+        }
+      },
+      {
+        "prompt": {
+          "name": "Navigating with Breadcrumbs",
+          "category": "Navigation",
+          "instruction": "go to https://developer.mozilla.org/en-US/ and perform the following test case",
+          "description": "A user navigates deep into the documentation and uses breadcrumbs to go back.",
+          "input": {
+            "action": [
+              "Click on `References`",
+              "Scroll down to the `Web technology references` section",
+              "Click on `HTML`",
+              "Scroll down to the `Reference` section",
+              "Click on the `HTML element reference` link",
+              "Scroll down to the `Inline text semantics` section",
+              "Click on the `<a>` link in the table",
+              "Verify the page title is `<a>: The Anchor element`",
+              "At the top of the page, locate the breadcrumb trail",
+              "Click on the `HTML` breadcrumb link",
+              "Verify the page title is now `HTML: HyperText Markup Language`"
+            ]
+          },
+          "expected": {
+            "outcome": "User successfully navigates deep into the site and uses breadcrumbs for upward navigation.",
+            "status": "Successful"
+          }
+        }
+      }
+    ]
+  }
+  

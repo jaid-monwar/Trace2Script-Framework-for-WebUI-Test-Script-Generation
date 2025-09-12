@@ -1,0 +1,212 @@
+{
+  "testcases": [
+    {
+      "prompt": {
+        "name": "Search for a Product",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.nationalarchivesstore.org/ and perform the following test case",
+        "description": "User utilizes the search bar to find a specific type of product and verifies the search results page.",
+        "input": {
+          "search_input": "Mug",
+          "action": "'Type `Mug` into the search bar at the top of the page', 'Click the search icon'"
+        },
+        "expected": {
+          "outcome": "The search results page is displayed, showing all products matching the 'Mug' keyword.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to a Product Sub-Category",
+        "category": "Navigation",
+        "instruction": "go to https://www.nationalarchivesstore.org/ and perform the following test case",
+        "description": "User navigates through the main menu to a specific product sub-category.",
+        "input": {
+          "search_input": "Homeware",
+          "action": "'Hover over the `Wear` link in the main navigation menu', 'Click on the `Jewelry` link from the dropdown'"
+        },
+        "expected": {
+          "outcome": "The user successfully reaches the 'Jewelry' collection page.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "View Return Policy",
+        "category": "Policy & External Links",
+        "instruction": "go to https://www.nationalarchivesstore.org/ and perform the following test case",
+        "description": "User finds and navigates to the 'Return Policy' page to check shipping information.",
+        "input": {
+          "search_input": "",
+          "action": "'Scroll to the bottom of the page to find the footer menu', 'Click on the `Return Policy` link'"
+        },
+        "expected": {
+          "outcome": "The 'Return Policy' information page is displayed correctly.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Filter and Sort Products in a Category",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.nationalarchivesstore.org/ and perform the following test case",
+        "description": "User navigates to a product category, sorts the items by price, and then filters for in-stock items only.",
+        "input": {
+          "search_input": "Books",
+          "action": "'Hover over the `DOCUMENTS,PRINTS & BOOKS` link in the main navigation menu', 'Click on the `Books` link from the dropdown', 'Click the feature dropdown and select `$ Low to High`', 'Wait for the product list to re-load', 'In the Product type Filer Dropped, click the `Book` checkbox', 'Wait for the product list to update'"
+        },
+        "expected": {
+          "outcome": "The product list on the 'Books' page is successfully sorted by price (ascending) and filtered to show only Book.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Add a Product to the Shopping Cart and Verify",
+        "category": "Form Interaction",
+        "instruction": "go to https://www.nationalarchivesstore.org/ and perform the following test case",
+        "description": "User finds a specific product, increases its quantity, adds it to the shopping cart, and then verifies the contents of the cart page.",
+        "input": {
+          "search_input": "The National Archives Library Mug",
+          "action": "'Hover over the `HOME & OFFICE` link in the main navigation menu', 'Click on the `Mugs` link from the dropdown', 'Click on the product named `Amending America Emoji Mug`', 'On the product page, locate the quantity selector', 'Input Quantity `2`', 'Click the `Add to cart` button', 'Click the `Cart` button from header'"
+        },
+        "expected": {
+          "outcome": "The shopping cart page is displayed, showing two units of 'Amending America Emoji Mug', confirming the add-to-cart and quantity-update functionalities work.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Search for a Product",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.nationalarchivesstore.org/ and perform the following test case",
+        "description": "User utilizes the search bar to find a specific type of product and verifies the search results page.",
+        "input": {
+          "search_input": "Mug",
+          "action": "'Type `Mug` into the search bar at the top of the page', 'Click the search icon'"
+        },
+        "expected": {
+          "outcome": "The search results page is displayed, showing all products matching the 'Mug' keyword.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to Kids Books category",
+        "category": "Navigation",
+        "instruction": "go to https://www.nationalarchivesstore.org/ and perform the following test case",
+        "description": "User navigates to the Kids section and selects Kids Books category.",
+        "input": {
+          "search_input": "",
+          "action": "'Hover over the `Kids` nav link', 'Click `Kids Books`'"
+        },
+        "expected": {
+          "outcome": "The Kids Books collection page is displayed correctly.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Go to Framed Prints category",
+        "category": "Navigation",
+        "instruction": "go to https://www.nationalarchivesstore.org/ and perform the following test case",
+        "description": "User navigates to Framed Prints under Documents, Prints & Books.",
+        "input": {
+          "search_input": "",
+          "action": "'Hover over `DOCUMENTS, PRINTS & BOOKS`', 'Click on `Framed Prints & Documents`'"
+        },
+        "expected": {
+          "outcome": "Framed Prints category page is displayed correctly.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Filter by Low to High Price",
+        "category": "Search & Filter",
+        "instruction": "go to https://www.nationalarchivesstore.org/ and perform the following test case",
+        "description": "User filters a category by lowest price.",
+        "input": {
+          "search_input": "Games & Puzzles",
+          "action": "'Hover Over `Home & Office`', 'Click on `Games & Puzzles` category', 'Select sort option `$ Low to High`'"
+        },
+        "expected": {
+          "outcome": "The product list is correctly sorted by price from low to high.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Open Product Page from Category",
+        "category": "Information Retrieval",
+        "instruction": "go to https://www.nationalarchivesstore.org/ and perform the following test case",
+        "description": "User opens a product from a category listing.",
+        "input": {
+          "search_input": "Space",
+          "action": "'Hover Over `Home & Office`', 'Click on `Games & Puzzles` category', 'Click on first product listed'"
+        },
+        "expected": {
+          "outcome": "The product page opens with matching title.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Open New Featured Products",
+        "category": "Navigation",
+        "instruction": "go to https://www.nationalarchivesstore.org/ and perform the following test case",
+        "description": "User opens new featured products.",
+        "input": {
+          "search_input": "",
+          "action": "'Click on `Featured` in main nav', 'Click `New` from dropdown'"
+        },
+        "expected": {
+          "outcome": "New products collection is displayed.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "View Shipping & Handling Page",
+        "category": "Policy & External Links",
+        "instruction": "go to https://www.nationalarchivesstore.org/ and perform the following test case",
+        "description": "User checks shipping policies from footer.",
+        "input": {
+          "search_input": "",
+          "action": "'Scroll to footer', 'Click `Shipping & Handling` link'"
+        },
+        "expected": {
+          "outcome": "The 'Shipping & Handling' page opens correctly.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Open Gift Cards Page",
+        "category": "Navigation",
+        "instruction": "go to https://www.nationalarchivesstore.org/ and perform the following test case",
+        "description": "User navigates to Gift Cards from the main site.",
+        "input": {
+          "search_input": "",
+          "action": "'Click on `Gift Cards` link in footer'"
+        },
+        "expected": {
+          "outcome": "Gift Cards page is displayed correctly.",
+          "status": "Successful"
+        }
+      }
+    }
+  ]
+}

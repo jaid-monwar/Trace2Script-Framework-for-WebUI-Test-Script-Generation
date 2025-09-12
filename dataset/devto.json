@@ -1,0 +1,357 @@
+{
+  "testcases": [
+    {
+      "prompt": {
+        "name": "Postgres feature avail",
+        "category": "Form Interaction",
+        "instruction": "go to https://dev.to/ and perform the following test case",
+        "description": "User navigates to the Postgres page from the home page.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Click on the `Free Postgres Database` in sidebar', 'Click on `Check out Dev++`', 'Click `Join Dev++`', 'Input email nafiu.rahman@gmail.com', 'Click on `Send me the code`' "
+        },
+        "expected": {
+          "outcome": "User successfully lands on a page with a message `Check your email`",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Filter posts by 'Week'",
+        "category": "Search & Filter",
+        "instruction": "go to https://dev.to/ and perform the following test case",
+        "description": "User filters the posts on the homepage to show the top posts of the week.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Focus on `Week` tab on the homepage', 'Click on first post', 'Click on three dots', 'Click on copy clipboard'"
+        },
+        "expected": {
+          "outcome": "The user is on the top posts of the month page.",
+          "status": "Successful"
+        }
+      }
+    },
+
+    {
+      "prompt": {
+        "name": "Explore a DEV Challenge",
+        "category": "Information Retrieval",
+        "instruction": "go to https://dev.to/ and perform the following test case",
+        "description": "User navigates to the DEV Challenges page, selects a challenge, and views its details.",
+        "input": {
+          "action": "'Click on the `DEV Challenges` link in the navigation bar',  'Click on the first challenge listed', 'Scroll down to the 'Submission' section',"
+        },
+        "expected": {
+          "outcome": "The user is able to navigate to a specific DEV Challenge and see the details and submission guidelines.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to Podcasts",
+        "category": "Policy & External Links",
+        "instruction": "go to https://dev.to/ and perform the following test case",
+        "description": "User navigates to the Podcasts page and selects the first podcast.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Click on Podcasts link in the navigation bar', 'Click on the first podcast in the list', 'Click on the Channel link to visit the channel site'"
+        },
+        "expected": {
+          "outcome": "User is taken to the channel site.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to the About Page",
+        "category": "Policy & External Links",
+        "instruction": "go to https://dev.to/ and perform the following test case",
+        "description": "User navigates from the homepage to the 'About' page.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Focus on the sidebar', 'Click on the About link in the footer', 'Click on Ben Halpern's profile link',' Visit Ben's github io page"
+        },
+        "expected": {
+          "outcome": "User successfully navigates to Ben Halpern's GitHub page.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Explore Forem Shop",
+        "category": "Navigation",
+        "instruction": "go to https://dev.to/ and perform the following test case",
+        "description": "User navigates to the Forem Shop and views a product.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Click on the Forem Shop link in the left sidebar', 'Click on the first product listed', 'Click on the image to zoom in'"
+        },
+        "expected": {
+          "outcome": "User is able to view a product in detail on the Forem Shop.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "View Top Posts for the Year",
+        "category": "Search & Filter",
+        "instruction": "go to https://dev.to and perform the following test case",
+        "description": "User filters posts to see the top submissions of the year.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Click on the Top tab in the main feed navigation', 'Click on the Year filter', 'Click on the first post in the list'"
+        },
+        "expected": {
+          "outcome": "User is viewing the detail page of one of the top posts of the year.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to a Popular Tag from Homepage",
+        "category": "Search & Filter",
+        "instruction": "go to https://dev.to/ and perform the following test case",
+        "description": "User navigates to the #javascript tag page from the homepage sidebar.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Find the 'Popular Tags' section in the left sidebar', 'Click on the #javascript tag', 'Click on the first article in the list'"
+        },
+        "expected": {
+          "outcome": "User is on the article detail page for a post tagged with #javascript.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Access DEV Help Page",
+        "category": "Information Retrieval",
+        "instruction": "go to https://dev.to/ and perform the following test case",
+        "description": "User navigates to the DEV Help page to find support information.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Click on the DEV Help link in the left sidebar', 'Scroll to the organization section', 'Click on it', 'Click on creating and managing organizations'"
+        },
+        "expected": {
+          "outcome": "User can view the answer to the first frequently asked question on the help page.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "View DEV Showcase",
+        "category": "Navigation",
+        "instruction": "go to https://dev.to/ and perform the following test case",
+        "description": "User explores the DEV Showcase to see community projects.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Click on DEV Showcase in the left sidebar', 'Click on the first project shown', 'Click the back button on the browser'"
+        },
+        "expected": {
+          "outcome": "User is able to view a project and navigate back to the Showcase page.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Check Code of Conduct",
+        "category": "Policy & External Links",
+        "instruction": "go to https://dev.to/ and perform the following test case",
+        "description": "User navigates to and views the Code of Conduct page.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Focus on sidebar of homepage', 'Click on the Code of Conduct link', 'Scroll down to the 'Our Standards' section','Click on AI Guidelines'"
+        },
+        "expected": {
+          "outcome": "User is on the Code of Conduct page and can view the pledge.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Search for a User",
+        "category": "Search & Filter",
+        "instruction": "go to https://dev.to/ and perform the following test case",
+        "description": "User searches for a specific user and navigates to their profile.",
+        "input": {
+          "search_input": "ben",
+          "action": "'Type ben into the search bar', 'Click on search button', 'Click on the first user profile'"
+        },
+        "expected": {
+          "outcome": "The user is on the profile page of the first user named 'ben'.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Filter Search Results by Oldest",
+        "category": "Search & Filter",
+        "instruction": "go to https://dev.to/ and perform the following test case",
+        "description": "User performs a search and sorts the results by the oldest first.",
+        "input": {
+          "search_input": "react",
+          "action": "'Input react on search bar', 'Click search', 'Select Oldest'"
+        },
+        "expected": {
+          "outcome": "Search results for 'react' are displayed, sorted with the oldest posts first.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigate to Contact Page",
+        "category": "Navigation",
+        "instruction": "go to https://dev.to/ and perform the following test case",
+        "description": "User navigates to the contact page from the footer of the website.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Focus on sidebar', 'Click on the Contact link', 'Scroll to the bottom of the contact page'"
+        },
+        "expected": {
+          "outcome": "User is on the contact page and can see the contact information.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Explore Software Comparisons",
+        "category": "Navigation",
+        "instruction": "go to https://dev.to/ and perform the following test case",
+        "description": "User navigates to the Software Comparisons page and views a category.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Click on Software comparisons in the left sidebar', 'Click on the `Redux vs COntext API`', 'Visit author profile'"
+        },
+        "expected": {
+          "outcome": "User is on the author's profile page of the comparison article.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Complex Search and Filtering",
+        "category": "Search & Filter",
+        "instruction": "go to https://dev.to/ and perform the following test case",
+        "description": "User performs a complex search and filters the results.",
+        "input": {
+          "search_input": "python web development",
+          "action": "'Click on the search bar', 'Type `python web development` in the search bar', 'Click search button', 'Click on the `Comments` tab to filter by comments', 'Click on the `Oldest` sort option','Click on the first comment in the results', 'Scroll up to the top of the post', 'Click on the author's name'"
+        },
+        "expected": {
+          "outcome": "The user is taken to the profile page of the post's author.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Homepage to Social Share",
+        "category": "Navigation",
+        "instruction": "go to https://dev.to/ and perform the following test case",
+        "description": "User finds a post on the homepage and attempts to share it on social media.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Click on the first post on the homepage', 'Click on the three-dots menu on the right side of the post', 'Click on the `Share to X` option', 'Click on the three-dots menu again', 'Click on 'Copy link'', 'Click the back button to go to the homepage'"
+        },
+        "expected": {
+          "outcome": "The user is back on the DEV.to homepage.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Navigating from Homepage to a specific Comment",
+        "category": "Navigation",
+        "instruction": "go to https://dev.to/ and perform the following test case",
+        "description": "User navigates from the homepage to a specific comment on a post via the post's comment count link.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Find a post on the homepage with comments', 'Click on the post title', 'scroll down to the comments section', 'Find a comment', 'Click on the author's name of one of the comments', 'Click on the author name in the popup','Click the back button in the browser',  'Scroll to the top', 'Click on the main DEV.to logo.'"
+        },
+        "expected": {
+          "outcome": "The user is returned to the DEV.to homepage.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Deep Dive from Tag Page",
+        "category": "Navigation",
+        "instruction": "go to https://dev.to/ and perform the following test case",
+        "description": "User starts on a tag page, finds a post, and navigates to the profile of a user who commented on it.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Click on the 'Tags' link in the left navigation bar', 'Click on the '#webdev' tag', 'Click on the first post in the list', 'Scroll down to the comments section', 'Click on the name of a user who left a comment', 'CLick on the user name in the popup to go to their profile'"
+        },
+        "expected": {
+          "outcome": "The user is viewing a post written by the commenter they selected.",
+          "status": "Successful"
+        }
+      }
+    },
+
+    {
+      "prompt": {
+        "name": "Navigating to a Podcast and Playing an Episode",
+        "category": "Media & Playback",
+        "instruction": "go to https://dev.to/ and perform the following test case",
+        "description": "A user navigates to the podcasts section, selects a podcast, and plays an episode.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Click on the 'Podcasts' link in the left navigation bar', 'Select the `S27:E8 - Learning AI (Matt Eland)` podcast, 'Click the 'Play' button on the episode','Click on an `episode source`', 'Click on the `Play` Button','Click the 'Pause' button'"
+        },
+        "expected": {
+          "outcome": "The user successfully plays and pauses a podcast episode.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Interacting with a DEV Challenge",
+        "category": "Policy & External Links",
+        "instruction": "go to https://dev.to/ and perform the following test case",
+        "description": "User navigates to the DEV Challenges page, views a challenge, and then clicks to submit a project.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Click on the 'DEV Challenges' link in the left navigation bar', 'Click on the first challenge to view details', 'Click on Submission rules','Go to code of conduct','Go to terms of service'"
+        },
+        "expected": {
+          "outcome": "User is taken to terms of service page.",
+          "status": "Successful"
+        }
+      }
+    },
+    {
+      "prompt": {
+        "name": "Using the Shop and Navigating to a Product",
+        "category": "Form Interaction",
+        "instruction": "go to https://dev.to/ and perform the following test case",
+        "description": "A user browses the DEV shop, selects a product, and navigates to its page.",
+        "input": {
+          "search_input": "N/A",
+          "action": "'Click on the 'Forem Shop' link in the left navigation bar', 'Browse the available latest products', 'Click on Dev challenges classic tee to view detalis', 'Select a size L', 'Update quantity to 3', 'Click the 'Add to Cart' button',  'Click continue shopping', 'Click on Dev challenges mug','Click on add to cart', 'Remove Dev challenges mug from cart','Click checkout'"
+        },
+        "expected": {
+          "outcome": "The user is on the shopping cart page with the selected item added.",
+          "status": "Successful"
+        }
+      }
+    }
+  ]
+}

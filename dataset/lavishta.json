@@ -1,0 +1,305 @@
+{
+    "testcases": [
+        {
+          "prompt": {
+            "name": "Search for a Specific Product",
+            "category": "Search & Filter",
+            "instruction": "go to https://lavishta.com/ and perform the following test case",
+            "description": "User searches for a specific product and verifies the search results.",
+            "input": {
+              "search_input": "AXIS-Y",
+              "action": "Click on the search bar in the header', 'Type `AXIS-Y` into the search bar', 'Click on the search icon', 'Verify that the product `AXIS-Y – Dark Spot Correcting Glow Serum` is displayed in the search results.'"
+            },
+            "expected": {
+              "outcome": "The search results page is displayed, showing the `AXIS-Y – Dark Spot Correcting Glow Serum` product",
+              "status": "Successful"
+            }
+          }
+        },
+        {
+          "prompt": {
+            "name": "View Product Details from Homepage",
+            "category": "Information Retrieval",
+            "instruction": "go to https://lavishta.com/ and perform the following test case",
+            "description": "User clicks on a product from the homepage and verifies the product page.",
+            "input": {
+              "action": "'Scroll down to the `Most Popular` section', 'Click on the product `Cosrx – Acne Pimple Master Patch` from the homepage', 'Verify that the title of the product page is `Cosrx – Acne Pimple Master Patch`'"
+            },
+            "expected": {
+              "outcome": "The product page for 'Cosrx – Acne Pimple Master Patch' is displayed, with the correct title.",
+              "status": "Successful"
+            }
+          }
+        },
+        {
+          "prompt": {
+            "name": "Navigate to a Category Page",
+            "category": "Navigation",
+            "instruction": "go to https://lavishta.com/ and perform the following test case",
+            "description": "User navigates to a specific category page from the main menu.",
+            "input": {
+              "action": "'Scroll down to the `SHOP BY CATEGORY` section', 'Click on `K-BEAUTY`', 'Verify that the page title is `K-Beauty`'"
+            },
+            "expected": {
+              "outcome": "The 'K-Beauty' category page is displayed, with the correct title.",
+              "status": "Successful"
+            }
+          }
+        },
+        {
+          "prompt": {
+            "name": "Use the Quick View Feature",
+            "category": "Information Retrieval",
+            "instruction": "go to https://lavishta.com/ and perform the following test case",
+            "description": "User uses the 'Quick view' feature for a product.",
+            "input": {
+              "action": "'Scroll down to the `Most Popular` section', 'Hover over the product `Anua – Heartleaf Pore Control Cleansing Oil`', 'Click on the Quick view icon on the product', 'Verify that a quick view modal for the product appears'"
+            },
+            "expected": {
+              "outcome": "A quick view modal for 'Anua – Heartleaf Pore Control Cleansing Oil' is displayed.",
+              "status": "Successful"
+            }
+          }
+        },
+        {
+          "prompt": {
+            "name": "View the Privacy Policy",
+            "category": "Policy & External Links",
+            "instruction": "go to https://lavishta.com/ and perform the following test case",
+            "description": "User navigates to the Privacy Policy page.",
+            "input": {
+              "action": "'Scroll down to the bottom of the page', 'Click on the `Privacy Policy` link in the footer', 'Verify that the page title is `Privacy Policy`'"
+            },
+            "expected": {
+              "outcome": "The Privacy Policy page is displayed.",
+              "status": "Successful"
+            }
+          }
+        },
+        {
+          "prompt": {
+            "name": "View the FAQ Page",
+            "category": "Information Retrieval",
+            "instruction": "go to https://lavishta.com/ and perform the following test case",
+            "description": "User navigates to the FAQ page.",
+            "input": {
+              "action": "'Scroll down to the bottom of the page', 'Click on the `FAQ` link in the footer', 'Verify that the page title is `FAQ`'"
+            },
+            "expected": {
+              "outcome": "The FAQ page is displayed.",
+              "status": "Successful"
+            }
+          }
+        },
+        {
+          "prompt": {
+            "name": "Navigate to the 'Eyes' Category",
+            "category": "Navigation",
+            "instruction": "go to https://lavishta.com/ and perform the following test case",
+            "description": "User navigates to the 'Eyes' category page from the main menu.",
+            "input": {
+              "action": "'Scroll down to the `SHOP BY CATEGORY` section', 'Click on `EYES`', 'Verify that the page title is `Eyes`'"
+            },
+            "expected": {
+              "outcome": "The 'Eyes' category page is displayed, with the correct title.",
+              "status": "Successful"
+            }
+          }
+        },
+        {
+          "prompt": {
+            "name": "Navigate to the 'Lips' Category",
+            "category": "Navigation",
+            "instruction": "go to https://lavishta.com/ and perform the following test case",
+            "description": "User navigates to the 'Lips' category page from the main menu.",
+            "input": {
+              "action": "'Scroll down to the `SHOP BY CATEGORY` section', 'Click on `LIPS`', 'Verify that the page title is `Lips`'"
+            },
+            "expected": {
+              "outcome": "The 'Lips' category page is displayed, with the correct title.",
+              "status": "Successful"
+            }
+          }
+        },
+        {
+          "prompt": {
+            "name": "View the Contact Us Page",
+            "category": "Policy & External Links",
+            "instruction": "go to https://lavishta.com/ and perform the following test case",
+            "description": "User navigates to the Contact Us page.",
+            "input": {
+              "action": "'Scroll down to the bottom of the page', 'Click on the `Contact Us` link in the footer', 'Verify that the page title is `Contact Us`'"
+            },
+            "expected": {
+              "outcome": "The Contact Us page is displayed.",
+              "status": "Successful"
+            }
+          }
+        },
+        {
+          "prompt": {
+            "name": "Check for Empty Shopping Cart",
+            "category": "Form Interaction",
+            "instruction": "go to https://lavishta.com/ and perform the following test case",
+            "description": "User checks the shopping cart before adding any items.",
+            "input": {
+              "action": "'Click on the shopping bag icon in the header to open the shopping cart menu', 'Verify that the message `No products in the cart.` is displayed in the cart menu that has opened on the right-hand side of the page'"
+            },
+            "expected": {
+              "outcome": "The shopping cart is empty.",
+              "status": "Successful"
+            }
+          }
+        },
+        {
+          "prompt": {
+            "name": "Add a Product to Cart and Verify",
+            "category": "Form Interaction",
+            "instruction": "go to https://lavishta.com/ and perform the following test case",
+            "description": "User adds a product to the cart and verifies the cart contents.",
+            "input": {
+              "action": "'Click on the search bar in the header', 'Type `Mielle` into the search bar', 'Click on the search icon', 'Click on the product `Mielle – Rosemary Mint Scalp & Hair Strengthening Oil Light Version – 59ml` from the search results', 'Click on the `ADD TO CART` button', 'Click on `VIEW CART`', 'Verify that the product `Mielle – Rosemary Mint Scalp & Hair Strengthening Oil Light Version – 59ml` is in the cart menu', 'Verify the quantity is 1', 'Verify the price is correct'"
+            },
+            "expected": {
+              "outcome": "The product is successfully added to the cart, and the cart details are correct.",
+              "status": "Successful"
+            }
+          }
+        },
+        {
+          "prompt": {
+            "name": "Add a Product with Options to Cart",
+            "category": "Form Interaction",
+            "instruction": "go to https://lavishta.com/ and perform the following test case",
+            "description": "User selects a product with options, adds it to the cart, and verifies.",
+            "input": {
+              "action": "'Click on the search bar in the header', 'Type `Cosrx – Advanced Snail 92 All In One Cream` into the search bar', 'Click on the search icon', 'Click on the field next to `color:` to open a dropdown menu', 'Click on `100g` from the dropdown menu', 'Click the `ADD TO CART` button', 'Click on `VIEW CART`', 'Verify that the product `Cosrx – Advanced Snail 92 All In One Cream` is in the cart', 'Verify the selected option `100g` is displayed', 'Verify the quantity is 1'"
+            },
+            "expected": {
+              "outcome": "The product with the selected option is added to the cart, and cart details are correct.",
+              "status": "Successful"
+            }
+          }
+        },
+        {
+          "prompt": {
+            "name": "Navigate Through Categories and Add Product to Cart",
+            "category": "Form Interaction",
+            "instruction": "go to https://lavishta.com/ and perform the following test case",
+            "description": "User navigates through categories, selects a product, and adds it to the cart.",
+            "input": {
+              "action": "'Hover over `BROWSE CATEGORIES`', 'Click on `Skin Care`', 'Scroll down to `STOCK STATUS` click `In stock`', 'Wait for the page to load', 'Select a product from the filtered results', 'Click on the `ADD TO CART` button', 'Verify the product is in the cart menu that has opened on the right-hand side of the page'"
+            },
+            "expected": {
+              "outcome": "User can navigate categories and add a product to the cart successfully.",
+              "status": "Successful"
+            }
+          }
+        },
+        {
+          "prompt": {
+            "name": "Add Multiple Items to Cart",
+            "category": "Form Interaction",
+            "instruction": "go to https://lavishta.com/ and perform the following test case",
+            "description": "User adds multiple items to the cart and verifies.",
+            "input": {
+              "action": "'Click on the search bar in the header', 'Type `Essence – I Lo*ve Extreme Crazy Volume Mascara Waterproof` into the search bar', 'Click on the search icon', 'Click on the `ADD TO CART` button', 'Click on `Close` in the top-right section of the page', 'Click on the search bar in the header', 'Type `Ordinary – Niacinamide 10% + Zinc 1% – 30ml` into the search bar', 'Click on the search icon', 'Click on the `ADD TO CART` button', 'Click on the `VIEW CART`', 'Verify that both products are in the cart', 'Verify the total price is the sum of the price of the two products plus Shipping cost'"
+            },
+            "expected": {
+              "outcome": "Both items are in the cart and the total is correct.",
+              "status": "Successful"
+            }
+          }
+        },
+        {
+          "prompt": {
+            "name": "Filter Products and Add to Cart",
+            "category": "Search & Filter",
+            "instruction": "go to https://lavishta.com/ and perform the following test case",
+            "description": "User filters products on a category page and adds one to the cart.",
+            "input": {
+              "action": "'Hover over `BROWSE CATEGORIES`', 'Click on `Face`', 'Scroll down to the `Blush` subcategory under `PRODUCT CATEGORIES`', 'Click on `Blush`', 'Scroll down to the `STOCK STATUS` section and click on `In stock`', 'Select a product from the filtered results', 'Click on the `ADD TO CART` button', 'Verify the correct product is in the cart menu that has opened on the right-hand side of the page'"
+            },
+            "expected": {
+              "outcome": "Products are filtered correctly, and a filtered product can be added to the cart.",
+              "status": "Successful"
+            }
+          }
+        },
+        {
+          "prompt": {
+            "name": "Use 'Quick View' to Add to Cart",
+            "category": "Form Interaction",
+            "instruction": "go to https://lavishta.com/ and perform the following test case",
+            "description": "User uses the 'Quick View' feature to add a product to the cart.",
+            "input": {
+              "action": "'Click on the search bar in the header', 'Type `Cosryx Salisylic Acid` into the search bar', 'Click on the search icon', 'Hover over the `Cosrx – Salicylic Acid Daily Gentle Cleanser` product', 'Click on the Quick view icon', 'Click on the `ADD TO CART` button in the quick view modal', 'Verify `Cosrx – Salicylic Acid Daily Gentle Cleanser` is in the cart menu that has opened on the right-hand side of the page'"
+            },
+            "expected": {
+              "outcome": "Product is successfully added to cart from the quick view modal.",
+              "status": "Successful"
+            }
+          }
+        },
+        {
+          "prompt": {
+            "name": "View and Explore 'Hot Deals'",
+            "category": "Form Interaction",
+            "instruction": "go to https://lavishta.com/ and perform the following test case",
+            "description": "User navigates to the 'Hot Deals' section and interacts with products.",
+            "input": {
+              "action": "'Scroll to the `HOT DEALS` section', 'Click on a product within this section', 'Verify you are on the product page', 'Click on the `ADD TO CART` button', 'Verify the product is in the cart menu that has opened on the right-hand side of the page', 'Click on `Close` in the top-right section of the page', 'Go back to the homepage by clicking on the website icon in the header'"
+            },
+            "expected": {
+              "outcome": "User can view hot deals, add a product to the cart and navigate back.",
+              "status": "Successful"
+            }
+          }
+        },
+        {
+          "prompt": {
+            "name": "View and Explore 'Trending' Products",
+            "category": "Form Interaction",
+            "instruction": "go to https://lavishta.com/ and perform the following test case",
+            "description": "User navigates to the 'Trending' section and interacts with products.",
+            "input": {
+              "action": "'Scroll to the `Trending` section', 'Click on a product within this section', 'Verify you are on the product page', 'Click on the `ADD TO CART` button', 'Verify the product is in the cart menu that has opened on the right-hand side of the page', 'Go back to the homepage by clicking on the website icon in the header',"
+            },
+            "expected": {
+              "outcome": "User can view trending products, add a product to the cart and navigate back.",
+              "status": "Successful"
+            }
+          }
+        },
+        {
+          "prompt": {
+            "name": "Navigate to a Sub-Category and Add to Cart",
+            "category": "Form Interaction",
+            "instruction": "go to https://lavishta.com/ and perform the following test case",
+            "description": "User navigates to a sub-category and adds a product to the cart.",
+            "input": {
+              "action": "'Hover over `BROWSE CATEGORIES`', 'Click on `Eyes`', 'Scroll down to the `Mascara` subcategory under `PRODUCT CATEGORIES`', 'Click on `Mascara`', 'Scroll down to the `STOCK STATUS` section and click on `In stock`', 'Click on a product from the filtered results', 'Click on the `ADD TO CART` button', 'Verify the correct product is in the cart menu that has opened on the right-hand side of the page'"
+            },
+            "expected": {
+              "outcome": "User can navigate to a subcategory and add a product to the cart.",
+              "status": "Successful"
+            }
+          }
+        },
+        {
+          "prompt": {
+            "name": "Search for a Non-Existent Product",
+            "category": "Search & Filter",
+            "instruction": "go to https://lavishta.com/ and perform the following test case",
+            "description": "User searches for a product that does not exist on the website.",
+            "input": {
+              "action": "'Click on the search bar in the header', 'Type `NonExistentProduct123` into the search bar', 'Click on the search icon', 'Verify a `No products were found matching your selection.` message appears', 'Go back to the homepage by clicking on the website icon in the header', 'Click on the search bar in the header', 'Type `Serum` into the search bar', 'Click on the search icon', 'Verify that search results are shown'"
+            },
+            "expected": {
+              "outcome": "The website handles non-existent product searches gracefully and subsequent searches work.",
+              "status": "Successful"
+            }
+          }
+        }
+    ]
+}
