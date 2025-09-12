@@ -1,0 +1,56 @@
+Test Case Name,Test Case Description,Playwright Script (Key Steps),Link to Full Script,Website,Metrics,,,,,,Playwright Test Script Automation - Survey
+,,,,,Readability,Robustness,Conciseness,Overall Score,Feedback/ Comments,,
+Use_the_Ask_Julie_chatbot,,,script link,Amtrak,,,,,,,Metric Explanations:
+,,,,,,,,,,,"Readability (1-5): How easy is the script to read and understand? 
+
+Robustness (1-5): How well can the script's locators withstand potential UI changes? 
+
+Conciseness (1-5): How concise and to-the-point is the script? 
+
+Overall Score (1-5): A summary rating for the overall quality of the generated script. 
+
+Feedback/Comments: An open-ended column for any additional suggestions or observations."
+Access_Deals_Page,,,script link,Amtrak,,,,,,,
+,,,,,,,,,,,
+Explore_Onboard_Features_Seating,,,script link,Amtrak,,,,,,,
+,,,,,,,,,,,
+Manage_Cookie_Preferences,,,script link,Amtrak,,,,,,,
+,,,,,,,,,,,
+HTML_Tryit_Editor,,,script link,W3Schools,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+Donating_to_MIT_OpenCourseWare,,,script link,MIT Open Course Web,,,,,,,
+,,,,,,,,,,,
+Navigate_to_a_Sub-Category_and_Add_to_Cart,,,script link,Lavishta,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+Browser_Compatibility_Check_Workflow,,,script link,MDN Web Docs,,,,,,,
+,,,,,,,,,,,
+Find_a_Course_Through_Discover_Collections_and_Check_for_Downloadable_Content,,,script link,MIT Open Course Web,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+Detailed_Mission_Search_and_Media_Display,,,script link,NASA,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+Advanced_Search_and_Filtering,,,script link,Wikipedia,,,,,,,
+,,,,,,,,,,,
+Add_a_Product_to_Cart_and_Verify,,,script link,Lavishta,,,,,,,
+,,,,,,,,,,,
+Find_Details_about_the_Artemis_I_Mission,,,script link,NASA,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+Filter_by_Year_then_Navigate_Pages,,,script link,Google Blog,,,,,,,
+,,,,,,,,,,,
+Test_Typing_Speed,,,script link,W3Schools,,,,,,,
+,,,,,,,,,,,
+Navigate_to_Human-Read_Audio_Books_and_Find_a_Specific_Book,,,script link,Gutenberg,,,,,,,
+,,,,,,,,,,,
+Exploring_HTTP_Headers,,,script link,MDN Web Docs,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+Search_Filter_and_Verify_a_Book,,,script link,Gutenberg,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+Find_a_Book_s_HTML_version_and_verify_download_options,,,script link,Gutenberg,,,,,,,
+,,,,,,,,,,,
+Find_and_View_a_News_Article,,,script link,"CSE, BUET",,,,,,,
