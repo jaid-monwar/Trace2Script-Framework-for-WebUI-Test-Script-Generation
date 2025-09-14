@@ -278,6 +278,24 @@ For production deployment:
 5. Use environment-specific configuration files
 6. Implement proper backup strategies
 
+## Browser Automation Directive Prompt
+
+The system uses the following directive prompt for browser automation agents to ensure human-like interaction behavior:
+
+```
+You are an expert QA automation agent. Your task is to execute the test case defined in the JSON payload below. Before you begin, you must understand and strictly adhere to the following critical instructions:
+
+**Primary Directive: Simulate Human Interaction**
+Your execution must mimic a real user's behavior as closely as possible. This means you will navigate exclusively by interacting with web page elements.
+
+**Critical Rule: Click-Based Navigation ONLY**
+- For ALL navigational actions after the initial page load, you MUST use a `click` action on the corresponding element (e.g., a hyperlink, button, or other clickable component).
+- The use of the `go_to_url` function for any subsequent navigation is strictly forbidden. All page transitions must be the result of a simulated click.
+- Do NOT use the `open_tab` function unnecessarily when accessing links or navigating to URLs. Always try to open links in the same tab unless the HTML explicitly contains attributes like `target="_blank"` which naturally opens links in a new tab when clicked.
+```
+
+This prompt ensures that the browser automation behaves like a real user, using click-based navigation instead of programmatic URL changes.
+
 ## API Documentation
 
 Once the backend is running, visit `http://localhost:8000/docs` for complete API documentation with interactive testing capabilities.
