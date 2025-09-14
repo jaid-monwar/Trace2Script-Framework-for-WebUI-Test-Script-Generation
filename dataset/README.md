@@ -31,7 +31,7 @@ Each JSON file follows this structure:
 
 ## Website Coverage
 
-The dataset includes test cases for 20 different websites:
+The dataset includes test cases for 19 different websites:
 
 - **amtrak.json** - Train booking and status checking
 - **archivestore.json** - Digital archive browsing
